@@ -1810,6 +1810,87 @@ libft/ft_tolower.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_tolower.c.s
 .PHONY : libft/ft_tolower.c.s
 
+src/ft_itoa_long.o: src/ft_itoa_long.c.o
+
+.PHONY : src/ft_itoa_long.o
+
+# target to build an object file
+src/ft_itoa_long.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o
+.PHONY : src/ft_itoa_long.c.o
+
+src/ft_itoa_long.i: src/ft_itoa_long.c.i
+
+.PHONY : src/ft_itoa_long.i
+
+# target to preprocess a source file
+src/ft_itoa_long.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.i
+.PHONY : src/ft_itoa_long.c.i
+
+src/ft_itoa_long.s: src/ft_itoa_long.c.s
+
+.PHONY : src/ft_itoa_long.s
+
+# target to generate assembly for a file
+src/ft_itoa_long.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.s
+.PHONY : src/ft_itoa_long.c.s
+
+src/ft_itoa_uint.o: src/ft_itoa_uint.c.o
+
+.PHONY : src/ft_itoa_uint.o
+
+# target to build an object file
+src/ft_itoa_uint.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o
+.PHONY : src/ft_itoa_uint.c.o
+
+src/ft_itoa_uint.i: src/ft_itoa_uint.c.i
+
+.PHONY : src/ft_itoa_uint.i
+
+# target to preprocess a source file
+src/ft_itoa_uint.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.i
+.PHONY : src/ft_itoa_uint.c.i
+
+src/ft_itoa_uint.s: src/ft_itoa_uint.c.s
+
+.PHONY : src/ft_itoa_uint.s
+
+# target to generate assembly for a file
+src/ft_itoa_uint.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.s
+.PHONY : src/ft_itoa_uint.c.s
+
+src/ft_itoa_ulong.o: src/ft_itoa_ulong.c.o
+
+.PHONY : src/ft_itoa_ulong.o
+
+# target to build an object file
+src/ft_itoa_ulong.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o
+.PHONY : src/ft_itoa_ulong.c.o
+
+src/ft_itoa_ulong.i: src/ft_itoa_ulong.c.i
+
+.PHONY : src/ft_itoa_ulong.i
+
+# target to preprocess a source file
+src/ft_itoa_ulong.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.i
+.PHONY : src/ft_itoa_ulong.c.i
+
+src/ft_itoa_ulong.s: src/ft_itoa_ulong.c.s
+
+.PHONY : src/ft_itoa_ulong.s
+
+# target to generate assembly for a file
+src/ft_itoa_ulong.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.s
+.PHONY : src/ft_itoa_ulong.c.s
+
 src/ft_printf.o: src/ft_printf.c.o
 
 .PHONY : src/ft_printf.o
@@ -1836,6 +1917,60 @@ src/ft_printf.s: src/ft_printf.c.s
 src/ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_printf.c.s
 .PHONY : src/ft_printf.c.s
+
+src/ft_putwchar.o: src/ft_putwchar.c.o
+
+.PHONY : src/ft_putwchar.o
+
+# target to build an object file
+src/ft_putwchar.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o
+.PHONY : src/ft_putwchar.c.o
+
+src/ft_putwchar.i: src/ft_putwchar.c.i
+
+.PHONY : src/ft_putwchar.i
+
+# target to preprocess a source file
+src/ft_putwchar.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.i
+.PHONY : src/ft_putwchar.c.i
+
+src/ft_putwchar.s: src/ft_putwchar.c.s
+
+.PHONY : src/ft_putwchar.s
+
+# target to generate assembly for a file
+src/ft_putwchar.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.s
+.PHONY : src/ft_putwchar.c.s
+
+src/ft_putwchar_fd.o: src/ft_putwchar_fd.c.o
+
+.PHONY : src/ft_putwchar_fd.o
+
+# target to build an object file
+src/ft_putwchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o
+.PHONY : src/ft_putwchar_fd.c.o
+
+src/ft_putwchar_fd.i: src/ft_putwchar_fd.c.i
+
+.PHONY : src/ft_putwchar_fd.i
+
+# target to preprocess a source file
+src/ft_putwchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.i
+.PHONY : src/ft_putwchar_fd.c.i
+
+src/ft_putwchar_fd.s: src/ft_putwchar_fd.c.s
+
+.PHONY : src/ft_putwchar_fd.s
+
+# target to generate assembly for a file
+src/ft_putwchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.s
+.PHONY : src/ft_putwchar_fd.c.s
 
 src/main.o: src/main.c.o
 
@@ -2060,9 +2195,24 @@ help:
 	@echo "... libft/ft_tolower.o"
 	@echo "... libft/ft_tolower.i"
 	@echo "... libft/ft_tolower.s"
+	@echo "... src/ft_itoa_long.o"
+	@echo "... src/ft_itoa_long.i"
+	@echo "... src/ft_itoa_long.s"
+	@echo "... src/ft_itoa_uint.o"
+	@echo "... src/ft_itoa_uint.i"
+	@echo "... src/ft_itoa_uint.s"
+	@echo "... src/ft_itoa_ulong.o"
+	@echo "... src/ft_itoa_ulong.i"
+	@echo "... src/ft_itoa_ulong.s"
 	@echo "... src/ft_printf.o"
 	@echo "... src/ft_printf.i"
 	@echo "... src/ft_printf.s"
+	@echo "... src/ft_putwchar.o"
+	@echo "... src/ft_putwchar.i"
+	@echo "... src/ft_putwchar.s"
+	@echo "... src/ft_putwchar_fd.o"
+	@echo "... src/ft_putwchar_fd.i"
+	@echo "... src/ft_putwchar_fd.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

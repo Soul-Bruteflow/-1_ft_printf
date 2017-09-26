@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_printf.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o"
   "CMakeFiles/ft_printf.dir/src/main.c.o"
   "ft_printf.pdb"
   "ft_printf"

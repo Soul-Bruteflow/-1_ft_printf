@@ -11,6 +11,10 @@ stdarg.h
 -
 unistd.h
 -
+locale.h
+-
+wchar.h
+-
 libft.h
 .././inc/libft.h
 
@@ -22,6 +26,18 @@ unistd.h
 stdlib.h
 -
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_ulong.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.c
 ntsid.h
 -
@@ -30,9 +46,25 @@ ft_printf.h
 stdio.h
 -
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar_fd.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+stdio.h
+-
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+locale.h
+-
 stdio.h
 -
 

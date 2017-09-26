@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_ulong.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_printf.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar_fd.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/main.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

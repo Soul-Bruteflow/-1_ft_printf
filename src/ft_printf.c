@@ -24,10 +24,80 @@ int print_w_string(va_list *args)
 	return (ft_print(va_arg(*args, wchar_t*)));
 }
 
+int print_pointer(va_list *args)
+{
+	char *prefix;
+	char *base_16_lower;
+	char *base_16_upper;
+
+
+	prefix = "0x";
+	base_16_lower = "0123456789abcdef";
+	base_16_upper = "0123456789ABCDEF";
+
+
+	uintmax_t nbr = va_arg(*args, uintmax_t);
+
+	char str[200];
+	unsigned char tmp;
+
+	int j;
+	j = 0;
+	int i = 6;
+	while (i-- > 0)
+	{
+		tmp = *(i+ (unsigned char*) &nbr);
+		str[j] = base_16_lower[tmp >> 4];
+		j++;
+		str[j] = base_16_lower[tmp & 0xF];
+		j++;
+	}
+	char *ret = ft_strjoin(prefix, str);
+	return (ft_print(ret));
+}
+
+int print_integer(va_list *args)
+{
+	return (ft_print(ft_itoa(va_arg(*args, int))));
+}
+
+int print_integer_long(va_list *args)
+{
+	return (ft_print(ft_itoa_long(va_arg(*args, long))));
+}
+
+int print_unsigned_integer(va_list *args)
+{
+	return (ft_print(ft_itoa_uint(va_arg(*args, unsigned int))));
+}
+
+int print_unsigned_long(va_list *args)
+{
+	return (ft_print(ft_itoa_ulong(va_arg(*args, unsigned long))));
+}
+
+int print_char(va_list *args)
+{
+	ft_putchar(va_arg(*args, char));
+	return (1);
+}
+
+int print_wchar(va_list *args)
+{
+	wchar_t		chr;
+
+	setlocale(LC_ALL, "");
+	chr = (wchar_t)va_arg(*args, wint_t);
+
+	ft_putwchar(chr);
+	return (1);
+}
+
 int parse_core(const char *format, va_list *args, size_t *i)
 {
 //	sSpdDioOuUxXcC
 	int count;
+
 
 	(*i)++;
 	count = 0;
@@ -37,6 +107,20 @@ int parse_core(const char *format, va_list *args, size_t *i)
 		count += print_string(args);
 	else if (format[*i] == 'S')
 		count += print_w_string(args);
+	else if (format[*i] == 'p')
+		count += print_pointer(args);
+	else if (format[*i] == 'd' || format[*i] == 'i')
+		count += print_integer(args);
+	else if (format[*i] == 'D')
+		count += print_integer_long(args);
+	else if (format[*i] == 'u')
+		count += print_unsigned_integer(args);
+	else if (format[*i] == 'U')
+		count += print_unsigned_long(args);
+	else if (format[*i] == 'c')
+		count += print_char(args);
+	else if (format[*i] == 'C')
+		count += print_wchar(args);
 	else
 		return (0);
 	return (count);
