@@ -3,34 +3,66 @@
 #include "libft.h"
 #include <locale.h>
 
+
 int main()
 {
 	int sys;
 	int own;
-	unsigned long a = -2909989898999999999;
-	int b = &a;
 
-	wchar_t *s;
-	s = (wchar_t *) malloc(sizeof(wchar_t) * 2);
-	s[0] = 0xC389;
-	s[1] = 0;
-
+	wchar_t wstr[5] = {0xC189, 0xC388, 0xC384, 0xC384, 0};
 	setlocale(LC_ALL, "");
-
-	/* Wchar */
-	setlocale(LC_ALL, "");
-
-	wchar_t value = L'}';
-	//我是一只猫。{
-
-	printf("printf value - %lc\n", value);
-	ft_putwchar(value);
-
+	sys = printf("%ls\n", &wstr);
+	own = ft_printf("%S\n", wstr);
+//	own = ft_putwstr(wstr);
 	printf("\nz - %d", sys);
 	printf("\nx - %d", own);
 
-	free(s);
-	return (0);
+//	int sys;
+//	int own;
+//	unsigned long a = -2909989898999999999;
+//	int b = &a;
+//
+//	size_t sys1 = 0;
+//	size_t own1 = 0;
+//
+//
+//
+//	wchar_t *s;
+//	s = (wchar_t *) malloc(sizeof(wchar_t) * 6);
+//	s[0] = 0xC389;
+//	s[1] = 0xC389;
+//	s[2] = 0xC389;
+//	s[3] = 0xC389;
+//	s[4] = 0xC129;
+//	s[5] = 0;
+//
+////	setlocale(LC_ALL, "");
+//
+//	/* Wchar */
+//	setlocale(LC_ALL, "");
+//
+//	wchar_t value = L'。';
+//
+//
+//	wchar_t wstr[4] = {0xC389, 0xC388, 0xC384, 0};
+//	//我是一只猫。{
+//
+//	sys = printf("printf value - %ls\n", s);
+////	own = ft_printf("printf value - %C\n", value);
+////	ft_putwchar(value);
+//	own = ft_putwstr(s);
+//
+//	printf("\nz - %d", sys);
+//	printf("\nx - %d", own);
+//
+////	sys1 = wcslen(wstr);
+////	own1 = ft_wcslen(wstr);
+//
+////	printf("\nz - %d", sys1);
+////	printf("\nx - %d", own1);
+//
+//	free(s);
+//	return (0);
 
 //	char *t = ft_itoa(a);
 //

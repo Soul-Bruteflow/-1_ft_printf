@@ -46,6 +46,12 @@ ft_printf.h
 stdio.h
 -
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_putnwstr.c
+wchar.h
+-
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar.c
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
@@ -56,6 +62,14 @@ ft_printf.h
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwstr.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_wcslen.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
@@ -64,7 +78,5 @@ stdio.h
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 locale.h
--
-stdio.h
 -
 

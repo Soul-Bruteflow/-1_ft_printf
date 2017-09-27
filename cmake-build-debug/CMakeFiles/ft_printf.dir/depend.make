@@ -14,12 +14,24 @@ CMakeFiles/ft_printf.dir/src/ft_printf.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft_printf.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_printf.c.o: ../src/ft_printf.c
 
+CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.o: ../src/ft_putnwstr.c
+
 CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o: ../src/ft_putwchar.c
 
 CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o: ../src/ft_putwchar_fd.c
+
+CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o: ../src/ft_putwstr.c
+
+CMakeFiles/ft_printf.dir/src/ft_wcslen.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/ft_wcslen.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_wcslen.c.o: ../src/ft_wcslen.c
 
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././libft/libft.h

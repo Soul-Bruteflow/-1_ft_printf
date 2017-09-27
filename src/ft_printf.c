@@ -19,9 +19,9 @@ int print_string(va_list *args)
 	return (ft_print(va_arg(*args, char*)));
 }
 
-int print_w_string(va_list *args)
+size_t print_w_string(va_list *args)
 {
-	return (ft_print(va_arg(*args, wchar_t*)));
+	return (ft_putwstr(va_arg(*args, wchar_t*)));
 }
 
 int print_pointer(va_list *args)
@@ -82,21 +82,21 @@ int print_char(va_list *args)
 	return (1);
 }
 
-int print_wchar(va_list *args)
+size_t print_wchar(va_list *args)
 {
 	wchar_t		chr;
+	size_t			ret;
 
 	setlocale(LC_ALL, "");
 	chr = (wchar_t)va_arg(*args, wint_t);
-
-	ft_putwchar(chr);
-	return (1);
+	ret = ft_putwchar(chr);
+	return (ret);
 }
 
-int parse_core(const char *format, va_list *args, size_t *i)
+size_t parse_core(const char *format, va_list *args, size_t *i)
 {
 //	sSpdDioOuUxXcC
-	int count;
+	size_t count;
 
 
 	(*i)++;
