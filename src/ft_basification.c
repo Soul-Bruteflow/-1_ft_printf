@@ -2,9 +2,9 @@
 
 #define MAXBASE 36
 
-char *ft_basification(uintmax_t num, uint8_t base)
+char *ft_basification(uintmax_t num, uint8_t base, t_bool size)
 {
-	char	BASIFICATION[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char	BASIFICATION[] = "0123456789abcdefghijklmnopqrstuvwxyz";
 	long	remainder;
 	long	digit;
 	char	reversed[99];
@@ -21,5 +21,11 @@ char *ft_basification(uintmax_t num, uint8_t base)
 		remainder = remainder / base;
 		reversed[ndx++] = BASIFICATION[digit];
 	}
-	return (ft_strreverse(reversed));
+	if (size)
+	{
+		ft_capitalize(reversed);
+		return (ft_strreverse(reversed));
+	}
+	else
+		return (ft_strreverse(reversed));
 }

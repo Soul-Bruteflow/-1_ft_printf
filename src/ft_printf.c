@@ -26,33 +26,6 @@ size_t print_w_string(va_list *args)
 
 int print_pointer(va_list *args)
 {
-//	char *prefix;
-//	char *base_16_lower;
-//	char *base_16_upper;
-//
-//
-//	prefix = "0x";
-//	base_16_lower = "0123456789abcdef";
-//	base_16_upper = "0123456789ABCDEF";
-//
-//
-//	uintmax_t nbr = va_arg(*args, uintmax_t);
-//
-//	char str[200];
-//	unsigned char tmp;
-//
-//	int j;
-//	j = 0;
-//	int i = 6;
-//	while (i-- > 0)
-//	{
-//		tmp = *(i+ (unsigned char*) &nbr);
-//		str[j] = base_16_lower[tmp >> 4];
-//		j++;
-//		str[j] = base_16_lower[tmp & 0xF];
-//		j++;
-//	}
-//	char *ret = ft_strjoin(prefix, str);
 	return (ft_print(uitoh(va_arg(*args, uintmax_t), true, false)));
 }
 
@@ -94,7 +67,7 @@ size_t print_wchar(va_list *args)
 }
 int print_uint_hex(va_list *args, t_bool size)
 {
-	return (ft_print(ft_basification(va_arg(*args, unsigned int), 16)));
+	return (ft_print(ft_basification(va_arg(*args, unsigned int), 16, size)));
 }
 
 size_t parse_core(const char *format, va_list *args, size_t *i)
@@ -104,6 +77,9 @@ size_t parse_core(const char *format, va_list *args, size_t *i)
 
 	(*i)++;
 	count = 0;
+	if (format[*i] == '-' || format[*i] == '+' || format[*i] == ' ' ||
+		format[*i] == '0' || format[*i] == '#')
+
 	if (format[*i] == '%')
 		count += ft_print("%");
 	else if (format[*i] == 's')

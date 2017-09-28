@@ -20,6 +20,7 @@ size_t			ft_putwstr(const wchar_t *str);
 char			*uitoh(uintmax_t nbr, t_bool is_prefix, t_bool size);
 int				ft_capitalize(char *s);
 char 			*ft_strreverse(const char *s);
-char 			*ft_basification(uintmax_t num, uint8_t base);
+char 			*ft_basification(uintmax_t num, uint8_t base, t_bool size);
+t_bool 			ft_isflag(char *s, size_t i);
 
 #endif

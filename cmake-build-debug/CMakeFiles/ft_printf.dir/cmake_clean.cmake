@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/ft_basification.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_isflag.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o"

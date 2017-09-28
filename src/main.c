@@ -12,8 +12,8 @@ int main()
 	/* x X */
 	unsigned int g = 999999999;
 
-	sys = printf("%X\n", g);
-	own = ft_printf("%X\n", g);
+	sys = printf("%#x\n", g);
+	own = ft_printf("%x\n", g);
 
 	printf("\nz - %d", sys);
 	printf("\nx - %d", own);

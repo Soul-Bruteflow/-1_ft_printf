@@ -1864,6 +1864,33 @@ src/ft_capitalize.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.s
 .PHONY : src/ft_capitalize.c.s
 
+src/ft_isflag.o: src/ft_isflag.c.o
+
+.PHONY : src/ft_isflag.o
+
+# target to build an object file
+src/ft_isflag.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.o
+.PHONY : src/ft_isflag.c.o
+
+src/ft_isflag.i: src/ft_isflag.c.i
+
+.PHONY : src/ft_isflag.i
+
+# target to preprocess a source file
+src/ft_isflag.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.i
+.PHONY : src/ft_isflag.c.i
+
+src/ft_isflag.s: src/ft_isflag.c.s
+
+.PHONY : src/ft_isflag.s
+
+# target to generate assembly for a file
+src/ft_isflag.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.s
+.PHONY : src/ft_isflag.c.s
+
 src/ft_itoa_long.o: src/ft_itoa_long.c.o
 
 .PHONY : src/ft_itoa_long.o
@@ -2390,6 +2417,9 @@ help:
 	@echo "... src/ft_capitalize.o"
 	@echo "... src/ft_capitalize.i"
 	@echo "... src/ft_capitalize.s"
+	@echo "... src/ft_isflag.o"
+	@echo "... src/ft_isflag.i"
+	@echo "... src/ft_isflag.s"
 	@echo "... src/ft_itoa_long.o"
 	@echo "... src/ft_itoa_long.i"
 	@echo "... src/ft_itoa_long.s"

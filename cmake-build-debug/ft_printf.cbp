@@ -329,6 +329,9 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c">
 			<Option target="ft_printf"/>
 		</Unit>

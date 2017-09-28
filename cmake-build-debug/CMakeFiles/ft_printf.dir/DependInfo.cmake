@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_basification.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_basification.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_isflag.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_ulong.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o"
