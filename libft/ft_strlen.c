@@ -14,12 +14,6 @@
 
 size_t		ft_strlen(const char *s)
 {
-//	const char *origstr;
-//
-//	origstr = str;
-//	while (*str != '\0')
-//		str++;
-//	return (str - origstr);
 	size_t	i;
 
 	i = 0;

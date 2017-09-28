@@ -1810,6 +1810,60 @@ libft/ft_tolower.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_tolower.c.s
 .PHONY : libft/ft_tolower.c.s
 
+src/ft_basification.o: src/ft_basification.c.o
+
+.PHONY : src/ft_basification.o
+
+# target to build an object file
+src/ft_basification.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.o
+.PHONY : src/ft_basification.c.o
+
+src/ft_basification.i: src/ft_basification.c.i
+
+.PHONY : src/ft_basification.i
+
+# target to preprocess a source file
+src/ft_basification.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.i
+.PHONY : src/ft_basification.c.i
+
+src/ft_basification.s: src/ft_basification.c.s
+
+.PHONY : src/ft_basification.s
+
+# target to generate assembly for a file
+src/ft_basification.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.s
+.PHONY : src/ft_basification.c.s
+
+src/ft_capitalize.o: src/ft_capitalize.c.o
+
+.PHONY : src/ft_capitalize.o
+
+# target to build an object file
+src/ft_capitalize.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o
+.PHONY : src/ft_capitalize.c.o
+
+src/ft_capitalize.i: src/ft_capitalize.c.i
+
+.PHONY : src/ft_capitalize.i
+
+# target to preprocess a source file
+src/ft_capitalize.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.i
+.PHONY : src/ft_capitalize.c.i
+
+src/ft_capitalize.s: src/ft_capitalize.c.s
+
+.PHONY : src/ft_capitalize.s
+
+# target to generate assembly for a file
+src/ft_capitalize.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.s
+.PHONY : src/ft_capitalize.c.s
+
 src/ft_itoa_long.o: src/ft_itoa_long.c.o
 
 .PHONY : src/ft_itoa_long.o
@@ -2026,32 +2080,59 @@ src/ft_putwstr.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwstr.c.s
 .PHONY : src/ft_putwstr.c.s
 
-src/ft_wcslen.o: src/ft_wcslen.c.o
+src/ft_strreverse.o: src/ft_strreverse.c.o
 
-.PHONY : src/ft_wcslen.o
+.PHONY : src/ft_strreverse.o
 
 # target to build an object file
-src/ft_wcslen.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wcslen.c.o
-.PHONY : src/ft_wcslen.c.o
+src/ft_strreverse.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.o
+.PHONY : src/ft_strreverse.c.o
 
-src/ft_wcslen.i: src/ft_wcslen.c.i
+src/ft_strreverse.i: src/ft_strreverse.c.i
 
-.PHONY : src/ft_wcslen.i
+.PHONY : src/ft_strreverse.i
 
 # target to preprocess a source file
-src/ft_wcslen.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wcslen.c.i
-.PHONY : src/ft_wcslen.c.i
+src/ft_strreverse.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.i
+.PHONY : src/ft_strreverse.c.i
 
-src/ft_wcslen.s: src/ft_wcslen.c.s
+src/ft_strreverse.s: src/ft_strreverse.c.s
 
-.PHONY : src/ft_wcslen.s
+.PHONY : src/ft_strreverse.s
 
 # target to generate assembly for a file
-src/ft_wcslen.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wcslen.c.s
-.PHONY : src/ft_wcslen.c.s
+src/ft_strreverse.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.s
+.PHONY : src/ft_strreverse.c.s
+
+src/ft_wstrlen.o: src/ft_wstrlen.c.o
+
+.PHONY : src/ft_wstrlen.o
+
+# target to build an object file
+src/ft_wstrlen.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o
+.PHONY : src/ft_wstrlen.c.o
+
+src/ft_wstrlen.i: src/ft_wstrlen.c.i
+
+.PHONY : src/ft_wstrlen.i
+
+# target to preprocess a source file
+src/ft_wstrlen.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.i
+.PHONY : src/ft_wstrlen.c.i
+
+src/ft_wstrlen.s: src/ft_wstrlen.c.s
+
+.PHONY : src/ft_wstrlen.s
+
+# target to generate assembly for a file
+src/ft_wstrlen.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.s
+.PHONY : src/ft_wstrlen.c.s
 
 src/main.o: src/main.c.o
 
@@ -2079,6 +2160,33 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/untoh.o: src/untoh.c.o
+
+.PHONY : src/untoh.o
+
+# target to build an object file
+src/untoh.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/untoh.c.o
+.PHONY : src/untoh.c.o
+
+src/untoh.i: src/untoh.c.i
+
+.PHONY : src/untoh.i
+
+# target to preprocess a source file
+src/untoh.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/untoh.c.i
+.PHONY : src/untoh.c.i
+
+src/untoh.s: src/untoh.c.s
+
+.PHONY : src/untoh.s
+
+# target to generate assembly for a file
+src/untoh.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/untoh.c.s
+.PHONY : src/untoh.c.s
 
 # Help Target
 help:
@@ -2276,6 +2384,12 @@ help:
 	@echo "... libft/ft_tolower.o"
 	@echo "... libft/ft_tolower.i"
 	@echo "... libft/ft_tolower.s"
+	@echo "... src/ft_basification.o"
+	@echo "... src/ft_basification.i"
+	@echo "... src/ft_basification.s"
+	@echo "... src/ft_capitalize.o"
+	@echo "... src/ft_capitalize.i"
+	@echo "... src/ft_capitalize.s"
 	@echo "... src/ft_itoa_long.o"
 	@echo "... src/ft_itoa_long.i"
 	@echo "... src/ft_itoa_long.s"
@@ -2300,12 +2414,18 @@ help:
 	@echo "... src/ft_putwstr.o"
 	@echo "... src/ft_putwstr.i"
 	@echo "... src/ft_putwstr.s"
-	@echo "... src/ft_wcslen.o"
-	@echo "... src/ft_wcslen.i"
-	@echo "... src/ft_wcslen.s"
+	@echo "... src/ft_strreverse.o"
+	@echo "... src/ft_strreverse.i"
+	@echo "... src/ft_strreverse.s"
+	@echo "... src/ft_wstrlen.o"
+	@echo "... src/ft_wstrlen.i"
+	@echo "... src/ft_wstrlen.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/untoh.o"
+	@echo "... src/untoh.i"
+	@echo "... src/untoh.s"
 .PHONY : help
 
 

@@ -323,6 +323,12 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/libft/ft_tolower.c">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_basification.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -347,10 +353,16 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwstr.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_wcslen.c">
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_strreverse.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/untoh.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/CMakeLists.txt">

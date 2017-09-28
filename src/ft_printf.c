@@ -26,34 +26,34 @@ size_t print_w_string(va_list *args)
 
 int print_pointer(va_list *args)
 {
-	char *prefix;
-	char *base_16_lower;
-	char *base_16_upper;
-
-
-	prefix = "0x";
-	base_16_lower = "0123456789abcdef";
-	base_16_upper = "0123456789ABCDEF";
-
-
-	uintmax_t nbr = va_arg(*args, uintmax_t);
-
-	char str[200];
-	unsigned char tmp;
-
-	int j;
-	j = 0;
-	int i = 6;
-	while (i-- > 0)
-	{
-		tmp = *(i+ (unsigned char*) &nbr);
-		str[j] = base_16_lower[tmp >> 4];
-		j++;
-		str[j] = base_16_lower[tmp & 0xF];
-		j++;
-	}
-	char *ret = ft_strjoin(prefix, str);
-	return (ft_print(ret));
+//	char *prefix;
+//	char *base_16_lower;
+//	char *base_16_upper;
+//
+//
+//	prefix = "0x";
+//	base_16_lower = "0123456789abcdef";
+//	base_16_upper = "0123456789ABCDEF";
+//
+//
+//	uintmax_t nbr = va_arg(*args, uintmax_t);
+//
+//	char str[200];
+//	unsigned char tmp;
+//
+//	int j;
+//	j = 0;
+//	int i = 6;
+//	while (i-- > 0)
+//	{
+//		tmp = *(i+ (unsigned char*) &nbr);
+//		str[j] = base_16_lower[tmp >> 4];
+//		j++;
+//		str[j] = base_16_lower[tmp & 0xF];
+//		j++;
+//	}
+//	char *ret = ft_strjoin(prefix, str);
+	return (ft_print(uitoh(va_arg(*args, uintmax_t), true, false)));
 }
 
 int print_integer(va_list *args)
@@ -92,12 +92,15 @@ size_t print_wchar(va_list *args)
 	ret = ft_putwchar(chr);
 	return (ret);
 }
+int print_uint_hex(va_list *args, t_bool size)
+{
+	return (ft_print(ft_basification(va_arg(*args, unsigned int), 16)));
+}
 
 size_t parse_core(const char *format, va_list *args, size_t *i)
 {
-//	sSpdDioOuUxXcC
+//	%sSpdDioOuUxXcC
 	size_t count;
-
 
 	(*i)++;
 	count = 0;
@@ -121,6 +124,10 @@ size_t parse_core(const char *format, va_list *args, size_t *i)
 		count += print_char(args);
 	else if (format[*i] == 'C')
 		count += print_wchar(args);
+	else if (format[*i] == 'x')
+		count += print_uint_hex(args, false);
+	else if (format[*i] == 'X')
+		count += print_uint_hex(args, true);
 	else
 		return (0);
 	return (count);

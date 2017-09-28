@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+.././inc/bool.h
+
 .././inc/ft_printf.h
 stdarg.h
 -
@@ -17,6 +19,8 @@ wchar.h
 -
 libft.h
 .././inc/libft.h
+bool.h
+.././inc/bool.h
 
 .././libft/libft.h
 string.h
@@ -25,6 +29,14 @@ unistd.h
 -
 stdlib.h
 -
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_basification.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
 libft.h
@@ -66,7 +78,11 @@ libft.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/ft_wcslen.c
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_strreverse.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
@@ -79,4 +95,8 @@ libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 locale.h
 -
+
+/Users/bruteflow/c_projects/4_ft_printf/src/untoh.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
