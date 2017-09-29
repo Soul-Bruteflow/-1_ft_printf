@@ -9,14 +9,16 @@ int main()
 	int sys;
 	int own;
 
+	long v = -23;
+
 	/* x X */
 	unsigned int g = 999999999;
 	int d = -200;
 	int c = 300;
-	sys = printf("%x\n", g);
-	own = ft_printf("%x\n", g);
+	sys = printf("|%+15d|\n", g);
+	own = ft_printf("|%-15d|\n", g);
 	printf("\nz - %d", sys);
-//	printf("\nx - %d", own);
+	printf("\nx - %d", own);
 
 	/* wchar string */
 

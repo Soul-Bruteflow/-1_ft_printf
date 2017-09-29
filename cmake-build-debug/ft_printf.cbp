@@ -329,6 +329,9 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_isconversion_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -365,10 +368,49 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handle_flags.c">
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/general/init_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char_w.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_big.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_small.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int_long.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_uint.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_pointer.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string_w.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_uint.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">

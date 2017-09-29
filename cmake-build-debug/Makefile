@@ -1864,6 +1864,33 @@ src/ft_capitalize.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.s
 .PHONY : src/ft_capitalize.c.s
 
+src/ft_isconversion_char.o: src/ft_isconversion_char.c.o
+
+.PHONY : src/ft_isconversion_char.o
+
+# target to build an object file
+src/ft_isconversion_char.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o
+.PHONY : src/ft_isconversion_char.c.o
+
+src/ft_isconversion_char.i: src/ft_isconversion_char.c.i
+
+.PHONY : src/ft_isconversion_char.i
+
+# target to preprocess a source file
+src/ft_isconversion_char.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.i
+.PHONY : src/ft_isconversion_char.c.i
+
+src/ft_isconversion_char.s: src/ft_isconversion_char.c.s
+
+.PHONY : src/ft_isconversion_char.s
+
+# target to generate assembly for a file
+src/ft_isconversion_char.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.s
+.PHONY : src/ft_isconversion_char.c.s
+
 src/ft_isflag.o: src/ft_isflag.c.o
 
 .PHONY : src/ft_isflag.o
@@ -2188,32 +2215,248 @@ src/ft_wstrlen.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.s
 .PHONY : src/ft_wstrlen.c.s
 
-src/handle_flags.o: src/handle_flags.c.o
+src/general/init_printf.o: src/general/init_printf.c.o
 
-.PHONY : src/handle_flags.o
+.PHONY : src/general/init_printf.o
 
 # target to build an object file
-src/handle_flags.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.o
-.PHONY : src/handle_flags.c.o
+src/general/init_printf.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/general/init_printf.c.o
+.PHONY : src/general/init_printf.c.o
 
-src/handle_flags.i: src/handle_flags.c.i
+src/general/init_printf.i: src/general/init_printf.c.i
 
-.PHONY : src/handle_flags.i
+.PHONY : src/general/init_printf.i
 
 # target to preprocess a source file
-src/handle_flags.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.i
-.PHONY : src/handle_flags.c.i
+src/general/init_printf.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/general/init_printf.c.i
+.PHONY : src/general/init_printf.c.i
 
-src/handle_flags.s: src/handle_flags.c.s
+src/general/init_printf.s: src/general/init_printf.c.s
 
-.PHONY : src/handle_flags.s
+.PHONY : src/general/init_printf.s
 
 # target to generate assembly for a file
-src/handle_flags.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.s
-.PHONY : src/handle_flags.c.s
+src/general/init_printf.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/general/init_printf.c.s
+.PHONY : src/general/init_printf.c.s
+
+src/handlers/handle_char.o: src/handlers/handle_char.c.o
+
+.PHONY : src/handlers/handle_char.o
+
+# target to build an object file
+src/handlers/handle_char.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o
+.PHONY : src/handlers/handle_char.c.o
+
+src/handlers/handle_char.i: src/handlers/handle_char.c.i
+
+.PHONY : src/handlers/handle_char.i
+
+# target to preprocess a source file
+src/handlers/handle_char.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.i
+.PHONY : src/handlers/handle_char.c.i
+
+src/handlers/handle_char.s: src/handlers/handle_char.c.s
+
+.PHONY : src/handlers/handle_char.s
+
+# target to generate assembly for a file
+src/handlers/handle_char.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.s
+.PHONY : src/handlers/handle_char.c.s
+
+src/handlers/handle_char_w.o: src/handlers/handle_char_w.c.o
+
+.PHONY : src/handlers/handle_char_w.o
+
+# target to build an object file
+src/handlers/handle_char_w.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o
+.PHONY : src/handlers/handle_char_w.c.o
+
+src/handlers/handle_char_w.i: src/handlers/handle_char_w.c.i
+
+.PHONY : src/handlers/handle_char_w.i
+
+# target to preprocess a source file
+src/handlers/handle_char_w.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.i
+.PHONY : src/handlers/handle_char_w.c.i
+
+src/handlers/handle_char_w.s: src/handlers/handle_char_w.c.s
+
+.PHONY : src/handlers/handle_char_w.s
+
+# target to generate assembly for a file
+src/handlers/handle_char_w.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.s
+.PHONY : src/handlers/handle_char_w.c.s
+
+src/handlers/handle_hex_big.o: src/handlers/handle_hex_big.c.o
+
+.PHONY : src/handlers/handle_hex_big.o
+
+# target to build an object file
+src/handlers/handle_hex_big.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o
+.PHONY : src/handlers/handle_hex_big.c.o
+
+src/handlers/handle_hex_big.i: src/handlers/handle_hex_big.c.i
+
+.PHONY : src/handlers/handle_hex_big.i
+
+# target to preprocess a source file
+src/handlers/handle_hex_big.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.i
+.PHONY : src/handlers/handle_hex_big.c.i
+
+src/handlers/handle_hex_big.s: src/handlers/handle_hex_big.c.s
+
+.PHONY : src/handlers/handle_hex_big.s
+
+# target to generate assembly for a file
+src/handlers/handle_hex_big.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.s
+.PHONY : src/handlers/handle_hex_big.c.s
+
+src/handlers/handle_hex_small.o: src/handlers/handle_hex_small.c.o
+
+.PHONY : src/handlers/handle_hex_small.o
+
+# target to build an object file
+src/handlers/handle_hex_small.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o
+.PHONY : src/handlers/handle_hex_small.c.o
+
+src/handlers/handle_hex_small.i: src/handlers/handle_hex_small.c.i
+
+.PHONY : src/handlers/handle_hex_small.i
+
+# target to preprocess a source file
+src/handlers/handle_hex_small.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.i
+.PHONY : src/handlers/handle_hex_small.c.i
+
+src/handlers/handle_hex_small.s: src/handlers/handle_hex_small.c.s
+
+.PHONY : src/handlers/handle_hex_small.s
+
+# target to generate assembly for a file
+src/handlers/handle_hex_small.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.s
+.PHONY : src/handlers/handle_hex_small.c.s
+
+src/handlers/handle_int.o: src/handlers/handle_int.c.o
+
+.PHONY : src/handlers/handle_int.o
+
+# target to build an object file
+src/handlers/handle_int.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o
+.PHONY : src/handlers/handle_int.c.o
+
+src/handlers/handle_int.i: src/handlers/handle_int.c.i
+
+.PHONY : src/handlers/handle_int.i
+
+# target to preprocess a source file
+src/handlers/handle_int.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.i
+.PHONY : src/handlers/handle_int.c.i
+
+src/handlers/handle_int.s: src/handlers/handle_int.c.s
+
+.PHONY : src/handlers/handle_int.s
+
+# target to generate assembly for a file
+src/handlers/handle_int.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.s
+.PHONY : src/handlers/handle_int.c.s
+
+src/handlers/handle_int_long.o: src/handlers/handle_int_long.c.o
+
+.PHONY : src/handlers/handle_int_long.o
+
+# target to build an object file
+src/handlers/handle_int_long.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o
+.PHONY : src/handlers/handle_int_long.c.o
+
+src/handlers/handle_int_long.i: src/handlers/handle_int_long.c.i
+
+.PHONY : src/handlers/handle_int_long.i
+
+# target to preprocess a source file
+src/handlers/handle_int_long.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.i
+.PHONY : src/handlers/handle_int_long.c.i
+
+src/handlers/handle_int_long.s: src/handlers/handle_int_long.c.s
+
+.PHONY : src/handlers/handle_int_long.s
+
+# target to generate assembly for a file
+src/handlers/handle_int_long.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.s
+.PHONY : src/handlers/handle_int_long.c.s
+
+src/handlers/handle_octal_uint.o: src/handlers/handle_octal_uint.c.o
+
+.PHONY : src/handlers/handle_octal_uint.o
+
+# target to build an object file
+src/handlers/handle_octal_uint.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o
+.PHONY : src/handlers/handle_octal_uint.c.o
+
+src/handlers/handle_octal_uint.i: src/handlers/handle_octal_uint.c.i
+
+.PHONY : src/handlers/handle_octal_uint.i
+
+# target to preprocess a source file
+src/handlers/handle_octal_uint.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.i
+.PHONY : src/handlers/handle_octal_uint.c.i
+
+src/handlers/handle_octal_uint.s: src/handlers/handle_octal_uint.c.s
+
+.PHONY : src/handlers/handle_octal_uint.s
+
+# target to generate assembly for a file
+src/handlers/handle_octal_uint.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.s
+.PHONY : src/handlers/handle_octal_uint.c.s
+
+src/handlers/handle_octal_ulong.o: src/handlers/handle_octal_ulong.c.o
+
+.PHONY : src/handlers/handle_octal_ulong.o
+
+# target to build an object file
+src/handlers/handle_octal_ulong.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o
+.PHONY : src/handlers/handle_octal_ulong.c.o
+
+src/handlers/handle_octal_ulong.i: src/handlers/handle_octal_ulong.c.i
+
+.PHONY : src/handlers/handle_octal_ulong.i
+
+# target to preprocess a source file
+src/handlers/handle_octal_ulong.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.i
+.PHONY : src/handlers/handle_octal_ulong.c.i
+
+src/handlers/handle_octal_ulong.s: src/handlers/handle_octal_ulong.c.s
+
+.PHONY : src/handlers/handle_octal_ulong.s
+
+# target to generate assembly for a file
+src/handlers/handle_octal_ulong.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.s
+.PHONY : src/handlers/handle_octal_ulong.c.s
 
 src/handlers/handle_percent.o: src/handlers/handle_percent.c.o
 
@@ -2241,6 +2484,141 @@ src/handlers/handle_percent.s: src/handlers/handle_percent.c.s
 src/handlers/handle_percent.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.s
 .PHONY : src/handlers/handle_percent.c.s
+
+src/handlers/handle_pointer.o: src/handlers/handle_pointer.c.o
+
+.PHONY : src/handlers/handle_pointer.o
+
+# target to build an object file
+src/handlers/handle_pointer.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o
+.PHONY : src/handlers/handle_pointer.c.o
+
+src/handlers/handle_pointer.i: src/handlers/handle_pointer.c.i
+
+.PHONY : src/handlers/handle_pointer.i
+
+# target to preprocess a source file
+src/handlers/handle_pointer.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.i
+.PHONY : src/handlers/handle_pointer.c.i
+
+src/handlers/handle_pointer.s: src/handlers/handle_pointer.c.s
+
+.PHONY : src/handlers/handle_pointer.s
+
+# target to generate assembly for a file
+src/handlers/handle_pointer.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.s
+.PHONY : src/handlers/handle_pointer.c.s
+
+src/handlers/handle_string.o: src/handlers/handle_string.c.o
+
+.PHONY : src/handlers/handle_string.o
+
+# target to build an object file
+src/handlers/handle_string.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o
+.PHONY : src/handlers/handle_string.c.o
+
+src/handlers/handle_string.i: src/handlers/handle_string.c.i
+
+.PHONY : src/handlers/handle_string.i
+
+# target to preprocess a source file
+src/handlers/handle_string.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.i
+.PHONY : src/handlers/handle_string.c.i
+
+src/handlers/handle_string.s: src/handlers/handle_string.c.s
+
+.PHONY : src/handlers/handle_string.s
+
+# target to generate assembly for a file
+src/handlers/handle_string.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.s
+.PHONY : src/handlers/handle_string.c.s
+
+src/handlers/handle_string_w.o: src/handlers/handle_string_w.c.o
+
+.PHONY : src/handlers/handle_string_w.o
+
+# target to build an object file
+src/handlers/handle_string_w.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o
+.PHONY : src/handlers/handle_string_w.c.o
+
+src/handlers/handle_string_w.i: src/handlers/handle_string_w.c.i
+
+.PHONY : src/handlers/handle_string_w.i
+
+# target to preprocess a source file
+src/handlers/handle_string_w.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.i
+.PHONY : src/handlers/handle_string_w.c.i
+
+src/handlers/handle_string_w.s: src/handlers/handle_string_w.c.s
+
+.PHONY : src/handlers/handle_string_w.s
+
+# target to generate assembly for a file
+src/handlers/handle_string_w.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.s
+.PHONY : src/handlers/handle_string_w.c.s
+
+src/handlers/handle_uint.o: src/handlers/handle_uint.c.o
+
+.PHONY : src/handlers/handle_uint.o
+
+# target to build an object file
+src/handlers/handle_uint.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o
+.PHONY : src/handlers/handle_uint.c.o
+
+src/handlers/handle_uint.i: src/handlers/handle_uint.c.i
+
+.PHONY : src/handlers/handle_uint.i
+
+# target to preprocess a source file
+src/handlers/handle_uint.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.i
+.PHONY : src/handlers/handle_uint.c.i
+
+src/handlers/handle_uint.s: src/handlers/handle_uint.c.s
+
+.PHONY : src/handlers/handle_uint.s
+
+# target to generate assembly for a file
+src/handlers/handle_uint.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.s
+.PHONY : src/handlers/handle_uint.c.s
+
+src/handlers/handle_ulong.o: src/handlers/handle_ulong.c.o
+
+.PHONY : src/handlers/handle_ulong.o
+
+# target to build an object file
+src/handlers/handle_ulong.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o
+.PHONY : src/handlers/handle_ulong.c.o
+
+src/handlers/handle_ulong.i: src/handlers/handle_ulong.c.i
+
+.PHONY : src/handlers/handle_ulong.i
+
+# target to preprocess a source file
+src/handlers/handle_ulong.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.i
+.PHONY : src/handlers/handle_ulong.c.i
+
+src/handlers/handle_ulong.s: src/handlers/handle_ulong.c.s
+
+.PHONY : src/handlers/handle_ulong.s
+
+# target to generate assembly for a file
+src/handlers/handle_ulong.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.s
+.PHONY : src/handlers/handle_ulong.c.s
 
 src/main.o: src/main.c.o
 
@@ -2633,6 +3011,9 @@ help:
 	@echo "... src/ft_capitalize.o"
 	@echo "... src/ft_capitalize.i"
 	@echo "... src/ft_capitalize.s"
+	@echo "... src/ft_isconversion_char.o"
+	@echo "... src/ft_isconversion_char.i"
+	@echo "... src/ft_isconversion_char.s"
 	@echo "... src/ft_isflag.o"
 	@echo "... src/ft_isflag.i"
 	@echo "... src/ft_isflag.s"
@@ -2669,12 +3050,51 @@ help:
 	@echo "... src/ft_wstrlen.o"
 	@echo "... src/ft_wstrlen.i"
 	@echo "... src/ft_wstrlen.s"
-	@echo "... src/handle_flags.o"
-	@echo "... src/handle_flags.i"
-	@echo "... src/handle_flags.s"
+	@echo "... src/general/init_printf.o"
+	@echo "... src/general/init_printf.i"
+	@echo "... src/general/init_printf.s"
+	@echo "... src/handlers/handle_char.o"
+	@echo "... src/handlers/handle_char.i"
+	@echo "... src/handlers/handle_char.s"
+	@echo "... src/handlers/handle_char_w.o"
+	@echo "... src/handlers/handle_char_w.i"
+	@echo "... src/handlers/handle_char_w.s"
+	@echo "... src/handlers/handle_hex_big.o"
+	@echo "... src/handlers/handle_hex_big.i"
+	@echo "... src/handlers/handle_hex_big.s"
+	@echo "... src/handlers/handle_hex_small.o"
+	@echo "... src/handlers/handle_hex_small.i"
+	@echo "... src/handlers/handle_hex_small.s"
+	@echo "... src/handlers/handle_int.o"
+	@echo "... src/handlers/handle_int.i"
+	@echo "... src/handlers/handle_int.s"
+	@echo "... src/handlers/handle_int_long.o"
+	@echo "... src/handlers/handle_int_long.i"
+	@echo "... src/handlers/handle_int_long.s"
+	@echo "... src/handlers/handle_octal_uint.o"
+	@echo "... src/handlers/handle_octal_uint.i"
+	@echo "... src/handlers/handle_octal_uint.s"
+	@echo "... src/handlers/handle_octal_ulong.o"
+	@echo "... src/handlers/handle_octal_ulong.i"
+	@echo "... src/handlers/handle_octal_ulong.s"
 	@echo "... src/handlers/handle_percent.o"
 	@echo "... src/handlers/handle_percent.i"
 	@echo "... src/handlers/handle_percent.s"
+	@echo "... src/handlers/handle_pointer.o"
+	@echo "... src/handlers/handle_pointer.i"
+	@echo "... src/handlers/handle_pointer.s"
+	@echo "... src/handlers/handle_string.o"
+	@echo "... src/handlers/handle_string.i"
+	@echo "... src/handlers/handle_string.s"
+	@echo "... src/handlers/handle_string_w.o"
+	@echo "... src/handlers/handle_string_w.i"
+	@echo "... src/handlers/handle_string_w.s"
+	@echo "... src/handlers/handle_uint.o"
+	@echo "... src/handlers/handle_uint.i"
+	@echo "... src/handlers/handle_uint.s"
+	@echo "... src/handlers/handle_ulong.o"
+	@echo "... src/handlers/handle_ulong.i"
+	@echo "... src/handlers/handle_ulong.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

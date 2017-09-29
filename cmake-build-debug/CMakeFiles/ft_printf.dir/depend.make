@@ -11,10 +11,20 @@ CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o: ../src/ft_capitalize.c
 
+CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o: ../src/ft_isconversion_char.c
+
 CMakeFiles/ft_printf.dir/src/ft_isflag.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/ft_isflag.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft_isflag.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_isflag.c.o: ../src/ft_isflag.c
+
+CMakeFiles/ft_printf.dir/src/ft_islength.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/ft_islength.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/ft_islength.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_islength.c.o: ../src/ft_islength.c
 
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o: ../src/ft_itoa_long.c
@@ -58,12 +68,110 @@ CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o: ../src/ft_wstrlen.c
 
-CMakeFiles/ft_printf.dir/src/handle_flags.c.o: ../src/handle_flags.c
+CMakeFiles/ft_printf.dir/src/general/init_printf.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/general/init_printf.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/general/init_printf.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/general/init_printf.c.o: ../src/general/init_printf.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o: ../src/handlers/handle_char.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o: ../src/handlers/handle_char_w.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o: ../src/handlers/handle_hex_big.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o: ../src/handlers/handle_hex_small.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o: ../src/handlers/handle_int.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o: ../src/handlers/handle_int_long.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o: ../src/handlers/handle_octal_uint.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o: ../src/handlers/handle_octal_ulong.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o: ../src/handlers/handle_percent.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o: ../src/handlers/handle_pointer.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o: ../src/handlers/handle_string.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o: ../src/handlers/handle_string_w.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o: ../src/handlers/handle_uint.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o: ../src/handlers/handle_ulong.c
 
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
+
+CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: ../src/parse/parse_flags.c
+
+CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: ../src/parse/parse_length.c
+
+CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: ../src/parse/parse_precision.c
+
+CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: ../src/parse/parse_width.c
+
+CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: ../src/print/ft_print.c
 
 CMakeFiles/ft_printf.dir/src/untoh.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/untoh.c.o: .././inc/ft_printf.h

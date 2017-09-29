@@ -40,14 +40,41 @@ typedef struct		s_printf
 	unsigned int	width;
 	unsigned int	precesion;
 	t_len			len;
-	void			(*handlers)(t_printf *p);
+	char 			conv_char;
+	void			(*handlers[256])(struct s_printf *p);
 }					t_printf;
 
+//void	(*handlers[256])(struct s_printf *p);
+//int		(*p[4]) (int x, int y);
+
+/*
+** General
+*/
+
+t_printf 			*init_printf(const char *format);
+t_bool 				init_conversion_handlers(t_printf *p);
+void				default_handler_format(t_printf *p);
+ssize_t 			walk_format(t_printf *p);
+t_bool 				ft_isconversion_char(const char *format, size_t i);
 /*
 ** Handlers
 */
 
 void				handle_percent(t_printf *p);
+void				handle_string(t_printf *p);
+void				handle_string_w(t_printf *p);
+void				handle_pointer(t_printf *p);
+void				handle_pointer(t_printf *p);
+void				handle_int(t_printf *p);
+void				handle_int_long(t_printf *p);
+void				handle_octal_uint(t_printf *p);
+void				handle_octal_ulong(t_printf *p);
+void				handle_uint(t_printf *p);
+void				handle_ulong(t_printf *p);
+void				handle_hex_small(t_printf *p);
+void				handle_hex_big(t_printf *p);
+void				handle_char(t_printf *p);
+void				handle_char_w(t_printf *p);
 
 /*
 ** Parsing
@@ -72,7 +99,7 @@ t_bool 				ft_islength(const char *format, size_t i);
 int 				ft_print(const char *print);
 
 int					ft_printf(const char *format, ...);
-int 				parse_core(t_printf *p);
+void 				parse_core(t_printf *p);
 char				*ft_itoa_long(long n);
 char				*ft_itoa_uint(unsigned int n);
 char				*ft_itoa_ulong(unsigned long n);
