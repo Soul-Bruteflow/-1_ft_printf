@@ -11,6 +11,11 @@ CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_capitalize.c
+CMakeFiles/ft_printf.dir/src/ft_isflag.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
@@ -53,6 +58,8 @@ CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c
+CMakeFiles/ft_printf.dir/src/handle_flags.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_flags.c
 CMakeFiles/ft_printf.dir/src/main.c.o
  .././inc/bool.h
  .././inc/ft_printf.h

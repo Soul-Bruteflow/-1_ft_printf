@@ -38,6 +38,10 @@ ft_printf.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
@@ -85,6 +89,8 @@ ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_flags.c
 
 /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h

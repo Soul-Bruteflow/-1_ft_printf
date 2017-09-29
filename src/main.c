@@ -11,12 +11,12 @@ int main()
 
 	/* x X */
 	unsigned int g = 999999999;
-
-	sys = printf("%#x\n", g);
+	int d = -200;
+	int c = 300;
+	sys = printf("%x\n", g);
 	own = ft_printf("%x\n", g);
-
 	printf("\nz - %d", sys);
-	printf("\nx - %d", own);
+//	printf("\nx - %d", own);
 
 	/* wchar string */
 

@@ -332,6 +332,9 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_isflag.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_islength.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -362,7 +365,28 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handle_flags.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_length.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_precision.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_width.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_print.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/untoh.c">

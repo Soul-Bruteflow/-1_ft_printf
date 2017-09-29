@@ -8,19 +8,86 @@
 # include "libft.h"
 # include "bool.h"
 
-int				ft_printf(const char *format, ...);
-char			*ft_itoa_long(long n);
-char			*ft_itoa_uint(unsigned int n);
-char			*ft_itoa_ulong(unsigned long n);
-size_t			ft_putwchar_fd(wchar_t chr, int fd);
-size_t			ft_putwchar(wchar_t chr);
-void			ft_putnwstr(const wchar_t *str, size_t len);
-size_t			ft_wstrlen(const wchar_t *s);
-size_t			ft_putwstr(const wchar_t *str);
-char			*uitoh(uintmax_t nbr, t_bool is_prefix, t_bool size);
-int				ft_capitalize(char *s);
-char 			*ft_strreverse(const char *s);
-char 			*ft_basification(uintmax_t num, uint8_t base, t_bool size);
-t_bool 			ft_isflag(char *s, size_t i);
+typedef enum		e_len
+{
+					none,
+					hh,
+					h,
+					l,
+					ll,
+					j,
+					z
+}					t_len;
+
+typedef	struct		s_flags
+{
+	t_bool			minus;
+	t_bool			plus;
+	t_bool			space;
+	t_bool			zero;
+	t_bool			hashtag;
+}					t_flags;
+
+typedef struct		s_printf
+{
+	char			*format;
+	size_t			i;
+	ssize_t 		count;
+	va_list			args;
+	t_flags			flags;
+	t_bool			got_width;
+	t_bool			got_precision;
+	unsigned int	width;
+	unsigned int	precesion;
+	t_len			len;
+	void			(*handlers)(t_printf *p);
+}					t_printf;
+
+/*
+** Handlers
+*/
+
+void				handle_percent(t_printf *p);
+
+/*
+** Parsing
+*/
+
+void				parse_flags(t_printf *p);
+void				parse_width(t_printf *p);
+void				parse_precision(t_printf *p);
+void				parse_length(t_printf *p);
+
+/*
+** Parsing support
+*/
+
+t_bool 				ft_isflag(const char *s, size_t i);
+t_bool 				ft_islength(const char *format, size_t i);
+
+/*
+** Printing
+*/
+
+int 				ft_print(const char *print);
+
+int					ft_printf(const char *format, ...);
+int 				parse_core(t_printf *p);
+char				*ft_itoa_long(long n);
+char				*ft_itoa_uint(unsigned int n);
+char				*ft_itoa_ulong(unsigned long n);
+size_t				ft_putwchar_fd(wchar_t chr, int fd);
+size_t				ft_putwchar(wchar_t chr);
+void				ft_putnwstr(const wchar_t *str, size_t len);
+size_t				ft_wstrlen(const wchar_t *s);
+size_t				ft_putwstr(const wchar_t *str);
+char				*uitoh(uintmax_t nbr, t_bool is_prefix, t_bool size);
+int					ft_capitalize(char *s);
+char 				*ft_strreverse(const char *s);
+char 				*ft_basification(uintmax_t num, uint8_t base, t_bool size);
+
+
+
+void 				handle_flags(const char *format, va_list *args, size_t *i);
 
 #endif

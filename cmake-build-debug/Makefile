@@ -1891,6 +1891,33 @@ src/ft_isflag.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.s
 .PHONY : src/ft_isflag.c.s
 
+src/ft_islength.o: src/ft_islength.c.o
+
+.PHONY : src/ft_islength.o
+
+# target to build an object file
+src/ft_islength.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.o
+.PHONY : src/ft_islength.c.o
+
+src/ft_islength.i: src/ft_islength.c.i
+
+.PHONY : src/ft_islength.i
+
+# target to preprocess a source file
+src/ft_islength.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.i
+.PHONY : src/ft_islength.c.i
+
+src/ft_islength.s: src/ft_islength.c.s
+
+.PHONY : src/ft_islength.s
+
+# target to generate assembly for a file
+src/ft_islength.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.s
+.PHONY : src/ft_islength.c.s
+
 src/ft_itoa_long.o: src/ft_itoa_long.c.o
 
 .PHONY : src/ft_itoa_long.o
@@ -2161,6 +2188,60 @@ src/ft_wstrlen.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.s
 .PHONY : src/ft_wstrlen.c.s
 
+src/handle_flags.o: src/handle_flags.c.o
+
+.PHONY : src/handle_flags.o
+
+# target to build an object file
+src/handle_flags.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.o
+.PHONY : src/handle_flags.c.o
+
+src/handle_flags.i: src/handle_flags.c.i
+
+.PHONY : src/handle_flags.i
+
+# target to preprocess a source file
+src/handle_flags.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.i
+.PHONY : src/handle_flags.c.i
+
+src/handle_flags.s: src/handle_flags.c.s
+
+.PHONY : src/handle_flags.s
+
+# target to generate assembly for a file
+src/handle_flags.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handle_flags.c.s
+.PHONY : src/handle_flags.c.s
+
+src/handlers/handle_percent.o: src/handlers/handle_percent.c.o
+
+.PHONY : src/handlers/handle_percent.o
+
+# target to build an object file
+src/handlers/handle_percent.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o
+.PHONY : src/handlers/handle_percent.c.o
+
+src/handlers/handle_percent.i: src/handlers/handle_percent.c.i
+
+.PHONY : src/handlers/handle_percent.i
+
+# target to preprocess a source file
+src/handlers/handle_percent.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.i
+.PHONY : src/handlers/handle_percent.c.i
+
+src/handlers/handle_percent.s: src/handlers/handle_percent.c.s
+
+.PHONY : src/handlers/handle_percent.s
+
+# target to generate assembly for a file
+src/handlers/handle_percent.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.s
+.PHONY : src/handlers/handle_percent.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -2187,6 +2268,141 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/parse/parse_flags.o: src/parse/parse_flags.c.o
+
+.PHONY : src/parse/parse_flags.o
+
+# target to build an object file
+src/parse/parse_flags.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o
+.PHONY : src/parse/parse_flags.c.o
+
+src/parse/parse_flags.i: src/parse/parse_flags.c.i
+
+.PHONY : src/parse/parse_flags.i
+
+# target to preprocess a source file
+src/parse/parse_flags.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.i
+.PHONY : src/parse/parse_flags.c.i
+
+src/parse/parse_flags.s: src/parse/parse_flags.c.s
+
+.PHONY : src/parse/parse_flags.s
+
+# target to generate assembly for a file
+src/parse/parse_flags.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.s
+.PHONY : src/parse/parse_flags.c.s
+
+src/parse/parse_length.o: src/parse/parse_length.c.o
+
+.PHONY : src/parse/parse_length.o
+
+# target to build an object file
+src/parse/parse_length.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o
+.PHONY : src/parse/parse_length.c.o
+
+src/parse/parse_length.i: src/parse/parse_length.c.i
+
+.PHONY : src/parse/parse_length.i
+
+# target to preprocess a source file
+src/parse/parse_length.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_length.c.i
+.PHONY : src/parse/parse_length.c.i
+
+src/parse/parse_length.s: src/parse/parse_length.c.s
+
+.PHONY : src/parse/parse_length.s
+
+# target to generate assembly for a file
+src/parse/parse_length.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_length.c.s
+.PHONY : src/parse/parse_length.c.s
+
+src/parse/parse_precision.o: src/parse/parse_precision.c.o
+
+.PHONY : src/parse/parse_precision.o
+
+# target to build an object file
+src/parse/parse_precision.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o
+.PHONY : src/parse/parse_precision.c.o
+
+src/parse/parse_precision.i: src/parse/parse_precision.c.i
+
+.PHONY : src/parse/parse_precision.i
+
+# target to preprocess a source file
+src/parse/parse_precision.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.i
+.PHONY : src/parse/parse_precision.c.i
+
+src/parse/parse_precision.s: src/parse/parse_precision.c.s
+
+.PHONY : src/parse/parse_precision.s
+
+# target to generate assembly for a file
+src/parse/parse_precision.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.s
+.PHONY : src/parse/parse_precision.c.s
+
+src/parse/parse_width.o: src/parse/parse_width.c.o
+
+.PHONY : src/parse/parse_width.o
+
+# target to build an object file
+src/parse/parse_width.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o
+.PHONY : src/parse/parse_width.c.o
+
+src/parse/parse_width.i: src/parse/parse_width.c.i
+
+.PHONY : src/parse/parse_width.i
+
+# target to preprocess a source file
+src/parse/parse_width.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_width.c.i
+.PHONY : src/parse/parse_width.c.i
+
+src/parse/parse_width.s: src/parse/parse_width.c.s
+
+.PHONY : src/parse/parse_width.s
+
+# target to generate assembly for a file
+src/parse/parse_width.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/parse_width.c.s
+.PHONY : src/parse/parse_width.c.s
+
+src/print/ft_print.o: src/print/ft_print.c.o
+
+.PHONY : src/print/ft_print.o
+
+# target to build an object file
+src/print/ft_print.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/ft_print.c.o
+.PHONY : src/print/ft_print.c.o
+
+src/print/ft_print.i: src/print/ft_print.c.i
+
+.PHONY : src/print/ft_print.i
+
+# target to preprocess a source file
+src/print/ft_print.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/ft_print.c.i
+.PHONY : src/print/ft_print.c.i
+
+src/print/ft_print.s: src/print/ft_print.c.s
+
+.PHONY : src/print/ft_print.s
+
+# target to generate assembly for a file
+src/print/ft_print.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/ft_print.c.s
+.PHONY : src/print/ft_print.c.s
 
 src/untoh.o: src/untoh.c.o
 
@@ -2420,6 +2636,9 @@ help:
 	@echo "... src/ft_isflag.o"
 	@echo "... src/ft_isflag.i"
 	@echo "... src/ft_isflag.s"
+	@echo "... src/ft_islength.o"
+	@echo "... src/ft_islength.i"
+	@echo "... src/ft_islength.s"
 	@echo "... src/ft_itoa_long.o"
 	@echo "... src/ft_itoa_long.i"
 	@echo "... src/ft_itoa_long.s"
@@ -2450,9 +2669,30 @@ help:
 	@echo "... src/ft_wstrlen.o"
 	@echo "... src/ft_wstrlen.i"
 	@echo "... src/ft_wstrlen.s"
+	@echo "... src/handle_flags.o"
+	@echo "... src/handle_flags.i"
+	@echo "... src/handle_flags.s"
+	@echo "... src/handlers/handle_percent.o"
+	@echo "... src/handlers/handle_percent.i"
+	@echo "... src/handlers/handle_percent.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parse/parse_flags.o"
+	@echo "... src/parse/parse_flags.i"
+	@echo "... src/parse/parse_flags.s"
+	@echo "... src/parse/parse_length.o"
+	@echo "... src/parse/parse_length.i"
+	@echo "... src/parse/parse_length.s"
+	@echo "... src/parse/parse_precision.o"
+	@echo "... src/parse/parse_precision.i"
+	@echo "... src/parse/parse_precision.s"
+	@echo "... src/parse/parse_width.o"
+	@echo "... src/parse/parse_width.i"
+	@echo "... src/parse/parse_width.s"
+	@echo "... src/print/ft_print.o"
+	@echo "... src/print/ft_print.i"
+	@echo "... src/print/ft_print.s"
 	@echo "... src/untoh.o"
 	@echo "... src/untoh.i"
 	@echo "... src/untoh.s"
