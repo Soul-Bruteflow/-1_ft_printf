@@ -1,12 +1,15 @@
 #include "ft_printf.h"
 
-int ft_print(const char *print)
+size_t ft_print(const char *print, t_bool is_len, size_t l)
 {
-	int len;
+	size_t len;
 
 	if(!print)
-		return (-1);
-	len = (int)ft_strlen(print);
-	write(1, print, (size_t)len);
+		return (0);
+	if (is_len)
+		len = l;
+	else
+		len = (int)ft_strlen(print);
+	write(1, print, len);
 	return (len);
 }

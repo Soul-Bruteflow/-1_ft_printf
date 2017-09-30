@@ -30,7 +30,7 @@ t_bool init_conversion_handlers(t_printf *p)
 void	default_handler_format(t_printf *p)
 {
 	p->width = 0;
-	p->precesion = 0;
+	p->precision = 0;
 	p->flags.minus = false;
 	p->flags.plus = false;
 	p->flags.space = false;

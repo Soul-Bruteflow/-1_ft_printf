@@ -8,6 +8,8 @@
 # include "libft.h"
 # include "bool.h"
 
+# define MAXBASE 36
+
 typedef enum		e_len
 {
 					none,
@@ -38,7 +40,7 @@ typedef struct		s_printf
 	t_bool			got_width;
 	t_bool			got_precision;
 	unsigned int	width;
-	unsigned int	precesion;
+	unsigned int	precision;
 	t_len			len;
 	char 			conv_char;
 	void			(*handlers[256])(struct s_printf *p);
@@ -91,12 +93,13 @@ void				parse_length(t_printf *p);
 
 t_bool 				ft_isflag(const char *s, size_t i);
 t_bool 				ft_islength(const char *format, size_t i);
+size_t				ft_strnlen(const char *str, size_t maxlen);
 
 /*
 ** Printing
 */
 
-int 				ft_print(const char *print);
+size_t 				ft_print(const char *print, t_bool is_len, size_t l);
 
 int					ft_printf(const char *format, ...);
 void 				parse_core(t_printf *p);

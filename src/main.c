@@ -138,13 +138,13 @@ int main()
 //	p->handlers['c'] = handle_char;
 	printf("c \n");
 	char i = 'A';
-	sys = printf("|%c|\n", a);
-	own = ft_printf("|%c|\n", a);
+	sys = printf("|%c|\n", i);
+	own = ft_printf("|%c|\n", i);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
 
-	//	p->handlers['c'] = handle_char_w;
+//	p->handlers['C'] = handle_char_w;
 	printf("C \n");
 	wchar_t value = L'{';
 	sys = printf("|%lc|\n", value);
