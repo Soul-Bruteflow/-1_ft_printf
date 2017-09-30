@@ -9,129 +9,147 @@ int main()
 	int sys;
 	int own;
 
-	long v = -23;
+//  empty
+	printf("empty \n");
+	sys = printf("|Simple Test|\n");
+	own = ft_printf("|Simple Test|\n");
 
-	/* x X */
-	unsigned int g = 999999999;
-	int d = -200;
-	int c = 300;
-	sys = printf("|%+15d|\n", g);
-	own = ft_printf("|%-15d|\n", g);
-	printf("\nz - %d", sys);
-	printf("\nx - %d", own);
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-	/* wchar string */
+//	p->handlers['%'] = handle_percent;
+	printf("%% \n");
+	sys = printf("|%%|\n");
+	own = ft_printf("|%%|\n");
 
-//	wchar_t wstr[5] = {0xC189, 0xC388, 0xC384, 0xC384, 0};
-//	setlocale(LC_ALL, "");
-//	sys = printf("%ls\n", &wstr);
-//	own = ft_printf("%S\n", wstr);
-//	printf("\nz - %d", sys);
-//	printf("\nx - %d", own);
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-	/* Wchar */
-//	setlocale(LC_ALL, "");
-//	wchar_t value = L'。';
-//  //我是一只猫。{
-//	wchar_t wstr[4] = {0xC389, 0xC388, 0xC384, 0};
-//	sys = printf("printf value - %lc\n", value);
-//	own = ft_printf("printf value - %C\n", value);
+//	p->handlers['s'] = handle_string;
+	printf("s \n");
+	char s[] = "Hello";
+	sys = printf("|%s|\n", s);
+	own = ft_printf("|%s|\n", s);
 
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
+//	p->handlers['S'] = handle_string_w;
+	printf("S \n");
+	wchar_t wstr[5] = {0xC189, 0xC388, 0xC384, 0xC384, 0};
+	setlocale(LC_ALL, "");
+	sys = printf("|%ls|\n", &wstr);
+	own = ft_printf("|%S|\n", wstr);
 
-//
-//	/* pointer */
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-//	int a = 42;
-//	sys = printf("%p\n", (void *) &a);
-//	own = ft_printf("%p\n", (void *) &a);
-//	printf("\nz - %d", sys);
-//	printf("\nx - %d", own);
-//
-//	/* decimal */
+//	p->handlers['p'] = handle_pointer;
+	printf("p \n");
+	int a = 42;
+	int *b = &a;
+	sys = printf("|%p|\n", b);
+	own = ft_printf("|%p|\n", b);
 
-//	sys = printf("%s\n", wc);
-//	own = ft_printf("%C\n", wc);
-//	printf("\nz - %d", sys);
-//	printf("\nx - %d", own);
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
+//	p->handlers['d'] = handle_int;
+	printf("d \n");
+	int c = 42;
+	sys = printf("|%d|\n", c);
+	own = ft_printf("|%d|\n", c);
 
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
+//	p->handlers['D'] = handle_int_long;
+	printf("D \n");
+	long d = 4289089089054444444;
+	sys = printf("|%ld|\n", d);
+	own = ft_printf("|%D|\n", d);
 
-/* initialisation */ 	// array of characters corresponding to numbers from 0 to 15
-//	uint16_t ptr;
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-/* these lines go inside the loop */
-//	ptr = (uint16_t) &a;
+//	p->handlers['i'] = handle_int;
+	printf("i \n");
+	int g = -245645642;
+	sys = printf("|%d|\n", g);
+	own = ft_printf("|%d|\n", g);
 
-//	uintptr_t n = (uintptr_t)(void *)etext;
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-//	uintptr_t ptr = (uintptr_t) &a;                 // store 16-bit address, and then pretend that memory is a character array
-//	unsigned char tmp;
-//	char base_16_s[]="0123456789abcdef";
-//	char base_16_b[]="0123456789ABCDEF";
-//
-//	char str[200];
-//
-//	int j;
-//	j = 0;
-//	int i = 6;
-//	while (i-- > 0)
-//	{
-//		tmp = *(i+ (unsigned char*) &ptr);
-//		str[j] = base_16_s[tmp >> 4];
-//		j++;
-//		str[j] = base_16_s[tmp & 0xF];
-//		j++;
-//	}
+//	p->handlers['o'] = handle_octal_uint;
+	printf("o \n");
+	unsigned int q = 2456456462;
+	sys = printf("|%o|\n", q);
+	own = ft_printf("|%o|\n", q);
 
-//	tmp = *(5+ (unsigned char*) &ptr); // MSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
-//
-//	tmp = *(4+ (unsigned char*) &ptr); // MSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
-//
-//	tmp = *(3+ (unsigned char*) &ptr); // MSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
-//
-//	tmp = *(2+ (unsigned char*) &ptr); // MSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
-//
-//	tmp = *(1+ (unsigned char*) &ptr); // MSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
-//
-//	tmp = *(0+ (unsigned char*) &ptr); // LSB
-//	putchar( string[tmp >> 4] );
-//	putchar( string[tmp & 0xF] );
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
+//	p->handlers['O'] = handle_octal_ulong;
+	printf("O \n");
+	unsigned long k = 2456456422222222262;
+	sys = printf("|%lo|\n", k);
+	own = ft_printf("|%O|\n", k);
 
-//	putchar( string[ (ptr >> 12) & 0xF ] ); // Write out highest 4-bits of memory address
-//	putchar( string[ (ptr >>  8) & 0xF ] );
-//	putchar( string[ (ptr >>  4) & 0xF ] );
-//	putchar( string[ (ptr >>  0) & 0xF ] ); // Write out lowest 4-bits of memory address
-//	putchar( string[tmp & 0xF] );
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
-//	sys = printf("hello%S", "\ntest\n");
-//	own = ft_printf("hello%S", "\ntest\n");
-//	printf("\nz - %d", sys);
-//	printf("\nx - %d", own);
+//	p->handlers['u'] = handle_uint;
+	printf("u \n");
+	unsigned int m = 2456456462;
+	sys = printf("|%u|\n", m);
+	own = ft_printf("|%u|\n", m);
 
-//	int x = 345;
-//	const char * y = "monkeys";
-//
-//	/* Demonstrate with numbers. */
-//	printf ("<%d> is not justified.\n", x);
-//	printf ("<%5d> is right-justified.\n", x);
-//	printf ("<%-5d> The minus sign makes it left-justified.\n", x);
-//	/* Demonstrate with strings. */
-//	printf ("'%s' is not justified.\n", y);
-//	printf ("'%10s' is right-justified.\n", y);
-//	printf ("'%+8s' is left-justified using a minus sign.\n", y);
-//
-//	printf ("%4s%-6s", "no", "where");
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
+
+//	p->handlers['U'] = handle_ulong;
+	printf("U \n");
+	unsigned long n = 2456456422222222262;
+	sys = printf("|%lu|\n", n);
+	own = ft_printf("|%U|\n", n);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
+
+//	p->handlers['x'] = handle_hex_small;
+	printf("x \n");
+	unsigned int h = 2456456462;
+	sys = printf("|%x|\n", h);
+	own = ft_printf("|%x|\n", h);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
+
+//	p->handlers['X'] = handle_hex_big;
+	printf("X \n");
+	unsigned int v = 2456456462;
+	sys = printf("|%X|\n", v);
+	own = ft_printf("|%X|\n", v);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
+
+//	p->handlers['c'] = handle_char;
+	printf("c \n");
+	char i = 'A';
+	sys = printf("|%c|\n", a);
+	own = ft_printf("|%c|\n", a);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
+
+	//	p->handlers['c'] = handle_char_w;
+	printf("C \n");
+	wchar_t value = L'{';
+	sys = printf("|%lc|\n", value);
+	own = ft_printf("|%C|\n", value);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 }
