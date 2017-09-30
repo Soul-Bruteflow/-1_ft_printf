@@ -2161,6 +2161,33 @@ src/ft_putwstr.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwstr.c.s
 .PHONY : src/ft_putwstr.c.s
 
+src/ft_strnlen.o: src/ft_strnlen.c.o
+
+.PHONY : src/ft_strnlen.o
+
+# target to build an object file
+src/ft_strnlen.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.o
+.PHONY : src/ft_strnlen.c.o
+
+src/ft_strnlen.i: src/ft_strnlen.c.i
+
+.PHONY : src/ft_strnlen.i
+
+# target to preprocess a source file
+src/ft_strnlen.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.i
+.PHONY : src/ft_strnlen.c.i
+
+src/ft_strnlen.s: src/ft_strnlen.c.s
+
+.PHONY : src/ft_strnlen.s
+
+# target to generate assembly for a file
+src/ft_strnlen.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.s
+.PHONY : src/ft_strnlen.c.s
+
 src/ft_strreverse.o: src/ft_strreverse.c.o
 
 .PHONY : src/ft_strreverse.o
@@ -2782,6 +2809,33 @@ src/print/ft_print.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/ft_print.c.s
 .PHONY : src/print/ft_print.c.s
 
+src/print/print_prefix_pad.o: src/print/print_prefix_pad.c.o
+
+.PHONY : src/print/print_prefix_pad.o
+
+# target to build an object file
+src/print/print_prefix_pad.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o
+.PHONY : src/print/print_prefix_pad.c.o
+
+src/print/print_prefix_pad.i: src/print/print_prefix_pad.c.i
+
+.PHONY : src/print/print_prefix_pad.i
+
+# target to preprocess a source file
+src/print/print_prefix_pad.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.i
+.PHONY : src/print/print_prefix_pad.c.i
+
+src/print/print_prefix_pad.s: src/print/print_prefix_pad.c.s
+
+.PHONY : src/print/print_prefix_pad.s
+
+# target to generate assembly for a file
+src/print/print_prefix_pad.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.s
+.PHONY : src/print/print_prefix_pad.c.s
+
 src/untoh.o: src/untoh.c.o
 
 .PHONY : src/untoh.o
@@ -3044,6 +3098,9 @@ help:
 	@echo "... src/ft_putwstr.o"
 	@echo "... src/ft_putwstr.i"
 	@echo "... src/ft_putwstr.s"
+	@echo "... src/ft_strnlen.o"
+	@echo "... src/ft_strnlen.i"
+	@echo "... src/ft_strnlen.s"
 	@echo "... src/ft_strreverse.o"
 	@echo "... src/ft_strreverse.i"
 	@echo "... src/ft_strreverse.s"
@@ -3113,6 +3170,9 @@ help:
 	@echo "... src/print/ft_print.o"
 	@echo "... src/print/ft_print.i"
 	@echo "... src/print/ft_print.s"
+	@echo "... src/print/print_prefix_pad.o"
+	@echo "... src/print/print_prefix_pad.i"
+	@echo "... src/print/print_prefix_pad.s"
 	@echo "... src/untoh.o"
 	@echo "... src/untoh.i"
 	@echo "... src/untoh.s"

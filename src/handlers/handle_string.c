@@ -18,15 +18,10 @@ void	handle_string(t_printf *p)
 		strlen = p->got_precision ? ft_strnlen(str, p->precision) :
 				 ft_strlen(str);
 		if (p->got_width && !p->flags.minus)
-
-//			ft_printf_width_pad(strlen, arg->width, arg->pad_zeroes ? '0' : ' ');
-			return;
+			p->count += print_prefix_pad(strlen, p->width,
+			p->flags.zero ? (char)'0' : (char)' ');
 		p->count += ft_print(str, true, strlen);
-		ft_putnstr(str, strlen);
-		if (arg->got_width && arg->right_pad)
-			ft_printf_width_pad(strlen, arg->width, ' ');
-		return (arg->got_width ? FT_MAX(strlen, arg->width) : strlen);
+		if (p->got_width && p->flags.minus)
+			p->count += print_prefix_pad(strlen, p->width, ' ');
 	}
-
-	p->count += ft_print(va_arg(p->args, char*));
 }

@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwchar_fd.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_putwstr.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/ft_strnlen.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_strnlen.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_strreverse.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_strreverse.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/general/init_printf.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/general/init_printf.c.o"
@@ -40,6 +41,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_precision.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_width.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_print.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/print/print_prefix_pad.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/untoh.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/untoh.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

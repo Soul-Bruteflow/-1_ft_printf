@@ -90,6 +90,10 @@ libft.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_strnlen.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_strreverse.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
@@ -185,6 +189,10 @@ ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/print/ft_print.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/print/print_prefix_pad.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/print/ft_printf.h
 

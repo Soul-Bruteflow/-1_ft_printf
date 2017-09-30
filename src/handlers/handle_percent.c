@@ -2,5 +2,5 @@
 
 void	handle_percent(t_printf *p)
 {
-	p->count += ft_print("%");
+	p->count += ft_print("%", false, 0);
 }

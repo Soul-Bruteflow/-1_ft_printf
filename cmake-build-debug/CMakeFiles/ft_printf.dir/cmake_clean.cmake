@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o"
+  "CMakeFiles/ft_printf.dir/src/ft_strnlen.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_strreverse.c.o"
   "CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o"
   "CMakeFiles/ft_printf.dir/src/main.c.o"
@@ -36,6 +37,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o"
   "CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
   "CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
+  "CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
   "ft_printf.pdb"
   "ft_printf"
 )

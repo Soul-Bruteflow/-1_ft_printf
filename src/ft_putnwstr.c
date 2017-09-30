@@ -1,22 +1,30 @@
 #include <wchar.h>
 #include "ft_printf.h"
 
-void	ft_putnwstr(const wchar_t *str, size_t len)
+size_t	ft_print_wstr(const wchar_t *print, t_bool is_len, size_t l)
 {
 	size_t	i;
+	size_t len;
 
+	if(!print)
+		return (0);
+	if (is_len)
+		len = l;
+	else
+		len = ft_wstrlen(print);
 	i = 0;
-	while (*str && i < len)
+	while (*print && i < len)
 	{
-		if (*str <= 0x7F)
+		if (*print <= 0x7F)
 			i++;
-		else if (*str <= 0x7FF)
+		else if (*print <= 0x7FF)
 			i += 2;
-		else if (*str <= 0xFFFF)
+		else if (*print <= 0xFFFF)
 			i += 3;
-		else if (*str <= 0x10FFFF)
+		else if (*print <= 0x10FFFF)
 			i += 4;
 		if (i <= len)
-			ft_putwchar(*str++);
+			ft_putwchar(*print++);
 	}
+	return (len);
 }
