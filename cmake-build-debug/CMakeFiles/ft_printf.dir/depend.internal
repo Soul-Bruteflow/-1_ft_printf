@@ -29,6 +29,9 @@ CMakeFiles/ft_printf.dir/src/ft_islength.c.o
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
+CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_positive.c
 CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c
@@ -153,6 +156,11 @@ CMakeFiles/ft_printf.dir/src/main.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/main.c
+CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o
  .././inc/bool.h
  .././inc/ft_printf.h

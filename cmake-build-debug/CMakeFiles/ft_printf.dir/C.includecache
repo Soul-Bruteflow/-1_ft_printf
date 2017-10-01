@@ -54,6 +54,10 @@ ft_printf.h
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_positive.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
@@ -171,6 +175,10 @@ libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 locale.h
 -
+
+/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c
 ft_printf.h

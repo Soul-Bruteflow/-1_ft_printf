@@ -46,10 +46,10 @@ int main()
 
 //	p->handlers['p'] = handle_pointer;
 	printf("p \n");
-	int a = 42;
+	int a = -42;
 	int *b = &a;
-	sys = printf("|%.16p|\n", b);
-	own = ft_printf("|%.16p|\n", b);
+	sys = printf("|%70.2d|\n", a);
+	own = ft_printf("|%70.2d|\n", a);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
@@ -149,7 +149,7 @@ int main()
 //	wchar_t value = L'{';
 //	sys = printf("|%lc|\n", value);
 //	own = ft_printf("|%C|\n", value);
-
-	printf("sys - %d", sys);
-	printf("\nown - %d\n\n", own);
+//
+//	printf("sys - %d", sys);
+//	printf("\nown - %d\n\n", own);
 }

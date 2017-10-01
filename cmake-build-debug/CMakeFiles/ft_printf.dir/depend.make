@@ -29,6 +29,9 @@ CMakeFiles/ft_printf.dir/src/ft_islength.c.o: ../src/ft_islength.c
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o: ../src/ft_itoa_long.c
 
+CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o: ../src/ft_itoa_positive.c
+
 CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o: ../src/ft_itoa_uint.c
 
@@ -152,6 +155,11 @@ CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
+
+CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: ../src/parse/get_number_by_len.c
 
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: .././inc/ft_printf.h

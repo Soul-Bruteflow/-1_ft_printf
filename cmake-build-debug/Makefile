@@ -1972,6 +1972,33 @@ src/ft_itoa_long.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.s
 .PHONY : src/ft_itoa_long.c.s
 
+src/ft_itoa_positive.o: src/ft_itoa_positive.c.o
+
+.PHONY : src/ft_itoa_positive.o
+
+# target to build an object file
+src/ft_itoa_positive.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o
+.PHONY : src/ft_itoa_positive.c.o
+
+src/ft_itoa_positive.i: src/ft_itoa_positive.c.i
+
+.PHONY : src/ft_itoa_positive.i
+
+# target to preprocess a source file
+src/ft_itoa_positive.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.i
+.PHONY : src/ft_itoa_positive.c.i
+
+src/ft_itoa_positive.s: src/ft_itoa_positive.c.s
+
+.PHONY : src/ft_itoa_positive.s
+
+# target to generate assembly for a file
+src/ft_itoa_positive.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.s
+.PHONY : src/ft_itoa_positive.c.s
+
 src/ft_itoa_uint.o: src/ft_itoa_uint.c.o
 
 .PHONY : src/ft_itoa_uint.o
@@ -2674,6 +2701,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/parse/get_number_by_len.o: src/parse/get_number_by_len.c.o
+
+.PHONY : src/parse/get_number_by_len.o
+
+# target to build an object file
+src/parse/get_number_by_len.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o
+.PHONY : src/parse/get_number_by_len.c.o
+
+src/parse/get_number_by_len.i: src/parse/get_number_by_len.c.i
+
+.PHONY : src/parse/get_number_by_len.i
+
+# target to preprocess a source file
+src/parse/get_number_by_len.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.i
+.PHONY : src/parse/get_number_by_len.c.i
+
+src/parse/get_number_by_len.s: src/parse/get_number_by_len.c.s
+
+.PHONY : src/parse/get_number_by_len.s
+
+# target to generate assembly for a file
+src/parse/get_number_by_len.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.s
+.PHONY : src/parse/get_number_by_len.c.s
+
 src/parse/parse_flags.o: src/parse/parse_flags.c.o
 
 .PHONY : src/parse/parse_flags.o
@@ -3077,6 +3131,9 @@ help:
 	@echo "... src/ft_itoa_long.o"
 	@echo "... src/ft_itoa_long.i"
 	@echo "... src/ft_itoa_long.s"
+	@echo "... src/ft_itoa_positive.o"
+	@echo "... src/ft_itoa_positive.i"
+	@echo "... src/ft_itoa_positive.s"
 	@echo "... src/ft_itoa_uint.o"
 	@echo "... src/ft_itoa_uint.i"
 	@echo "... src/ft_itoa_uint.s"
@@ -3155,6 +3212,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parse/get_number_by_len.o"
+	@echo "... src/parse/get_number_by_len.i"
+	@echo "... src/parse/get_number_by_len.s"
 	@echo "... src/parse/parse_flags.o"
 	@echo "... src/parse/parse_flags.i"
 	@echo "... src/parse/parse_flags.s"

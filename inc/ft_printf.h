@@ -86,6 +86,9 @@ void				parse_flags(t_printf *p);
 void				parse_width(t_printf *p);
 void				parse_precision(t_printf *p);
 void				parse_length(t_printf *p);
+intmax_t			get_number_by_len(t_printf *p);
+
+char				*ft_itoa_positive(intmax_t n);
 
 /*
 ** Parsing support

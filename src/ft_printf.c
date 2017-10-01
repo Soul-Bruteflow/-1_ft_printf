@@ -14,11 +14,7 @@ void parse_core(t_printf *p)
 	if (ft_isdigit(p->format[p->i]))
 		parse_width(p);
 	if (p->format[p->i] == '.')
-	{
-//		p->i++;
-//		if (ft_isdigit(p->format[p->i]))
-			parse_precision(p);
-	}
+		parse_precision(p);
 	if (ft_islength(p->format, p->i))
 		parse_length(p);
 	if (ft_isconversion_char(p->format, p->i))

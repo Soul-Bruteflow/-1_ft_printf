@@ -341,6 +341,9 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_positive.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -417,6 +420,9 @@
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c">
