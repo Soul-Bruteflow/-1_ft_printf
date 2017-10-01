@@ -25,34 +25,34 @@ int main()
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
 
-//	p->handlers['s'] = handle_string;
-	printf("s \n");
-	char *s = "Hello";
-	sys = printf("|%s|\n", s);
-	own = ft_printf("|%s|\n", s);
-
-	printf("sys - %d", sys);
-	printf("\nown - %d\n\n", own);
-
-//	p->handlers['S'] = handle_string_w;
-	printf("S \n");
-	wchar_t wstr[5] = {0xC189, 0xC388, 0xC384, 0xC384, 0};
-	setlocale(LC_ALL, "");
-	sys = printf("|%ls|\n", &wstr);
-	own = ft_printf("|%S|\n", wstr);
-
-	printf("sys - %d", sys);
-	printf("\nown - %d\n\n", own);
-
-////	p->handlers['p'] = handle_pointer;
-//	printf("p \n");
-//	int a = 42;
-//	int *b = &a;
-//	sys = printf("|%p|\n", b);
-//	own = ft_printf("|%p|\n", b);
+////	p->handlers['s'] = handle_string;
+//	printf("s \n");
+//	char *s = "Hello";
+//	sys = printf("|%s|\n", s);
+//	own = ft_printf("|%s|\n", s);
 //
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
+//
+////	p->handlers['S'] = handle_string_w;
+//	printf("S \n");
+//	wchar_t wstr[5] = {0xC189, 0xC388, 0xC384, 0xC384, 0};
+//	setlocale(LC_ALL, "");
+//	sys = printf("|%ls|\n", &wstr);
+//	own = ft_printf("|%S|\n", wstr);
+//
+//	printf("sys - %d", sys);
+//	printf("\nown - %d\n\n", own);
+
+//	p->handlers['p'] = handle_pointer;
+	printf("p \n");
+	int a = 42;
+	int *b = &a;
+	sys = printf("|%.16p|\n", b);
+	own = ft_printf("|%.16p|\n", b);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 //
 ////	p->handlers['d'] = handle_int;
 //	printf("d \n");
