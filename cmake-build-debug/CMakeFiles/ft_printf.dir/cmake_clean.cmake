@@ -41,6 +41,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
   "CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
   "CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
+  "CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o"
   "ft_printf.pdb"

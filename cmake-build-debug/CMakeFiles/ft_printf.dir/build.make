@@ -1065,9 +1065,33 @@ CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o.provides: CMakeFiles/ft_
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o.provides.build: CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o
 
 
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o: ../src/handlers/support/handle_bases.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o   -c /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c
+
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c > CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.i
+
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c -o CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.s
+
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.requires:
+
+.PHONY : CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.requires
+
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.provides: CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.requires
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.provides.build
+.PHONY : CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.provides
+
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.provides.build: CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o
+
+
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o: ../src/handlers/support/handle_numbers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o   -c /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c
 
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.i: cmake_force
@@ -1091,7 +1115,7 @@ CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o.provides.build:
 
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o: ../src/handlers/support/handle_numbers_sup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o   -c /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c
 
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.i: cmake_force
@@ -1157,6 +1181,7 @@ ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o" \
 "CMakeFiles/ft_printf.dir/src/print/ft_print.c.o" \
 "CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o" \
+"CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o" \
 "CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o" \
 "CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o"
 
@@ -1205,12 +1230,13 @@ ft_printf: CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/print/ft_print.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o
+ft_printf: CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o
 ft_printf: CMakeFiles/ft_printf.dir/build.make
 ft_printf: libft.a
 ft_printf: CMakeFiles/ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable ft_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking C executable ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1260,6 +1286,7 @@ CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/parse/parse_prec
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/print/ft_print.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o.requires
+CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o.requires
 

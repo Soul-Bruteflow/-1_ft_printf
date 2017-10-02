@@ -419,6 +419,9 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c">
 			<Option target="ft_printf"/>
 		</Unit>

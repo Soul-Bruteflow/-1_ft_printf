@@ -151,6 +151,11 @@ CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c
+CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c
 CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o
  .././inc/bool.h
  .././inc/ft_printf.h

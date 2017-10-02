@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string_w.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_uint.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o"
+  "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o"
   "/Users/bruteflow/c_projects/4_ft_printf/src/main.c" "/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"

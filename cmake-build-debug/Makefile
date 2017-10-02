@@ -2674,6 +2674,33 @@ src/handlers/handle_ulong.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.s
 .PHONY : src/handlers/handle_ulong.c.s
 
+src/handlers/support/handle_bases.o: src/handlers/support/handle_bases.c.o
+
+.PHONY : src/handlers/support/handle_bases.o
+
+# target to build an object file
+src/handlers/support/handle_bases.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o
+.PHONY : src/handlers/support/handle_bases.c.o
+
+src/handlers/support/handle_bases.i: src/handlers/support/handle_bases.c.i
+
+.PHONY : src/handlers/support/handle_bases.i
+
+# target to preprocess a source file
+src/handlers/support/handle_bases.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.i
+.PHONY : src/handlers/support/handle_bases.c.i
+
+src/handlers/support/handle_bases.s: src/handlers/support/handle_bases.c.s
+
+.PHONY : src/handlers/support/handle_bases.s
+
+# target to generate assembly for a file
+src/handlers/support/handle_bases.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.s
+.PHONY : src/handlers/support/handle_bases.c.s
+
 src/handlers/support/handle_numbers.o: src/handlers/support/handle_numbers.c.o
 
 .PHONY : src/handlers/support/handle_numbers.o
@@ -3290,6 +3317,9 @@ help:
 	@echo "... src/handlers/handle_ulong.o"
 	@echo "... src/handlers/handle_ulong.i"
 	@echo "... src/handlers/handle_ulong.s"
+	@echo "... src/handlers/support/handle_bases.o"
+	@echo "... src/handlers/support/handle_bases.i"
+	@echo "... src/handlers/support/handle_bases.s"
 	@echo "... src/handlers/support/handle_numbers.o"
 	@echo "... src/handlers/support/handle_numbers.i"
 	@echo "... src/handlers/support/handle_numbers.s"
