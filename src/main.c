@@ -48,8 +48,8 @@ int main()
 	printf("p \n");
 	int a = -42;
 	int *b = &a;
-	sys = printf("|%70.2d|\n", a);
-	own = ft_printf("|%70.2d|\n", a);
+	sys = printf("|%015.10d|\n", a);
+	own = ft_printf("|%015.10d|\n", a);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
