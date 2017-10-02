@@ -48,8 +48,8 @@ int main()
 	printf("p \n");
 	unsigned int a = 4222211111;
 	int *b = &a;
-	sys = printf("|%+10.11u|\n", a);
-	own = ft_printf("|%+10.11u|\n", a);
+	sys = printf("|%u|\n", a);
+	own = ft_printf("|%u|\n", a);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);

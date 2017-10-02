@@ -39,9 +39,13 @@ void		handle_numbers(t_printf *p)
 	prefix = "";
 	if (p->got_precision)
 		p->flags.zero = false;
-	nbr = get_number_by_len_unsigned(p);
 	if(p->is_signed)
+	{
+		nbr =get_number_by_len(p);
 		handle_prefix(p, &nbr, &prefix);
+	}
+	else
+		nbr =  get_number_by_len_unsigned(p);
 	n = ft_itoa_positive(nbr);
 	len = ft_strlen(n);
 	dif = p->precision - len;

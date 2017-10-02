@@ -166,6 +166,14 @@ ft_printf.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
