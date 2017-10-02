@@ -39,6 +39,7 @@ typedef struct		s_printf
 	t_flags			flags;
 	t_bool			got_width;
 	t_bool			got_precision;
+	t_bool			is_signed;
 	unsigned int	width;
 	unsigned int	precision;
 	t_len			len;
@@ -78,6 +79,13 @@ void				handle_hex_big(t_printf *p);
 void				handle_char(t_printf *p);
 void				handle_char_w(t_printf *p);
 
+void				handle_numbers(t_printf *p);
+void				handle_case_one(t_printf *p, ssize_t dif, size_t len, char *pref);
+void				handle_case_two(t_printf *p, size_t len, char *pref);
+void				handle_case_three(t_printf *p, size_t len, char *pref);
+void				handle_case_four(t_printf *p, size_t len, char *pref);
+void				handle_case_five(t_printf *p, ssize_t dif, size_t len, char *pref);
+
 /*
 ** Parsing
 */
@@ -87,6 +95,7 @@ void				parse_width(t_printf *p);
 void				parse_precision(t_printf *p);
 void				parse_length(t_printf *p);
 intmax_t			get_number_by_len(t_printf *p);
+uintmax_t			get_number_by_len_unsigned(t_printf *p);
 
 char				*ft_itoa_positive(intmax_t n);
 

@@ -180,6 +180,10 @@ locale.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
 
+/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+
 /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h

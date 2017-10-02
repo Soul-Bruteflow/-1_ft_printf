@@ -419,10 +419,19 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c">

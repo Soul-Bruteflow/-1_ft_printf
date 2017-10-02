@@ -46,10 +46,10 @@ int main()
 
 //	p->handlers['p'] = handle_pointer;
 	printf("p \n");
-	int a = -42;
+	unsigned int a = 4222211111;
 	int *b = &a;
-	sys = printf("|%015.10d|\n", a);
-	own = ft_printf("|%015.10d|\n", a);
+	sys = printf("|%+10.11u|\n", a);
+	own = ft_printf("|%+10.11u|\n", a);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);

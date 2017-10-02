@@ -2674,6 +2674,60 @@ src/handlers/handle_ulong.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.s
 .PHONY : src/handlers/handle_ulong.c.s
 
+src/handlers/support/handle_numbers.o: src/handlers/support/handle_numbers.c.o
+
+.PHONY : src/handlers/support/handle_numbers.o
+
+# target to build an object file
+src/handlers/support/handle_numbers.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o
+.PHONY : src/handlers/support/handle_numbers.c.o
+
+src/handlers/support/handle_numbers.i: src/handlers/support/handle_numbers.c.i
+
+.PHONY : src/handlers/support/handle_numbers.i
+
+# target to preprocess a source file
+src/handlers/support/handle_numbers.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.i
+.PHONY : src/handlers/support/handle_numbers.c.i
+
+src/handlers/support/handle_numbers.s: src/handlers/support/handle_numbers.c.s
+
+.PHONY : src/handlers/support/handle_numbers.s
+
+# target to generate assembly for a file
+src/handlers/support/handle_numbers.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.s
+.PHONY : src/handlers/support/handle_numbers.c.s
+
+src/handlers/support/handle_numbers_sup.o: src/handlers/support/handle_numbers_sup.c.o
+
+.PHONY : src/handlers/support/handle_numbers_sup.o
+
+# target to build an object file
+src/handlers/support/handle_numbers_sup.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o
+.PHONY : src/handlers/support/handle_numbers_sup.c.o
+
+src/handlers/support/handle_numbers_sup.i: src/handlers/support/handle_numbers_sup.c.i
+
+.PHONY : src/handlers/support/handle_numbers_sup.i
+
+# target to preprocess a source file
+src/handlers/support/handle_numbers_sup.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.i
+.PHONY : src/handlers/support/handle_numbers_sup.c.i
+
+src/handlers/support/handle_numbers_sup.s: src/handlers/support/handle_numbers_sup.c.s
+
+.PHONY : src/handlers/support/handle_numbers_sup.s
+
+# target to generate assembly for a file
+src/handlers/support/handle_numbers_sup.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.s
+.PHONY : src/handlers/support/handle_numbers_sup.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -2727,6 +2781,33 @@ src/parse/get_number_by_len.s: src/parse/get_number_by_len.c.s
 src/parse/get_number_by_len.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.s
 .PHONY : src/parse/get_number_by_len.c.s
+
+src/parse/get_number_by_len_unsigned.o: src/parse/get_number_by_len_unsigned.c.o
+
+.PHONY : src/parse/get_number_by_len_unsigned.o
+
+# target to build an object file
+src/parse/get_number_by_len_unsigned.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o
+.PHONY : src/parse/get_number_by_len_unsigned.c.o
+
+src/parse/get_number_by_len_unsigned.i: src/parse/get_number_by_len_unsigned.c.i
+
+.PHONY : src/parse/get_number_by_len_unsigned.i
+
+# target to preprocess a source file
+src/parse/get_number_by_len_unsigned.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.i
+.PHONY : src/parse/get_number_by_len_unsigned.c.i
+
+src/parse/get_number_by_len_unsigned.s: src/parse/get_number_by_len_unsigned.c.s
+
+.PHONY : src/parse/get_number_by_len_unsigned.s
+
+# target to generate assembly for a file
+src/parse/get_number_by_len_unsigned.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.s
+.PHONY : src/parse/get_number_by_len_unsigned.c.s
 
 src/parse/parse_flags.o: src/parse/parse_flags.c.o
 
@@ -3209,12 +3290,21 @@ help:
 	@echo "... src/handlers/handle_ulong.o"
 	@echo "... src/handlers/handle_ulong.i"
 	@echo "... src/handlers/handle_ulong.s"
+	@echo "... src/handlers/support/handle_numbers.o"
+	@echo "... src/handlers/support/handle_numbers.i"
+	@echo "... src/handlers/support/handle_numbers.s"
+	@echo "... src/handlers/support/handle_numbers_sup.o"
+	@echo "... src/handlers/support/handle_numbers_sup.i"
+	@echo "... src/handlers/support/handle_numbers_sup.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/parse/get_number_by_len.o"
 	@echo "... src/parse/get_number_by_len.i"
 	@echo "... src/parse/get_number_by_len.s"
+	@echo "... src/parse/get_number_by_len_unsigned.o"
+	@echo "... src/parse/get_number_by_len_unsigned.i"
+	@echo "... src/parse/get_number_by_len_unsigned.s"
 	@echo "... src/parse/parse_flags.o"
 	@echo "... src/parse/parse_flags.i"
 	@echo "... src/parse/parse_flags.s"
