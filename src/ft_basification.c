@@ -41,5 +41,9 @@ char *ft_basification(uintmax_t num, uint8_t base, t_bool size)
 		return (ft_strreverse(reversed));
 	}
 	else
+	{
+		if (num == 0)
+			return ("0");
 		return (ft_strreverse(reversed));
+	}
 }

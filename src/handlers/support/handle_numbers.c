@@ -16,7 +16,7 @@ static void	handle_prefix(t_printf *p, intmax_t	*nbr, char **pref)
 	}
 }
 
-static void	handle_prefix_int(t_printf *p, ssize_t dif, size_t len, char *pref)
+static void	handle_pad_int(t_printf *p, ssize_t dif, size_t len, char *pref)
 {
 	if (p->got_width && p->got_precision && !p->flags.minus)
 		handle_case_one(p, dif, len, pref);
@@ -41,7 +41,7 @@ void		handle_numbers(t_printf *p)
 		p->flags.zero = false;
 	if(p->is_signed)
 	{
-		nbr =get_number_by_len(p);
+		nbr = get_number_by_len(p);
 		handle_prefix(p, &nbr, &prefix);
 	}
 	else
@@ -49,7 +49,7 @@ void		handle_numbers(t_printf *p)
 	n = ft_itoa_positive(nbr);
 	len = ft_strlen(n);
 	dif = p->precision - len;
-	handle_prefix_int(p, dif, len, prefix);
+	handle_pad_int(p, dif, len, prefix);
 	if (!p->got_width && !p->got_precision && !p->flags.minus)
 		p->count += ft_print(prefix, false, 0);
 	if (nbr > 0)
