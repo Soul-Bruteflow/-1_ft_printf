@@ -9,18 +9,18 @@
 //}
 static void init_basification(char *basification, char *reversed)
 {
-	ft_bzero(reversed, 99);
+	ft_bzero(reversed, 200);
 	ft_bzero(basification, 37);
 	ft_strcpy(basification, "0123456789abcdefghijklmnopqrstuvwxyz");
 }
 
 char *ft_basification(uintmax_t num, uint8_t base, t_bool size)
 {
-	char	basification[37];
-	long	remainder;
-	long	digit;
-	char	reversed[99];
-	int		ndx;
+	char		basification[37];
+	uintmax_t	remainder;
+	uintmax_t	digit;
+	char		reversed[200];
+	size_t		ndx;
 
 	ndx = 0;
 	init_basification(basification, reversed);

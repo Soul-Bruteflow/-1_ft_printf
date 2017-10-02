@@ -80,7 +80,7 @@ void				handle_char(t_printf *p);
 void				handle_char_w(t_printf *p);
 
 void				handle_numbers(t_printf *p);
-void				handle_bases(t_printf *p, char *pref, uint8_t base);
+void				handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size);
 void				handle_case_one(t_printf *p, ssize_t dif, size_t len, char *pref);
 void				handle_case_two(t_printf *p, size_t len, char *pref);
 void				handle_case_three(t_printf *p, size_t len, char *pref);
