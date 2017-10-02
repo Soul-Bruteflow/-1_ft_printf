@@ -54,6 +54,8 @@ void		handle_numbers(t_printf *p)
 		p->count += ft_print(prefix, false, 0);
 	if (nbr > 0)
 		p->count += ft_print(n, false, 0);
+	else if (nbr == 0)
+		p->count += ft_print("0", false, 0);
 	if (p->got_width && p->flags.minus)
 		handle_case_five(p, dif, len, prefix);
 }

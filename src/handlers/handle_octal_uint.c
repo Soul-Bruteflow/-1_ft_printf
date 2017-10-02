@@ -11,7 +11,7 @@ static void	handle_pad_int(t_printf *p, ssize_t dif, size_t len, char *pref)
 	else if (p->got_width && !p->flags.minus)
 		handle_case_three(p, len, "");
 	if (p->flags.minus)
-		handle_case_four(p, len, pref);
+		handle_case_four(p, len, "");
 }
 
 void	handle_octal_uint(t_printf *p)
@@ -19,22 +19,24 @@ void	handle_octal_uint(t_printf *p)
 	char		*n;
 	size_t		len;
 	char		*pref;
-	t_bool		is_pref_printed;
 	uintmax_t 	nbr;
+	ssize_t		dif;
 
-	pref = "x";
-	is_pref_printed = false;
-//	if (p->len != none)
+	pref = "0";
 	nbr = get_number_by_len_unsigned(p);
+	if (nbr == 0)
+		pref = "";
 	n = ft_basification(nbr, 8, false);
 	len = ft_strlen(n);
-	ssize_t		dif = p->precision - len;
+	dif = p->precision - len;
 	if (p->got_precision)
 		p->flags.zero = false;
-
 	handle_pad_int(p, dif, len, pref);
 	p->count += ft_print(n, false, 0);
-
+//	if (p->got_width && p->flags.minus && p->got_precision)
+//		handle_case_five(p, dif, len, "");
+	if (p->got_width && p->flags.minus)
+		handle_case_five(p, dif, len, "");
 
 
 
