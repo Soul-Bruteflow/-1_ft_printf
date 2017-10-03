@@ -50,21 +50,13 @@ ft_printf.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
-
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_positive.c
 libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
-
-/Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_ulong.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_print.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.c
 ntsid.h
@@ -106,77 +98,85 @@ ft_printf.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/general/init_printf.c
+/Users/bruteflow/c_projects/4_ft_printf/src/get_number_by_len.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/general/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char.c
+/Users/bruteflow/c_projects/4_ft_printf/src/get_number_by_len_unsigned.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char_w.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_bases.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_big.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_char.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_small.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_char_w.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_hex_big.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int_long.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_hex_small.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_uint.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_int.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_ulong.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_int_long.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_percent.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_numbers.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_pointer.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_numbers_sup.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_octal_uint.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string_w.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_octal_ulong.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_uint.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_percent.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_pointer.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_string.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_string_w.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_uint.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/handle_ulong.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
+
+/Users/bruteflow/c_projects/4_ft_printf/src/init_printf.c
+ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h
@@ -188,37 +188,37 @@ libft.h
 locale.h
 -
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c
-ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_long.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c
-ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_uint.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c
-ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_ulong.c
+libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_length.c
+/Users/bruteflow/c_projects/4_ft_printf/src/parse_flags.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_precision.c
+/Users/bruteflow/c_projects/4_ft_printf/src/parse_length.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_width.c
+/Users/bruteflow/c_projects/4_ft_printf/src/parse_precision.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/parse/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_print.c
+/Users/bruteflow/c_projects/4_ft_printf/src/parse_width.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/print/print_prefix_pad.c
+/Users/bruteflow/c_projects/4_ft_printf/src/print_prefix_pad.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/print/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/untoh.c
 ft_printf.h

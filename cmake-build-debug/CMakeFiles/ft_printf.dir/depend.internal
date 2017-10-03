@@ -26,18 +26,14 @@ CMakeFiles/ft_printf.dir/src/ft_islength.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_islength.c
-CMakeFiles/ft_printf.dir/src/ft_itoa_long.c.o
- .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_long.c
 CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_positive.c
-CMakeFiles/ft_printf.dir/src/ft_itoa_uint.c.o
+CMakeFiles/ft_printf.dir/src/ft_print.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_uint.c
-CMakeFiles/ft_printf.dir/src/ft_itoa_ulong.c.o
- .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/ft_itoa_ulong.c
+ /Users/bruteflow/c_projects/4_ft_printf/src/ft_print.c
 CMakeFiles/ft_printf.dir/src/ft_printf.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
@@ -76,141 +72,145 @@ CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft_wstrlen.c
-CMakeFiles/ft_printf.dir/src/general/init_printf.c.o
+CMakeFiles/ft_printf.dir/src/get_number_by_len.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/general/init_printf.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_char.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/get_number_by_len.c
+CMakeFiles/ft_printf.dir/src/get_number_by_len_unsigned.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_char_w.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/get_number_by_len_unsigned.c
+CMakeFiles/ft_printf.dir/src/handle_bases.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_char_w.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_hex_big.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_bases.c
+CMakeFiles/ft_printf.dir/src/handle_char.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_big.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_hex_small.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_char.c
+CMakeFiles/ft_printf.dir/src/handle_char_w.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_hex_small.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_int.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_char_w.c
+CMakeFiles/ft_printf.dir/src/handle_hex_big.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_int_long.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_hex_big.c
+CMakeFiles/ft_printf.dir/src/handle_hex_small.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_int_long.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_octal_uint.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_hex_small.c
+CMakeFiles/ft_printf.dir/src/handle_int.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_uint.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_octal_ulong.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_int.c
+CMakeFiles/ft_printf.dir/src/handle_int_long.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_octal_ulong.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_percent.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_int_long.c
+CMakeFiles/ft_printf.dir/src/handle_numbers.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_percent.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_pointer.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_numbers.c
+CMakeFiles/ft_printf.dir/src/handle_numbers_sup.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_pointer.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_string.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_numbers_sup.c
+CMakeFiles/ft_printf.dir/src/handle_octal_uint.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_string_w.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_octal_uint.c
+CMakeFiles/ft_printf.dir/src/handle_octal_ulong.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_string_w.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_uint.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_octal_ulong.c
+CMakeFiles/ft_printf.dir/src/handle_percent.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_uint.c
-CMakeFiles/ft_printf.dir/src/handlers/handle_ulong.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_percent.c
+CMakeFiles/ft_printf.dir/src/handle_pointer.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/handle_ulong.c
-CMakeFiles/ft_printf.dir/src/handlers/support/handle_bases.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_pointer.c
+CMakeFiles/ft_printf.dir/src/handle_string.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_bases.c
-CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_string.c
+CMakeFiles/ft_printf.dir/src/handle_string_w.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers.c
-CMakeFiles/ft_printf.dir/src/handlers/support/handle_numbers_sup.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_string_w.c
+CMakeFiles/ft_printf.dir/src/handle_uint.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/handlers/support/handle_numbers_sup.c
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_uint.c
+CMakeFiles/ft_printf.dir/src/handle_ulong.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/handle_ulong.c
+CMakeFiles/ft_printf.dir/src/init_printf.c.o
+ .././inc/bool.h
+ .././inc/ft_printf.h
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/init_printf.c
 CMakeFiles/ft_printf.dir/src/main.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/main.c
-CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o
+CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.o
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_long.c
+CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.o
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_uint.c
+CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.o
+ .././libft/libft.h
+ /Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_ulong.c
+CMakeFiles/ft_printf.dir/src/parse_flags.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len.c
-CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/parse_flags.c
+CMakeFiles/ft_printf.dir/src/parse_length.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c
-CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/parse_length.c
+CMakeFiles/ft_printf.dir/src/parse_precision.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_flags.c
-CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/parse_precision.c
+CMakeFiles/ft_printf.dir/src/parse_width.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_length.c
-CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o
+ /Users/bruteflow/c_projects/4_ft_printf/src/parse_width.c
+CMakeFiles/ft_printf.dir/src/print_prefix_pad.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
  .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_precision.c
-CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o
- .././inc/bool.h
- .././inc/ft_printf.h
- .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/parse/parse_width.c
-CMakeFiles/ft_printf.dir/src/print/ft_print.c.o
- .././inc/bool.h
- .././inc/ft_printf.h
- .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/print/ft_print.c
-CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o
- .././inc/bool.h
- .././inc/ft_printf.h
- .././libft/libft.h
- /Users/bruteflow/c_projects/4_ft_printf/src/print/print_prefix_pad.c
+ /Users/bruteflow/c_projects/4_ft_printf/src/print_prefix_pad.c
 CMakeFiles/ft_printf.dir/src/untoh.c.o
  .././inc/bool.h
  .././inc/ft_printf.h

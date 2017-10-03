@@ -3,7 +3,7 @@
 size_t	print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar)
 {
 	ssize_t dif;
-	size_t i;
+	ssize_t i;
 
 	i = 0;
 	dif = width - nbrstrlen;
@@ -15,5 +15,5 @@ size_t	print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar)
 			i++;
 		}
 	}
-	return (i);
+	return ((size_t)i);
 }

@@ -7,7 +7,7 @@ t_bool ft_islength(const char *format, size_t i)
 		return (true);
 	else if (format[i] != '\0' && format[i + 1] != '\0' &&
 			((format[i] == 'h' && format[i + 1] == 'h') ||
-			format[i] == 'l' && format[i + 1] == 'l'))
+			(format[i] == 'l' && format[i + 1] == 'l')))
 		return (true);
 	return (false);
 }

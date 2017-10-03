@@ -19,7 +19,7 @@ void parse_core(t_printf *p)
 		parse_length(p);
 	if (ft_isconversion_char(p->format, p->i))
 	{
-		p->conv_char = p->format[p->i];
+		p->conv_char = (unsigned char)p->format[p->i];
 		(p->handlers[p->conv_char])(p);
 	}
 }
@@ -50,7 +50,7 @@ int ft_printf(const char *format, ...)
 		return (0);
 	if (format)
 	{
-		va_start (p->args, p->format);
+		va_start (p->args, format);
 		p->count = walk_format(p);
 		va_end (p->args);
 	}
