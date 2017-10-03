@@ -10,6 +10,8 @@ static void	handle_pad_int(t_printf *p, ssize_t dif, size_t len, char *pref)
 		handle_case_three(p, len, pref);
 	else if (p->got_width && !p->flags.minus)
 		handle_case_three(p, len, "");
+	else if (p->flags.hashtag && !p->flags.minus)
+		p->count += ft_print(pref, false, 0);
 	if (p->flags.minus)
 		handle_case_four(p, len, dif < 0 ? pref : "");
 }

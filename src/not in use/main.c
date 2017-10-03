@@ -44,15 +44,15 @@ int main()
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
 
-//	p->handlers['p'] = handle_pointer;
-//	printf("p \n");
-//	unsigned int a = 1456;
-//	int *b = &a;
-//	sys = printf("|%#10.3X|\n", a);
-//	own = ft_printf("|%#10.X|\n", a);
-//
-//	printf("sys - %d", sys);
-//	printf("\nown - %d\n\n", own);
+////	p->handlers['p'] = handle_pointer;
+	printf("p \n");
+	unsigned int a = 42;
+	int *b = &a;
+	sys = printf("|%#X|\n", a);
+	own = ft_printf("|%#X|\n", a);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 //
 ////	p->handlers['d'] = handle_int;
 //	printf("d \n");
@@ -145,11 +145,11 @@ int main()
 //	printf("\nown - %d\n\n", own);
 ////
 ////	p->handlers['C'] = handle_char_w;
-	printf("C \n");
-	wchar_t value = L'{';
-	sys = printf("|%-10lc|\n", value);
-	own = ft_printf("|%-10C|\n", value);
-
-	printf("sys - %d", sys);
-	printf("\nown - %d\n\n", own);
+//	printf("C \n");
+//	wchar_t value = L'{';
+//	sys = printf("|%-10lc|\n", value);
+//	own = ft_printf("|%-10C|\n", value);
+//
+//	printf("sys - %d", sys);
+//	printf("\nown - %d\n\n", own);
 }
