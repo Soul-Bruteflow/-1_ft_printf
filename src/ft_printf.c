@@ -1,8 +1,4 @@
-#include <ntsid.h>
 #include "ft_printf.h"
-
-
-#include <stdio.h>
 
 void parse_core(t_printf *p)
 {
