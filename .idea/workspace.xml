@@ -25,11 +25,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.6733043">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/not in use/main.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="376">
-                  <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+                  <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#22#0" expanded="true" />
                   </folding>
@@ -47,7 +47,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ft_itoa_positive.c" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ft_itoa_positive.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ft_itoa_positive.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="134">
@@ -177,10 +177,10 @@
         <option value="$PROJECT_DIR$/src/ft_printf.c" />
         <option value="$PROJECT_DIR$/src/handle_bases.c" />
         <option value="$PROJECT_DIR$/src/handle_hex_big.c" />
-        <option value="$PROJECT_DIR$/src/not in use/main.c" />
         <option value="$PROJECT_DIR$/src/handle_numbers.c" />
         <option value="$PROJECT_DIR$/inc/ft_printf.h" />
         <option value="$PROJECT_DIR$/src/ft_itoa_positive.c" />
+        <option value="$PROJECT_DIR$/src/not in use/main.c" />
       </list>
     </option>
   </component>
@@ -584,12 +584,12 @@
       <workItem from="1506859462255" duration="9758000" />
       <workItem from="1506926819759" duration="27771000" />
       <workItem from="1507011510910" duration="25000" />
-      <workItem from="1507011873528" duration="6253000" />
+      <workItem from="1507011873528" duration="6456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152801000" />
+    <option name="totallyTimeSpent" value="153004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1916" height="1057" extended-state="0" />
@@ -1007,16 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/not in use/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/ft_printf.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -1040,6 +1030,16 @@
         <state relative-caret-position="134">
           <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/not in use/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
