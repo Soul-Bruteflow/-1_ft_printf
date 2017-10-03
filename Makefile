@@ -6,7 +6,7 @@
 #    By: bruteflow <bruteflow@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/03 12:00:24 by bruteflow        ###   ########.fr        #
+#    Updated: 2017/10/03 12:08:33 by bruteflow        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,13 +78,13 @@ RMF 	= rm -f
 
 $(OBJ_DIR)%.o : $(SRC_DIR)%.c
 	@mkdir -p obj
-	$(CC) $(CFLAGS) $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
+	$(CC) $(CFLAGS) -fPIC $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
 
 all: $(NAME)
 
 $(NAME): $(addprefix $(OBJ_DIR), $(OBJ))
 	$(MAKE) -C ./libft/
-	$(AR) $(ARFLAGS) $(NAME) ./libft/libft.a $^
+	$(AR) $(ARFLAGS) $(NAME) $^
 	$(RLIB) $(NAME)
 	# $(CC) $(CFLAGS) $(LIB_LIB) $^ $(OUT_OPT) $(NAME)
 
