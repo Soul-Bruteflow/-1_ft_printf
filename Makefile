@@ -6,7 +6,7 @@
 #    By: bruteflow <bruteflow@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/03 12:18:25 by bruteflow        ###   ########.fr        #
+#    Updated: 2017/10/03 12:20:13 by bruteflow        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -64,7 +64,8 @@ OBJ	=	init_printf.o \
 		ft_putchar_fd.o \
 		ft_bzero.o \
 		ft_strcpy.o \
-		ft_strnew.o
+		ft_strnew.o \
+		ft_memset.o
 
 LIB = $(LIB_DIR)libft.a
 
