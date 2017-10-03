@@ -98,7 +98,7 @@ void				parse_length(t_printf *p);
 intmax_t			get_number_by_len(t_printf *p);
 uintmax_t			get_number_by_len_unsigned(t_printf *p);
 
-char				*ft_itoa_positive(intmax_t n);
+char				*ft_itoa_positive(uintmax_t n);
 
 /*
 ** Parsing support

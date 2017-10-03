@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "libft.h"
 #include <locale.h>
+#include <limits.h>
 
 
 int main()
@@ -46,10 +47,10 @@ int main()
 
 ////	p->handlers['p'] = handle_pointer;
 	printf("p \n");
-	unsigned int a = 42;
-	int *b = &a;
-	sys = printf("|%#X|\n", a);
-	own = ft_printf("|%#X|\n", a);
+//	unsigned int a = 42;
+//	int *b = &a;
+	sys = printf("|%ld|\n", LONG_MIN);
+	own = ft_printf("|%D|\n", LONG_MIN);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);

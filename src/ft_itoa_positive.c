@@ -12,13 +12,13 @@
 
 #include "libft.h"
 
-static size_t		digits_count(long n)
+static size_t		digits_count(uintmax_t n)
 {
 	size_t				i;
 
 	i = 1;
-	if (n < 0)
-		n = -n;
+//	if (n < 0)
+//		n = -n;
 	while (n > 0)
 	{
 		n = n / 10;
@@ -27,7 +27,7 @@ static size_t		digits_count(long n)
 	return (i - 1);
 }
 
-static char			*put_positive(char *s1, size_t dgts, long nbr)
+static char			*put_positive(char *s1, size_t dgts, uintmax_t nbr)
 {
 	char				*str;
 
@@ -35,7 +35,7 @@ static char			*put_positive(char *s1, size_t dgts, long nbr)
 	while (nbr > 0)
 	{
 		dgts--;
-		str[dgts] = nbr % 10 + '0';
+		str[dgts] = (char)(nbr % 10 + '0');
 		nbr = nbr / 10;
 	}
 	return (s1);
@@ -56,10 +56,10 @@ static char			*put_positive(char *s1, size_t dgts, long nbr)
 //	return (s1);
 //}
 
-char				*ft_itoa_positive(intmax_t n)
+char				*ft_itoa_positive(uintmax_t n)
 {
 	char				*str;
-	intmax_t			nbr;
+	uintmax_t			nbr;
 //	unsigned int		minus;
 
 //	minus = 0;

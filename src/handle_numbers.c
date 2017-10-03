@@ -1,12 +1,15 @@
 #include "ft_printf.h"
 
-static void	handle_prefix(t_printf *p, intmax_t	*nbr, char **pref)
+static void	handle_prefix(t_printf *p, uintmax_t *n, char **pref)
 {
-	if (*nbr < 0 || p->flags.plus || p->flags.space)
+	intmax_t	nbr;
+
+	nbr = get_number_by_len(p);
+	if (nbr < 0 || p->flags.plus || p->flags.space)
 	{
-		if (*nbr < 0)
+		if (nbr < 0)
 		{
-			*nbr *= -1;
+			*n = (uintmax_t)nbr * -1;
 			*pref = "-";
 		}
 		else if (p->flags.plus)
@@ -30,7 +33,7 @@ static void	handle_pad_int(t_printf *p, ssize_t dif, size_t len, char *pref)
 
 void		handle_numbers(t_printf *p)
 {
-	intmax_t	nbr;
+	uintmax_t	nbr;
 	char		*prefix;
 	char 		*n;
 	size_t		len;
@@ -40,12 +43,9 @@ void		handle_numbers(t_printf *p)
 	if (p->got_precision)
 		p->flags.zero = false;
 	if(p->is_signed)
-	{
-		nbr = get_number_by_len(p);
 		handle_prefix(p, &nbr, &prefix);
-	}
 	else
-		nbr =  get_number_by_len_unsigned(p);
+		nbr = get_number_by_len_unsigned(p);
 	n = ft_itoa_positive(nbr);
 	len = ft_strlen(n);
 	dif = p->precision - len;

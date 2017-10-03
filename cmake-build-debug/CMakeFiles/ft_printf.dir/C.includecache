@@ -227,6 +227,8 @@ libft.h
 /Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
 locale.h
 -
+limits.h
+-
 
 /Users/bruteflow/c_projects/4_ft_printf/src/not in use/untoh.c
 ft_printf.h
