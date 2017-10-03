@@ -2,5 +2,5 @@
 
 void	handle_hex_big(t_printf *p)
 {
-	handle_bases(p, "0x", 16, true);
+	handle_bases(p, "0X", 16, true);
 }
