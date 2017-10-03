@@ -196,24 +196,10 @@ CMakeFiles/ft_printf.dir/src/init_printf.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/init_printf.c.o: .././libft/libft.h
 CMakeFiles/ft_printf.dir/src/init_printf.c.o: ../src/init_printf.c
 
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.o: .././libft/libft.h
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.o: ../src/not\ in\ use/ft_itoa_long.c
-
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.o: .././libft/libft.h
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.o: ../src/not\ in\ use/ft_itoa_uint.c
-
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.o: .././libft/libft.h
-CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.o: ../src/not\ in\ use/ft_itoa_ulong.c
-
-CMakeFiles/ft_printf.dir/src/not_in_use/main.c.o: .././inc/bool.h
-CMakeFiles/ft_printf.dir/src/not_in_use/main.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/not_in_use/main.c.o: .././libft/libft.h
-CMakeFiles/ft_printf.dir/src/not_in_use/main.c.o: ../src/not\ in\ use/main.c
-
-CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.o: .././inc/bool.h
-CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.o: .././libft/libft.h
-CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.o: ../src/not\ in\ use/untoh.c
+CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/main.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
 
 CMakeFiles/ft_printf.dir/src/parse_flags.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/parse_flags.c.o: .././inc/ft_printf.h

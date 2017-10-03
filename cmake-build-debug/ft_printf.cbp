@@ -452,19 +452,7 @@
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/init_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_long.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_uint.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_ulong.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/not in use/main.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/not in use/untoh.c">
+		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/main.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/parse_flags.c">

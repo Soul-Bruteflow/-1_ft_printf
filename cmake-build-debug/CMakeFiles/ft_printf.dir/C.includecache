@@ -206,33 +206,17 @@ ft_printf.h
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_long.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
-
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_uint.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
-
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_itoa_ulong.c
-libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
-
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/main.c
+/Users/bruteflow/c_projects/4_ft_printf/src/main.c
 ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_printf.h
+/Users/bruteflow/c_projects/4_ft_printf/src/ft_printf.h
 stdio.h
 -
 libft.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/libft.h
+/Users/bruteflow/c_projects/4_ft_printf/src/libft.h
 locale.h
 -
 limits.h
 -
-
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/untoh.c
-ft_printf.h
-/Users/bruteflow/c_projects/4_ft_printf/src/not in use/ft_printf.h
 
 /Users/bruteflow/c_projects/4_ft_printf/src/parse_flags.c
 ft_printf.h

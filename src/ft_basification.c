@@ -37,6 +37,8 @@ char *ft_basification(uintmax_t num, uint8_t base, t_bool size)
 	}
 	if (size)
 	{
+		if (num == 0)
+			return ("0");
 		ft_capitalize(reversed);
 		return (ft_strreverse(reversed));
 	}

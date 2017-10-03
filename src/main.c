@@ -49,8 +49,8 @@ int main()
 	printf("p \n");
 //	unsigned int a = 42;
 //	int *b = &a;
-	sys = printf("|%lu|\n", ULONG_MAX);
-	own = ft_printf("|%lu|\n", ULONG_MAX);
+	sys = printf("|%X|\n", 0);
+	own = ft_printf("|%X|\n", 0);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);

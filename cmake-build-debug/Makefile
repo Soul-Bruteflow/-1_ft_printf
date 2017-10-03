@@ -2971,140 +2971,32 @@ src/init_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/init_printf.c.s
 .PHONY : src/init_printf.c.s
 
-src/not_in_use/ft_itoa_long.o: src/not_in_use/ft_itoa_long.c.o
+src/main.o: src/main.c.o
 
-.PHONY : src/not_in_use/ft_itoa_long.o
-
-# target to build an object file
-src/not_in_use/ft_itoa_long.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.o
-.PHONY : src/not_in_use/ft_itoa_long.c.o
-
-src/not_in_use/ft_itoa_long.i: src/not_in_use/ft_itoa_long.c.i
-
-.PHONY : src/not_in_use/ft_itoa_long.i
-
-# target to preprocess a source file
-src/not_in_use/ft_itoa_long.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.i
-.PHONY : src/not_in_use/ft_itoa_long.c.i
-
-src/not_in_use/ft_itoa_long.s: src/not_in_use/ft_itoa_long.c.s
-
-.PHONY : src/not_in_use/ft_itoa_long.s
-
-# target to generate assembly for a file
-src/not_in_use/ft_itoa_long.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_long.c.s
-.PHONY : src/not_in_use/ft_itoa_long.c.s
-
-src/not_in_use/ft_itoa_uint.o: src/not_in_use/ft_itoa_uint.c.o
-
-.PHONY : src/not_in_use/ft_itoa_uint.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/not_in_use/ft_itoa_uint.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.o
-.PHONY : src/not_in_use/ft_itoa_uint.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-src/not_in_use/ft_itoa_uint.i: src/not_in_use/ft_itoa_uint.c.i
+src/main.i: src/main.c.i
 
-.PHONY : src/not_in_use/ft_itoa_uint.i
-
-# target to preprocess a source file
-src/not_in_use/ft_itoa_uint.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.i
-.PHONY : src/not_in_use/ft_itoa_uint.c.i
-
-src/not_in_use/ft_itoa_uint.s: src/not_in_use/ft_itoa_uint.c.s
-
-.PHONY : src/not_in_use/ft_itoa_uint.s
-
-# target to generate assembly for a file
-src/not_in_use/ft_itoa_uint.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_uint.c.s
-.PHONY : src/not_in_use/ft_itoa_uint.c.s
-
-src/not_in_use/ft_itoa_ulong.o: src/not_in_use/ft_itoa_ulong.c.o
-
-.PHONY : src/not_in_use/ft_itoa_ulong.o
-
-# target to build an object file
-src/not_in_use/ft_itoa_ulong.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.o
-.PHONY : src/not_in_use/ft_itoa_ulong.c.o
-
-src/not_in_use/ft_itoa_ulong.i: src/not_in_use/ft_itoa_ulong.c.i
-
-.PHONY : src/not_in_use/ft_itoa_ulong.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/not_in_use/ft_itoa_ulong.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.i
-.PHONY : src/not_in_use/ft_itoa_ulong.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/not_in_use/ft_itoa_ulong.s: src/not_in_use/ft_itoa_ulong.c.s
+src/main.s: src/main.c.s
 
-.PHONY : src/not_in_use/ft_itoa_ulong.s
-
-# target to generate assembly for a file
-src/not_in_use/ft_itoa_ulong.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/ft_itoa_ulong.c.s
-.PHONY : src/not_in_use/ft_itoa_ulong.c.s
-
-src/not_in_use/main.o: src/not_in_use/main.c.o
-
-.PHONY : src/not_in_use/main.o
-
-# target to build an object file
-src/not_in_use/main.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/main.c.o
-.PHONY : src/not_in_use/main.c.o
-
-src/not_in_use/main.i: src/not_in_use/main.c.i
-
-.PHONY : src/not_in_use/main.i
-
-# target to preprocess a source file
-src/not_in_use/main.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/main.c.i
-.PHONY : src/not_in_use/main.c.i
-
-src/not_in_use/main.s: src/not_in_use/main.c.s
-
-.PHONY : src/not_in_use/main.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/not_in_use/main.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/main.c.s
-.PHONY : src/not_in_use/main.c.s
-
-src/not_in_use/untoh.o: src/not_in_use/untoh.c.o
-
-.PHONY : src/not_in_use/untoh.o
-
-# target to build an object file
-src/not_in_use/untoh.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.o
-.PHONY : src/not_in_use/untoh.c.o
-
-src/not_in_use/untoh.i: src/not_in_use/untoh.c.i
-
-.PHONY : src/not_in_use/untoh.i
-
-# target to preprocess a source file
-src/not_in_use/untoh.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.i
-.PHONY : src/not_in_use/untoh.c.i
-
-src/not_in_use/untoh.s: src/not_in_use/untoh.c.s
-
-.PHONY : src/not_in_use/untoh.s
-
-# target to generate assembly for a file
-src/not_in_use/untoh.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/not_in_use/untoh.c.s
-.PHONY : src/not_in_use/untoh.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 src/parse_flags.o: src/parse_flags.c.o
 
@@ -3566,21 +3458,9 @@ help:
 	@echo "... src/init_printf.o"
 	@echo "... src/init_printf.i"
 	@echo "... src/init_printf.s"
-	@echo "... src/not_in_use/ft_itoa_long.o"
-	@echo "... src/not_in_use/ft_itoa_long.i"
-	@echo "... src/not_in_use/ft_itoa_long.s"
-	@echo "... src/not_in_use/ft_itoa_uint.o"
-	@echo "... src/not_in_use/ft_itoa_uint.i"
-	@echo "... src/not_in_use/ft_itoa_uint.s"
-	@echo "... src/not_in_use/ft_itoa_ulong.o"
-	@echo "... src/not_in_use/ft_itoa_ulong.i"
-	@echo "... src/not_in_use/ft_itoa_ulong.s"
-	@echo "... src/not_in_use/main.o"
-	@echo "... src/not_in_use/main.i"
-	@echo "... src/not_in_use/main.s"
-	@echo "... src/not_in_use/untoh.o"
-	@echo "... src/not_in_use/untoh.i"
-	@echo "... src/not_in_use/untoh.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/parse_flags.o"
 	@echo "... src/parse_flags.i"
 	@echo "... src/parse_flags.s"
