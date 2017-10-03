@@ -6,7 +6,7 @@
 #    By: bruteflow <bruteflow@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/03 11:25:14 by bruteflow        ###   ########.fr        #
+#    Updated: 2017/10/03 12:00:24 by bruteflow        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,7 +71,7 @@ OBJ_OPT = $< -o $@
 LIB_OPT	= -c
 
 AR		= ar
-ARFLAGS	= -rcs
+ARFLAGS	= rc
 RLIB	= ranlib
 
 RMF 	= rm -f
@@ -84,7 +84,7 @@ all: $(NAME)
 
 $(NAME): $(addprefix $(OBJ_DIR), $(OBJ))
 	$(MAKE) -C ./libft/
-	$(AR) $(ARFLAGS) $(NAME) $^
+	$(AR) $(ARFLAGS) $(NAME) ./libft/libft.a $^
 	$(RLIB) $(NAME)
 	# $(CC) $(CFLAGS) $(LIB_LIB) $^ $(OUT_OPT) $(NAME)
 
