@@ -6,7 +6,7 @@
 #    By: bruteflow <bruteflow@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/03 12:08:33 by bruteflow        ###   ########.fr        #
+#    Updated: 2017/10/03 12:18:25 by bruteflow        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,7 +57,14 @@ OBJ	=	init_printf.o \
 		ft_putwstr.o \
 		ft_strnlen.o \
 		ft_strreverse.o \
-		ft_wstrlen.o 
+		ft_wstrlen.o \
+		ft_isdigit.o \
+		ft_putchar.o \
+		ft_strlen.o \
+		ft_putchar_fd.o \
+		ft_bzero.o \
+		ft_strcpy.o \
+		ft_strnew.o
 
 LIB = $(LIB_DIR)libft.a
 
@@ -78,7 +85,7 @@ RMF 	= rm -f
 
 $(OBJ_DIR)%.o : $(SRC_DIR)%.c
 	@mkdir -p obj
-	$(CC) $(CFLAGS) -fPIC $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
+	$(CC) $(CFLAGS) $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
 
 all: $(NAME)
 
