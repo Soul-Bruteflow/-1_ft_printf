@@ -49,8 +49,8 @@ int main()
 	printf("p \n");
 //	unsigned int a = 42;
 //	int *b = &a;
-	sys = printf("%.0p, %.p\n", 0, 0);
-	own = ft_printf("%.0p, %.p\n", 0, 0);
+	sys = printf("%15.4d\n", 42);
+	own = ft_printf("%15.4d\n", 42);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
