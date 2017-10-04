@@ -46,11 +46,16 @@ int main()
 //	printf("\nown - %d\n\n", own);
 
 ////	p->handlers['p'] = handle_pointer;
-	printf("p \n");
+//	printf("p \n");
 //	unsigned int a = 42;
 //	int *b = &a;
-	sys = printf("%15.4d\n", 42);
-	own = ft_printf("%15.4d\n", 42);
+
+
+//	sys = printf("%.d, %.0d\n", 0, 0);
+//	own = ft_printf("%.d, %.0d\n", 0, 0);
+
+	sys = printf("%09.2p\n", 1234);
+	own = ft_printf("%9.2p\n", 1234);
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
