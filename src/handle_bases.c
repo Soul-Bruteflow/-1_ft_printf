@@ -35,7 +35,7 @@ void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 	if (p->got_precision)
 		p->flags.zero = false;
 	handle_pad_base(p, dif, len, pref);
-	if (nbr != 0 || p->precision > 0)
+//	if (nbr != 0 || p->precision > 0)
 		p->count += ft_print(n, false, 0);
 	if (p->got_width && p->flags.minus)
 		handle_case_five(p, dif, len, dif < 0 ? pref : "");
