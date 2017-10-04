@@ -1810,626 +1810,626 @@ libft/ft_tolower.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_tolower.c.s
 .PHONY : libft/ft_tolower.c.s
 
-src/ft_basification.o: src/ft_basification.c.o
+src/ft/ft_basification.o: src/ft/ft_basification.c.o
 
-.PHONY : src/ft_basification.o
-
-# target to build an object file
-src/ft_basification.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.o
-.PHONY : src/ft_basification.c.o
-
-src/ft_basification.i: src/ft_basification.c.i
-
-.PHONY : src/ft_basification.i
-
-# target to preprocess a source file
-src/ft_basification.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.i
-.PHONY : src/ft_basification.c.i
-
-src/ft_basification.s: src/ft_basification.c.s
-
-.PHONY : src/ft_basification.s
-
-# target to generate assembly for a file
-src/ft_basification.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_basification.c.s
-.PHONY : src/ft_basification.c.s
-
-src/ft_bzero.o: src/ft_bzero.c.o
-
-.PHONY : src/ft_bzero.o
+.PHONY : src/ft/ft_basification.o
 
 # target to build an object file
-src/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_bzero.c.o
-.PHONY : src/ft_bzero.c.o
+src/ft/ft_basification.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o
+.PHONY : src/ft/ft_basification.c.o
 
-src/ft_bzero.i: src/ft_bzero.c.i
+src/ft/ft_basification.i: src/ft/ft_basification.c.i
 
-.PHONY : src/ft_bzero.i
+.PHONY : src/ft/ft_basification.i
 
 # target to preprocess a source file
-src/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_bzero.c.i
-.PHONY : src/ft_bzero.c.i
+src/ft/ft_basification.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.i
+.PHONY : src/ft/ft_basification.c.i
 
-src/ft_bzero.s: src/ft_bzero.c.s
+src/ft/ft_basification.s: src/ft/ft_basification.c.s
 
-.PHONY : src/ft_bzero.s
+.PHONY : src/ft/ft_basification.s
 
 # target to generate assembly for a file
-src/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_bzero.c.s
-.PHONY : src/ft_bzero.c.s
+src/ft/ft_basification.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.s
+.PHONY : src/ft/ft_basification.c.s
 
-src/ft_capitalize.o: src/ft_capitalize.c.o
+src/ft/ft_bzero.o: src/ft/ft_bzero.c.o
 
-.PHONY : src/ft_capitalize.o
+.PHONY : src/ft/ft_bzero.o
 
 # target to build an object file
-src/ft_capitalize.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.o
-.PHONY : src/ft_capitalize.c.o
+src/ft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o
+.PHONY : src/ft/ft_bzero.c.o
 
-src/ft_capitalize.i: src/ft_capitalize.c.i
+src/ft/ft_bzero.i: src/ft/ft_bzero.c.i
 
-.PHONY : src/ft_capitalize.i
+.PHONY : src/ft/ft_bzero.i
 
 # target to preprocess a source file
-src/ft_capitalize.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.i
-.PHONY : src/ft_capitalize.c.i
+src/ft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.i
+.PHONY : src/ft/ft_bzero.c.i
 
-src/ft_capitalize.s: src/ft_capitalize.c.s
+src/ft/ft_bzero.s: src/ft/ft_bzero.c.s
 
-.PHONY : src/ft_capitalize.s
+.PHONY : src/ft/ft_bzero.s
 
 # target to generate assembly for a file
-src/ft_capitalize.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_capitalize.c.s
-.PHONY : src/ft_capitalize.c.s
+src/ft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.s
+.PHONY : src/ft/ft_bzero.c.s
 
-src/ft_isconversion_char.o: src/ft_isconversion_char.c.o
+src/ft/ft_capitalize.o: src/ft/ft_capitalize.c.o
 
-.PHONY : src/ft_isconversion_char.o
+.PHONY : src/ft/ft_capitalize.o
 
 # target to build an object file
-src/ft_isconversion_char.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.o
-.PHONY : src/ft_isconversion_char.c.o
+src/ft/ft_capitalize.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o
+.PHONY : src/ft/ft_capitalize.c.o
 
-src/ft_isconversion_char.i: src/ft_isconversion_char.c.i
+src/ft/ft_capitalize.i: src/ft/ft_capitalize.c.i
 
-.PHONY : src/ft_isconversion_char.i
+.PHONY : src/ft/ft_capitalize.i
 
 # target to preprocess a source file
-src/ft_isconversion_char.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.i
-.PHONY : src/ft_isconversion_char.c.i
+src/ft/ft_capitalize.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.i
+.PHONY : src/ft/ft_capitalize.c.i
 
-src/ft_isconversion_char.s: src/ft_isconversion_char.c.s
+src/ft/ft_capitalize.s: src/ft/ft_capitalize.c.s
 
-.PHONY : src/ft_isconversion_char.s
+.PHONY : src/ft/ft_capitalize.s
 
 # target to generate assembly for a file
-src/ft_isconversion_char.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isconversion_char.c.s
-.PHONY : src/ft_isconversion_char.c.s
+src/ft/ft_capitalize.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.s
+.PHONY : src/ft/ft_capitalize.c.s
 
-src/ft_isdigit.o: src/ft_isdigit.c.o
+src/ft/ft_isconversion_char.o: src/ft/ft_isconversion_char.c.o
 
-.PHONY : src/ft_isdigit.o
+.PHONY : src/ft/ft_isconversion_char.o
 
 # target to build an object file
-src/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isdigit.c.o
-.PHONY : src/ft_isdigit.c.o
+src/ft/ft_isconversion_char.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.o
+.PHONY : src/ft/ft_isconversion_char.c.o
 
-src/ft_isdigit.i: src/ft_isdigit.c.i
+src/ft/ft_isconversion_char.i: src/ft/ft_isconversion_char.c.i
 
-.PHONY : src/ft_isdigit.i
+.PHONY : src/ft/ft_isconversion_char.i
 
 # target to preprocess a source file
-src/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isdigit.c.i
-.PHONY : src/ft_isdigit.c.i
+src/ft/ft_isconversion_char.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.i
+.PHONY : src/ft/ft_isconversion_char.c.i
 
-src/ft_isdigit.s: src/ft_isdigit.c.s
+src/ft/ft_isconversion_char.s: src/ft/ft_isconversion_char.c.s
 
-.PHONY : src/ft_isdigit.s
+.PHONY : src/ft/ft_isconversion_char.s
 
 # target to generate assembly for a file
-src/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isdigit.c.s
-.PHONY : src/ft_isdigit.c.s
+src/ft/ft_isconversion_char.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.s
+.PHONY : src/ft/ft_isconversion_char.c.s
 
-src/ft_isflag.o: src/ft_isflag.c.o
+src/ft/ft_isdigit.o: src/ft/ft_isdigit.c.o
 
-.PHONY : src/ft_isflag.o
+.PHONY : src/ft/ft_isdigit.o
 
 # target to build an object file
-src/ft_isflag.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.o
-.PHONY : src/ft_isflag.c.o
+src/ft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.o
+.PHONY : src/ft/ft_isdigit.c.o
 
-src/ft_isflag.i: src/ft_isflag.c.i
+src/ft/ft_isdigit.i: src/ft/ft_isdigit.c.i
 
-.PHONY : src/ft_isflag.i
+.PHONY : src/ft/ft_isdigit.i
 
 # target to preprocess a source file
-src/ft_isflag.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.i
-.PHONY : src/ft_isflag.c.i
+src/ft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.i
+.PHONY : src/ft/ft_isdigit.c.i
 
-src/ft_isflag.s: src/ft_isflag.c.s
+src/ft/ft_isdigit.s: src/ft/ft_isdigit.c.s
 
-.PHONY : src/ft_isflag.s
+.PHONY : src/ft/ft_isdigit.s
 
 # target to generate assembly for a file
-src/ft_isflag.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_isflag.c.s
-.PHONY : src/ft_isflag.c.s
+src/ft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.s
+.PHONY : src/ft/ft_isdigit.c.s
 
-src/ft_islength.o: src/ft_islength.c.o
+src/ft/ft_isflag.o: src/ft/ft_isflag.c.o
 
-.PHONY : src/ft_islength.o
+.PHONY : src/ft/ft_isflag.o
 
 # target to build an object file
-src/ft_islength.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.o
-.PHONY : src/ft_islength.c.o
+src/ft/ft_isflag.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isflag.c.o
+.PHONY : src/ft/ft_isflag.c.o
 
-src/ft_islength.i: src/ft_islength.c.i
+src/ft/ft_isflag.i: src/ft/ft_isflag.c.i
 
-.PHONY : src/ft_islength.i
+.PHONY : src/ft/ft_isflag.i
 
 # target to preprocess a source file
-src/ft_islength.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.i
-.PHONY : src/ft_islength.c.i
+src/ft/ft_isflag.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isflag.c.i
+.PHONY : src/ft/ft_isflag.c.i
 
-src/ft_islength.s: src/ft_islength.c.s
+src/ft/ft_isflag.s: src/ft/ft_isflag.c.s
 
-.PHONY : src/ft_islength.s
+.PHONY : src/ft/ft_isflag.s
 
 # target to generate assembly for a file
-src/ft_islength.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_islength.c.s
-.PHONY : src/ft_islength.c.s
+src/ft/ft_isflag.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_isflag.c.s
+.PHONY : src/ft/ft_isflag.c.s
 
-src/ft_itoa_positive.o: src/ft_itoa_positive.c.o
+src/ft/ft_islength.o: src/ft/ft_islength.c.o
 
-.PHONY : src/ft_itoa_positive.o
+.PHONY : src/ft/ft_islength.o
 
 # target to build an object file
-src/ft_itoa_positive.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.o
-.PHONY : src/ft_itoa_positive.c.o
+src/ft/ft_islength.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.o
+.PHONY : src/ft/ft_islength.c.o
 
-src/ft_itoa_positive.i: src/ft_itoa_positive.c.i
+src/ft/ft_islength.i: src/ft/ft_islength.c.i
 
-.PHONY : src/ft_itoa_positive.i
+.PHONY : src/ft/ft_islength.i
 
 # target to preprocess a source file
-src/ft_itoa_positive.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.i
-.PHONY : src/ft_itoa_positive.c.i
+src/ft/ft_islength.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.i
+.PHONY : src/ft/ft_islength.c.i
 
-src/ft_itoa_positive.s: src/ft_itoa_positive.c.s
+src/ft/ft_islength.s: src/ft/ft_islength.c.s
 
-.PHONY : src/ft_itoa_positive.s
+.PHONY : src/ft/ft_islength.s
 
 # target to generate assembly for a file
-src/ft_itoa_positive.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_itoa_positive.c.s
-.PHONY : src/ft_itoa_positive.c.s
+src/ft/ft_islength.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.s
+.PHONY : src/ft/ft_islength.c.s
 
-src/ft_memset.o: src/ft_memset.c.o
+src/ft/ft_itoa_positive.o: src/ft/ft_itoa_positive.c.o
 
-.PHONY : src/ft_memset.o
+.PHONY : src/ft/ft_itoa_positive.o
 
 # target to build an object file
-src/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_memset.c.o
-.PHONY : src/ft_memset.c.o
+src/ft/ft_itoa_positive.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.o
+.PHONY : src/ft/ft_itoa_positive.c.o
 
-src/ft_memset.i: src/ft_memset.c.i
+src/ft/ft_itoa_positive.i: src/ft/ft_itoa_positive.c.i
 
-.PHONY : src/ft_memset.i
+.PHONY : src/ft/ft_itoa_positive.i
 
 # target to preprocess a source file
-src/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_memset.c.i
-.PHONY : src/ft_memset.c.i
+src/ft/ft_itoa_positive.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.i
+.PHONY : src/ft/ft_itoa_positive.c.i
 
-src/ft_memset.s: src/ft_memset.c.s
+src/ft/ft_itoa_positive.s: src/ft/ft_itoa_positive.c.s
 
-.PHONY : src/ft_memset.s
+.PHONY : src/ft/ft_itoa_positive.s
 
 # target to generate assembly for a file
-src/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_memset.c.s
-.PHONY : src/ft_memset.c.s
+src/ft/ft_itoa_positive.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.s
+.PHONY : src/ft/ft_itoa_positive.c.s
 
-src/ft_print.o: src/ft_print.c.o
+src/ft/ft_memset.o: src/ft/ft_memset.c.o
 
-.PHONY : src/ft_print.o
+.PHONY : src/ft/ft_memset.o
 
 # target to build an object file
-src/ft_print.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_print.c.o
-.PHONY : src/ft_print.c.o
+src/ft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.o
+.PHONY : src/ft/ft_memset.c.o
 
-src/ft_print.i: src/ft_print.c.i
+src/ft/ft_memset.i: src/ft/ft_memset.c.i
 
-.PHONY : src/ft_print.i
+.PHONY : src/ft/ft_memset.i
 
 # target to preprocess a source file
-src/ft_print.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_print.c.i
-.PHONY : src/ft_print.c.i
+src/ft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.i
+.PHONY : src/ft/ft_memset.c.i
 
-src/ft_print.s: src/ft_print.c.s
+src/ft/ft_memset.s: src/ft/ft_memset.c.s
 
-.PHONY : src/ft_print.s
+.PHONY : src/ft/ft_memset.s
 
 # target to generate assembly for a file
-src/ft_print.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_print.c.s
-.PHONY : src/ft_print.c.s
+src/ft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.s
+.PHONY : src/ft/ft_memset.c.s
 
-src/ft_printf.o: src/ft_printf.c.o
+src/ft/ft_print.o: src/ft/ft_print.c.o
 
-.PHONY : src/ft_printf.o
+.PHONY : src/ft/ft_print.o
 
 # target to build an object file
-src/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_printf.c.o
-.PHONY : src/ft_printf.c.o
+src/ft/ft_print.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_print.c.o
+.PHONY : src/ft/ft_print.c.o
 
-src/ft_printf.i: src/ft_printf.c.i
+src/ft/ft_print.i: src/ft/ft_print.c.i
 
-.PHONY : src/ft_printf.i
+.PHONY : src/ft/ft_print.i
 
 # target to preprocess a source file
-src/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_printf.c.i
-.PHONY : src/ft_printf.c.i
+src/ft/ft_print.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_print.c.i
+.PHONY : src/ft/ft_print.c.i
 
-src/ft_printf.s: src/ft_printf.c.s
+src/ft/ft_print.s: src/ft/ft_print.c.s
 
-.PHONY : src/ft_printf.s
+.PHONY : src/ft/ft_print.s
 
 # target to generate assembly for a file
-src/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_printf.c.s
-.PHONY : src/ft_printf.c.s
+src/ft/ft_print.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_print.c.s
+.PHONY : src/ft/ft_print.c.s
 
-src/ft_putchar.o: src/ft_putchar.c.o
+src/ft/ft_printf.o: src/ft/ft_printf.c.o
 
-.PHONY : src/ft_putchar.o
+.PHONY : src/ft/ft_printf.o
 
 # target to build an object file
-src/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar.c.o
-.PHONY : src/ft_putchar.c.o
+src/ft/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_printf.c.o
+.PHONY : src/ft/ft_printf.c.o
 
-src/ft_putchar.i: src/ft_putchar.c.i
+src/ft/ft_printf.i: src/ft/ft_printf.c.i
 
-.PHONY : src/ft_putchar.i
+.PHONY : src/ft/ft_printf.i
 
 # target to preprocess a source file
-src/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar.c.i
-.PHONY : src/ft_putchar.c.i
+src/ft/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_printf.c.i
+.PHONY : src/ft/ft_printf.c.i
 
-src/ft_putchar.s: src/ft_putchar.c.s
+src/ft/ft_printf.s: src/ft/ft_printf.c.s
 
-.PHONY : src/ft_putchar.s
+.PHONY : src/ft/ft_printf.s
 
 # target to generate assembly for a file
-src/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar.c.s
-.PHONY : src/ft_putchar.c.s
+src/ft/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_printf.c.s
+.PHONY : src/ft/ft_printf.c.s
 
-src/ft_putchar_fd.o: src/ft_putchar_fd.c.o
+src/ft/ft_putchar.o: src/ft/ft_putchar.c.o
 
-.PHONY : src/ft_putchar_fd.o
+.PHONY : src/ft/ft_putchar.o
 
 # target to build an object file
-src/ft_putchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar_fd.c.o
-.PHONY : src/ft_putchar_fd.c.o
+src/ft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.o
+.PHONY : src/ft/ft_putchar.c.o
 
-src/ft_putchar_fd.i: src/ft_putchar_fd.c.i
+src/ft/ft_putchar.i: src/ft/ft_putchar.c.i
 
-.PHONY : src/ft_putchar_fd.i
+.PHONY : src/ft/ft_putchar.i
 
 # target to preprocess a source file
-src/ft_putchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar_fd.c.i
-.PHONY : src/ft_putchar_fd.c.i
+src/ft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.i
+.PHONY : src/ft/ft_putchar.c.i
 
-src/ft_putchar_fd.s: src/ft_putchar_fd.c.s
+src/ft/ft_putchar.s: src/ft/ft_putchar.c.s
 
-.PHONY : src/ft_putchar_fd.s
+.PHONY : src/ft/ft_putchar.s
 
 # target to generate assembly for a file
-src/ft_putchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putchar_fd.c.s
-.PHONY : src/ft_putchar_fd.c.s
+src/ft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.s
+.PHONY : src/ft/ft_putchar.c.s
 
-src/ft_putnwstr.o: src/ft_putnwstr.c.o
+src/ft/ft_putchar_fd.o: src/ft/ft_putchar_fd.c.o
 
-.PHONY : src/ft_putnwstr.o
+.PHONY : src/ft/ft_putchar_fd.o
 
 # target to build an object file
-src/ft_putnwstr.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.o
-.PHONY : src/ft_putnwstr.c.o
+src/ft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.o
+.PHONY : src/ft/ft_putchar_fd.c.o
 
-src/ft_putnwstr.i: src/ft_putnwstr.c.i
+src/ft/ft_putchar_fd.i: src/ft/ft_putchar_fd.c.i
 
-.PHONY : src/ft_putnwstr.i
+.PHONY : src/ft/ft_putchar_fd.i
 
 # target to preprocess a source file
-src/ft_putnwstr.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.i
-.PHONY : src/ft_putnwstr.c.i
+src/ft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.i
+.PHONY : src/ft/ft_putchar_fd.c.i
 
-src/ft_putnwstr.s: src/ft_putnwstr.c.s
+src/ft/ft_putchar_fd.s: src/ft/ft_putchar_fd.c.s
 
-.PHONY : src/ft_putnwstr.s
+.PHONY : src/ft/ft_putchar_fd.s
 
 # target to generate assembly for a file
-src/ft_putnwstr.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putnwstr.c.s
-.PHONY : src/ft_putnwstr.c.s
+src/ft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.s
+.PHONY : src/ft/ft_putchar_fd.c.s
 
-src/ft_putwchar.o: src/ft_putwchar.c.o
+src/ft/ft_putnwstr.o: src/ft/ft_putnwstr.c.o
 
-.PHONY : src/ft_putwchar.o
+.PHONY : src/ft/ft_putnwstr.o
 
 # target to build an object file
-src/ft_putwchar.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.o
-.PHONY : src/ft_putwchar.c.o
+src/ft/ft_putnwstr.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o
+.PHONY : src/ft/ft_putnwstr.c.o
 
-src/ft_putwchar.i: src/ft_putwchar.c.i
+src/ft/ft_putnwstr.i: src/ft/ft_putnwstr.c.i
 
-.PHONY : src/ft_putwchar.i
+.PHONY : src/ft/ft_putnwstr.i
 
 # target to preprocess a source file
-src/ft_putwchar.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.i
-.PHONY : src/ft_putwchar.c.i
+src/ft/ft_putnwstr.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.i
+.PHONY : src/ft/ft_putnwstr.c.i
 
-src/ft_putwchar.s: src/ft_putwchar.c.s
+src/ft/ft_putnwstr.s: src/ft/ft_putnwstr.c.s
 
-.PHONY : src/ft_putwchar.s
+.PHONY : src/ft/ft_putnwstr.s
 
 # target to generate assembly for a file
-src/ft_putwchar.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar.c.s
-.PHONY : src/ft_putwchar.c.s
+src/ft/ft_putnwstr.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.s
+.PHONY : src/ft/ft_putnwstr.c.s
 
-src/ft_putwchar_fd.o: src/ft_putwchar_fd.c.o
+src/ft/ft_putwchar.o: src/ft/ft_putwchar.c.o
 
-.PHONY : src/ft_putwchar_fd.o
+.PHONY : src/ft/ft_putwchar.o
 
 # target to build an object file
-src/ft_putwchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.o
-.PHONY : src/ft_putwchar_fd.c.o
+src/ft/ft_putwchar.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o
+.PHONY : src/ft/ft_putwchar.c.o
 
-src/ft_putwchar_fd.i: src/ft_putwchar_fd.c.i
+src/ft/ft_putwchar.i: src/ft/ft_putwchar.c.i
 
-.PHONY : src/ft_putwchar_fd.i
+.PHONY : src/ft/ft_putwchar.i
 
 # target to preprocess a source file
-src/ft_putwchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.i
-.PHONY : src/ft_putwchar_fd.c.i
+src/ft/ft_putwchar.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.i
+.PHONY : src/ft/ft_putwchar.c.i
 
-src/ft_putwchar_fd.s: src/ft_putwchar_fd.c.s
+src/ft/ft_putwchar.s: src/ft/ft_putwchar.c.s
 
-.PHONY : src/ft_putwchar_fd.s
+.PHONY : src/ft/ft_putwchar.s
 
 # target to generate assembly for a file
-src/ft_putwchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwchar_fd.c.s
-.PHONY : src/ft_putwchar_fd.c.s
+src/ft/ft_putwchar.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.s
+.PHONY : src/ft/ft_putwchar.c.s
 
-src/ft_putwstr.o: src/ft_putwstr.c.o
+src/ft/ft_putwchar_fd.o: src/ft/ft_putwchar_fd.c.o
 
-.PHONY : src/ft_putwstr.o
+.PHONY : src/ft/ft_putwchar_fd.o
 
 # target to build an object file
-src/ft_putwstr.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwstr.c.o
-.PHONY : src/ft_putwstr.c.o
+src/ft/ft_putwchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o
+.PHONY : src/ft/ft_putwchar_fd.c.o
 
-src/ft_putwstr.i: src/ft_putwstr.c.i
+src/ft/ft_putwchar_fd.i: src/ft/ft_putwchar_fd.c.i
 
-.PHONY : src/ft_putwstr.i
+.PHONY : src/ft/ft_putwchar_fd.i
 
 # target to preprocess a source file
-src/ft_putwstr.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwstr.c.i
-.PHONY : src/ft_putwstr.c.i
+src/ft/ft_putwchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.i
+.PHONY : src/ft/ft_putwchar_fd.c.i
 
-src/ft_putwstr.s: src/ft_putwstr.c.s
+src/ft/ft_putwchar_fd.s: src/ft/ft_putwchar_fd.c.s
 
-.PHONY : src/ft_putwstr.s
+.PHONY : src/ft/ft_putwchar_fd.s
 
 # target to generate assembly for a file
-src/ft_putwstr.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_putwstr.c.s
-.PHONY : src/ft_putwstr.c.s
+src/ft/ft_putwchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.s
+.PHONY : src/ft/ft_putwchar_fd.c.s
 
-src/ft_strcpy.o: src/ft_strcpy.c.o
+src/ft/ft_putwstr.o: src/ft/ft_putwstr.c.o
 
-.PHONY : src/ft_strcpy.o
+.PHONY : src/ft/ft_putwstr.o
 
 # target to build an object file
-src/ft_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strcpy.c.o
-.PHONY : src/ft_strcpy.c.o
+src/ft/ft_putwstr.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o
+.PHONY : src/ft/ft_putwstr.c.o
 
-src/ft_strcpy.i: src/ft_strcpy.c.i
+src/ft/ft_putwstr.i: src/ft/ft_putwstr.c.i
 
-.PHONY : src/ft_strcpy.i
+.PHONY : src/ft/ft_putwstr.i
 
 # target to preprocess a source file
-src/ft_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strcpy.c.i
-.PHONY : src/ft_strcpy.c.i
+src/ft/ft_putwstr.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.i
+.PHONY : src/ft/ft_putwstr.c.i
 
-src/ft_strcpy.s: src/ft_strcpy.c.s
+src/ft/ft_putwstr.s: src/ft/ft_putwstr.c.s
 
-.PHONY : src/ft_strcpy.s
+.PHONY : src/ft/ft_putwstr.s
 
 # target to generate assembly for a file
-src/ft_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strcpy.c.s
-.PHONY : src/ft_strcpy.c.s
+src/ft/ft_putwstr.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.s
+.PHONY : src/ft/ft_putwstr.c.s
 
-src/ft_strlen.o: src/ft_strlen.c.o
+src/ft/ft_strcpy.o: src/ft/ft_strcpy.c.o
 
-.PHONY : src/ft_strlen.o
+.PHONY : src/ft/ft_strcpy.o
 
 # target to build an object file
-src/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strlen.c.o
-.PHONY : src/ft_strlen.c.o
+src/ft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o
+.PHONY : src/ft/ft_strcpy.c.o
 
-src/ft_strlen.i: src/ft_strlen.c.i
+src/ft/ft_strcpy.i: src/ft/ft_strcpy.c.i
 
-.PHONY : src/ft_strlen.i
+.PHONY : src/ft/ft_strcpy.i
 
 # target to preprocess a source file
-src/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strlen.c.i
-.PHONY : src/ft_strlen.c.i
+src/ft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.i
+.PHONY : src/ft/ft_strcpy.c.i
 
-src/ft_strlen.s: src/ft_strlen.c.s
+src/ft/ft_strcpy.s: src/ft/ft_strcpy.c.s
 
-.PHONY : src/ft_strlen.s
+.PHONY : src/ft/ft_strcpy.s
 
 # target to generate assembly for a file
-src/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strlen.c.s
-.PHONY : src/ft_strlen.c.s
+src/ft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.s
+.PHONY : src/ft/ft_strcpy.c.s
 
-src/ft_strnew.o: src/ft_strnew.c.o
+src/ft/ft_strlen.o: src/ft/ft_strlen.c.o
 
-.PHONY : src/ft_strnew.o
+.PHONY : src/ft/ft_strlen.o
 
 # target to build an object file
-src/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnew.c.o
-.PHONY : src/ft_strnew.c.o
+src/ft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o
+.PHONY : src/ft/ft_strlen.c.o
 
-src/ft_strnew.i: src/ft_strnew.c.i
+src/ft/ft_strlen.i: src/ft/ft_strlen.c.i
 
-.PHONY : src/ft_strnew.i
+.PHONY : src/ft/ft_strlen.i
 
 # target to preprocess a source file
-src/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnew.c.i
-.PHONY : src/ft_strnew.c.i
+src/ft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.i
+.PHONY : src/ft/ft_strlen.c.i
 
-src/ft_strnew.s: src/ft_strnew.c.s
+src/ft/ft_strlen.s: src/ft/ft_strlen.c.s
 
-.PHONY : src/ft_strnew.s
+.PHONY : src/ft/ft_strlen.s
 
 # target to generate assembly for a file
-src/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnew.c.s
-.PHONY : src/ft_strnew.c.s
+src/ft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.s
+.PHONY : src/ft/ft_strlen.c.s
 
-src/ft_strnlen.o: src/ft_strnlen.c.o
+src/ft/ft_strnew.o: src/ft/ft_strnew.c.o
 
-.PHONY : src/ft_strnlen.o
+.PHONY : src/ft/ft_strnew.o
 
 # target to build an object file
-src/ft_strnlen.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.o
-.PHONY : src/ft_strnlen.c.o
+src/ft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o
+.PHONY : src/ft/ft_strnew.c.o
 
-src/ft_strnlen.i: src/ft_strnlen.c.i
+src/ft/ft_strnew.i: src/ft/ft_strnew.c.i
 
-.PHONY : src/ft_strnlen.i
+.PHONY : src/ft/ft_strnew.i
 
 # target to preprocess a source file
-src/ft_strnlen.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.i
-.PHONY : src/ft_strnlen.c.i
+src/ft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.i
+.PHONY : src/ft/ft_strnew.c.i
 
-src/ft_strnlen.s: src/ft_strnlen.c.s
+src/ft/ft_strnew.s: src/ft/ft_strnew.c.s
 
-.PHONY : src/ft_strnlen.s
+.PHONY : src/ft/ft_strnew.s
 
 # target to generate assembly for a file
-src/ft_strnlen.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strnlen.c.s
-.PHONY : src/ft_strnlen.c.s
+src/ft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.s
+.PHONY : src/ft/ft_strnew.c.s
 
-src/ft_strreverse.o: src/ft_strreverse.c.o
+src/ft/ft_strnlen.o: src/ft/ft_strnlen.c.o
 
-.PHONY : src/ft_strreverse.o
+.PHONY : src/ft/ft_strnlen.o
 
 # target to build an object file
-src/ft_strreverse.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.o
-.PHONY : src/ft_strreverse.c.o
+src/ft/ft_strnlen.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnlen.c.o
+.PHONY : src/ft/ft_strnlen.c.o
 
-src/ft_strreverse.i: src/ft_strreverse.c.i
+src/ft/ft_strnlen.i: src/ft/ft_strnlen.c.i
 
-.PHONY : src/ft_strreverse.i
+.PHONY : src/ft/ft_strnlen.i
 
 # target to preprocess a source file
-src/ft_strreverse.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.i
-.PHONY : src/ft_strreverse.c.i
+src/ft/ft_strnlen.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnlen.c.i
+.PHONY : src/ft/ft_strnlen.c.i
 
-src/ft_strreverse.s: src/ft_strreverse.c.s
+src/ft/ft_strnlen.s: src/ft/ft_strnlen.c.s
 
-.PHONY : src/ft_strreverse.s
+.PHONY : src/ft/ft_strnlen.s
 
 # target to generate assembly for a file
-src/ft_strreverse.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_strreverse.c.s
-.PHONY : src/ft_strreverse.c.s
+src/ft/ft_strnlen.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strnlen.c.s
+.PHONY : src/ft/ft_strnlen.c.s
 
-src/ft_wstrlen.o: src/ft_wstrlen.c.o
+src/ft/ft_strreverse.o: src/ft/ft_strreverse.c.o
 
-.PHONY : src/ft_wstrlen.o
+.PHONY : src/ft/ft_strreverse.o
 
 # target to build an object file
-src/ft_wstrlen.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.o
-.PHONY : src/ft_wstrlen.c.o
+src/ft/ft_strreverse.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strreverse.c.o
+.PHONY : src/ft/ft_strreverse.c.o
 
-src/ft_wstrlen.i: src/ft_wstrlen.c.i
+src/ft/ft_strreverse.i: src/ft/ft_strreverse.c.i
 
-.PHONY : src/ft_wstrlen.i
+.PHONY : src/ft/ft_strreverse.i
 
 # target to preprocess a source file
-src/ft_wstrlen.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.i
-.PHONY : src/ft_wstrlen.c.i
+src/ft/ft_strreverse.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strreverse.c.i
+.PHONY : src/ft/ft_strreverse.c.i
 
-src/ft_wstrlen.s: src/ft_wstrlen.c.s
+src/ft/ft_strreverse.s: src/ft/ft_strreverse.c.s
 
-.PHONY : src/ft_wstrlen.s
+.PHONY : src/ft/ft_strreverse.s
 
 # target to generate assembly for a file
-src/ft_wstrlen.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft_wstrlen.c.s
-.PHONY : src/ft_wstrlen.c.s
+src/ft/ft_strreverse.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_strreverse.c.s
+.PHONY : src/ft/ft_strreverse.c.s
+
+src/ft/ft_wstrlen.o: src/ft/ft_wstrlen.c.o
+
+.PHONY : src/ft/ft_wstrlen.o
+
+# target to build an object file
+src/ft/ft_wstrlen.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.o
+.PHONY : src/ft/ft_wstrlen.c.o
+
+src/ft/ft_wstrlen.i: src/ft/ft_wstrlen.c.i
+
+.PHONY : src/ft/ft_wstrlen.i
+
+# target to preprocess a source file
+src/ft/ft_wstrlen.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.i
+.PHONY : src/ft/ft_wstrlen.c.i
+
+src/ft/ft_wstrlen.s: src/ft/ft_wstrlen.c.s
+
+.PHONY : src/ft/ft_wstrlen.s
+
+# target to generate assembly for a file
+src/ft/ft_wstrlen.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.s
+.PHONY : src/ft/ft_wstrlen.c.s
 
 src/get_number_by_len.o: src/get_number_by_len.c.o
 
@@ -3329,75 +3329,75 @@ help:
 	@echo "... libft/ft_tolower.o"
 	@echo "... libft/ft_tolower.i"
 	@echo "... libft/ft_tolower.s"
-	@echo "... src/ft_basification.o"
-	@echo "... src/ft_basification.i"
-	@echo "... src/ft_basification.s"
-	@echo "... src/ft_bzero.o"
-	@echo "... src/ft_bzero.i"
-	@echo "... src/ft_bzero.s"
-	@echo "... src/ft_capitalize.o"
-	@echo "... src/ft_capitalize.i"
-	@echo "... src/ft_capitalize.s"
-	@echo "... src/ft_isconversion_char.o"
-	@echo "... src/ft_isconversion_char.i"
-	@echo "... src/ft_isconversion_char.s"
-	@echo "... src/ft_isdigit.o"
-	@echo "... src/ft_isdigit.i"
-	@echo "... src/ft_isdigit.s"
-	@echo "... src/ft_isflag.o"
-	@echo "... src/ft_isflag.i"
-	@echo "... src/ft_isflag.s"
-	@echo "... src/ft_islength.o"
-	@echo "... src/ft_islength.i"
-	@echo "... src/ft_islength.s"
-	@echo "... src/ft_itoa_positive.o"
-	@echo "... src/ft_itoa_positive.i"
-	@echo "... src/ft_itoa_positive.s"
-	@echo "... src/ft_memset.o"
-	@echo "... src/ft_memset.i"
-	@echo "... src/ft_memset.s"
-	@echo "... src/ft_print.o"
-	@echo "... src/ft_print.i"
-	@echo "... src/ft_print.s"
-	@echo "... src/ft_printf.o"
-	@echo "... src/ft_printf.i"
-	@echo "... src/ft_printf.s"
-	@echo "... src/ft_putchar.o"
-	@echo "... src/ft_putchar.i"
-	@echo "... src/ft_putchar.s"
-	@echo "... src/ft_putchar_fd.o"
-	@echo "... src/ft_putchar_fd.i"
-	@echo "... src/ft_putchar_fd.s"
-	@echo "... src/ft_putnwstr.o"
-	@echo "... src/ft_putnwstr.i"
-	@echo "... src/ft_putnwstr.s"
-	@echo "... src/ft_putwchar.o"
-	@echo "... src/ft_putwchar.i"
-	@echo "... src/ft_putwchar.s"
-	@echo "... src/ft_putwchar_fd.o"
-	@echo "... src/ft_putwchar_fd.i"
-	@echo "... src/ft_putwchar_fd.s"
-	@echo "... src/ft_putwstr.o"
-	@echo "... src/ft_putwstr.i"
-	@echo "... src/ft_putwstr.s"
-	@echo "... src/ft_strcpy.o"
-	@echo "... src/ft_strcpy.i"
-	@echo "... src/ft_strcpy.s"
-	@echo "... src/ft_strlen.o"
-	@echo "... src/ft_strlen.i"
-	@echo "... src/ft_strlen.s"
-	@echo "... src/ft_strnew.o"
-	@echo "... src/ft_strnew.i"
-	@echo "... src/ft_strnew.s"
-	@echo "... src/ft_strnlen.o"
-	@echo "... src/ft_strnlen.i"
-	@echo "... src/ft_strnlen.s"
-	@echo "... src/ft_strreverse.o"
-	@echo "... src/ft_strreverse.i"
-	@echo "... src/ft_strreverse.s"
-	@echo "... src/ft_wstrlen.o"
-	@echo "... src/ft_wstrlen.i"
-	@echo "... src/ft_wstrlen.s"
+	@echo "... src/ft/ft_basification.o"
+	@echo "... src/ft/ft_basification.i"
+	@echo "... src/ft/ft_basification.s"
+	@echo "... src/ft/ft_bzero.o"
+	@echo "... src/ft/ft_bzero.i"
+	@echo "... src/ft/ft_bzero.s"
+	@echo "... src/ft/ft_capitalize.o"
+	@echo "... src/ft/ft_capitalize.i"
+	@echo "... src/ft/ft_capitalize.s"
+	@echo "... src/ft/ft_isconversion_char.o"
+	@echo "... src/ft/ft_isconversion_char.i"
+	@echo "... src/ft/ft_isconversion_char.s"
+	@echo "... src/ft/ft_isdigit.o"
+	@echo "... src/ft/ft_isdigit.i"
+	@echo "... src/ft/ft_isdigit.s"
+	@echo "... src/ft/ft_isflag.o"
+	@echo "... src/ft/ft_isflag.i"
+	@echo "... src/ft/ft_isflag.s"
+	@echo "... src/ft/ft_islength.o"
+	@echo "... src/ft/ft_islength.i"
+	@echo "... src/ft/ft_islength.s"
+	@echo "... src/ft/ft_itoa_positive.o"
+	@echo "... src/ft/ft_itoa_positive.i"
+	@echo "... src/ft/ft_itoa_positive.s"
+	@echo "... src/ft/ft_memset.o"
+	@echo "... src/ft/ft_memset.i"
+	@echo "... src/ft/ft_memset.s"
+	@echo "... src/ft/ft_print.o"
+	@echo "... src/ft/ft_print.i"
+	@echo "... src/ft/ft_print.s"
+	@echo "... src/ft/ft_printf.o"
+	@echo "... src/ft/ft_printf.i"
+	@echo "... src/ft/ft_printf.s"
+	@echo "... src/ft/ft_putchar.o"
+	@echo "... src/ft/ft_putchar.i"
+	@echo "... src/ft/ft_putchar.s"
+	@echo "... src/ft/ft_putchar_fd.o"
+	@echo "... src/ft/ft_putchar_fd.i"
+	@echo "... src/ft/ft_putchar_fd.s"
+	@echo "... src/ft/ft_putnwstr.o"
+	@echo "... src/ft/ft_putnwstr.i"
+	@echo "... src/ft/ft_putnwstr.s"
+	@echo "... src/ft/ft_putwchar.o"
+	@echo "... src/ft/ft_putwchar.i"
+	@echo "... src/ft/ft_putwchar.s"
+	@echo "... src/ft/ft_putwchar_fd.o"
+	@echo "... src/ft/ft_putwchar_fd.i"
+	@echo "... src/ft/ft_putwchar_fd.s"
+	@echo "... src/ft/ft_putwstr.o"
+	@echo "... src/ft/ft_putwstr.i"
+	@echo "... src/ft/ft_putwstr.s"
+	@echo "... src/ft/ft_strcpy.o"
+	@echo "... src/ft/ft_strcpy.i"
+	@echo "... src/ft/ft_strcpy.s"
+	@echo "... src/ft/ft_strlen.o"
+	@echo "... src/ft/ft_strlen.i"
+	@echo "... src/ft/ft_strlen.s"
+	@echo "... src/ft/ft_strnew.o"
+	@echo "... src/ft/ft_strnew.i"
+	@echo "... src/ft/ft_strnew.s"
+	@echo "... src/ft/ft_strnlen.o"
+	@echo "... src/ft/ft_strnlen.i"
+	@echo "... src/ft/ft_strnlen.s"
+	@echo "... src/ft/ft_strreverse.o"
+	@echo "... src/ft/ft_strreverse.i"
+	@echo "... src/ft/ft_strreverse.s"
+	@echo "... src/ft/ft_wstrlen.o"
+	@echo "... src/ft/ft_wstrlen.i"
+	@echo "... src/ft/ft_wstrlen.s"
 	@echo "... src/get_number_by_len.o"
 	@echo "... src/get_number_by_len.i"
 	@echo "... src/get_number_by_len.s"
