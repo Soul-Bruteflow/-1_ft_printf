@@ -2,22 +2,18 @@
 
 void	handle_pointer(t_printf *p)
 {
-	char		*n;
-	size_t		len;
-	uintmax_t 	nbr;
-	ssize_t		dif;
-
+	if (p->len == none)
+		p->len = j;
+	handle_bases(p, "0x", 16, false);
 //	char	*n;
 //	size_t	len;
 //	char	*prefix;
 //	t_bool	is_pref_printed;
-
-	prefix = "0x";
-	is_pref_printed = false;
-	n = ft_basification(va_arg(p->args, uintmax_t), 16, false);
-	len = ft_strlen(n);
-
-
+//
+//	prefix = "0x";
+//	is_pref_printed = false;
+//	n = ft_basification(va_arg(p->args, uintmax_t), 16, false);
+//	len = ft_strlen(n);
 //	if (p->got_precision)
 //	{
 //		p->count += ft_print(prefix, false, 0);
