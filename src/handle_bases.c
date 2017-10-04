@@ -27,11 +27,11 @@ void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 	n = ft_basification(nbr, base, size);
 	len = ft_strlen(n);
 	dif = p->precision - len;
-//	if (nbr == 0)
-//	{
+	if (nbr == 0)
+	{
 //		len = 0;
-//		pref = NULL;
-//	}
+		pref = NULL;
+	}
 	if (p->got_precision)
 		p->flags.zero = false;
 	handle_pad_base(p, dif, len, pref);
