@@ -2,12 +2,15 @@
 
 void handle_case_one(t_printf *p, ssize_t dif, size_t len, char *pref)
 {
-	if (dif > 0)
-		p->count += print_prefix_pad(len,
-		(unsigned int)(p->width - dif - ft_strlen(pref)), ' ');
-	else
-		p->count += print_prefix_pad(len,
-		(unsigned int)(p->width - ft_strlen(pref)), ' ');
+	if (p->width >= p->precision)
+	{
+		if (dif > 0)
+			p->count += print_prefix_pad(len,
+			(unsigned int)(p->width - dif - ft_strlen(pref)), ' ');
+		else
+			p->count += print_prefix_pad(len,
+			(unsigned int)(p->width - ft_strlen(pref)), ' ');
+	}
 	p->count += ft_print(pref, false, 0);
 	p->count += print_prefix_pad(len, p->precision, '0');
 }

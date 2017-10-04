@@ -26,6 +26,7 @@ ssize_t walk_format(t_printf *p)
 	{
 		if (p->format[p->i] == '%')
 		{
+			default_handler_format(p);
 			parse_core(p);
 		}
 		else
