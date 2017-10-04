@@ -17,8 +17,6 @@ static size_t		digits_count(uintmax_t n)
 	size_t				i;
 
 	i = 1;
-//	if (n < 0)
-//		n = -n;
 	while (n > 0)
 	{
 		n = n / 10;
@@ -41,34 +39,12 @@ static char			*put_positive(char *s1, size_t dgts, uintmax_t nbr)
 	return (s1);
 }
 
-//static char			*put_negative(char *s1, size_t dgts, long nbr)
-//{
-//	char				*str;
-//
-//	str = s1;
-//	while (nbr > 0)
-//	{
-//		str[dgts] = nbr % 10 + '0';
-//		dgts--;
-//		nbr = nbr / 10;
-//	}
-//	str[0] = '-';
-//	return (s1);
-//}
-
 char				*ft_itoa_positive(uintmax_t n)
 {
 	char				*str;
 	uintmax_t			nbr;
-//	unsigned int		minus;
 
-//	minus = 0;
 	nbr = n;
-//	if (nbr < 0)
-//	{
-//		nbr = -nbr;
-//		minus = 1;
-//	}
 	if (nbr == 0)
 	{
 		str = ft_strnew(1);
@@ -77,9 +53,6 @@ char				*ft_itoa_positive(uintmax_t n)
 	}
 	if (!(str = ft_strnew(digits_count(nbr))))
 		return (NULL);
-//	if (minus == 1)
-//		str = put_negative(str, digits_count(nbr), nbr);
-//	if (minus == 0)
-		str = put_positive(str, digits_count(nbr), nbr);
+	str = put_positive(str, digits_count(nbr), nbr);
 	return (str);
 }

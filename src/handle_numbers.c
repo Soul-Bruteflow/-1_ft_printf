@@ -11,12 +11,14 @@ static void	handle_prefix(t_printf *p, uintmax_t *n, char **pref)
 		{
 			*n = (uintmax_t)nbr * -1;
 			*pref = "-";
+            return ;
 		}
 		else if (p->flags.plus)
 			*pref = "+";
 		else if (p->flags.space)
 			*pref = " ";
 	}
+    *n = (uintmax_t)nbr;
 }
 
 static void	handle_pad_int(t_printf *p, ssize_t dif, size_t len, char *pref)
