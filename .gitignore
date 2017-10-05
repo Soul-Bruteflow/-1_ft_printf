@@ -1,6 +1,8 @@
 # garbage
 ._*.c
 ._*
+.idea/*
+cmake-build-debug/*
 
 # Prerequisites
 *.d
