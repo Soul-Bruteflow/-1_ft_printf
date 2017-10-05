@@ -18,11 +18,19 @@ void parse_core(t_printf *p)
 		p->conv_char = (unsigned char)p->format[p->i];
 		(p->handlers[p->conv_char])(p);
 	}
+	else
+	{
+		if (p->format[p->i] != '\0')
+		{
+			write(1, &p->format[p->i], 1);
+			p->count++;
+		}
+	}
 }
 
 ssize_t walk_format(t_printf *p)
 {
-	while (p->format[p->i])
+	while (p->format[p->i] && p->i <= ft_strlen(p->format))
 	{
 		if (p->format[p->i] == '%')
 		{

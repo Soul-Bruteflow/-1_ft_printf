@@ -12,6 +12,8 @@ static void	handle_pad_base(t_printf *p, ssize_t dif, size_t len, char *pref)
 		handle_case_three(p, len, "");
 	else if (p->flags.hashtag && !p->flags.minus)
 		p->count += ft_print(pref, false, 0);
+	else if (p->got_precision && !p->flags.minus)
+		handle_case_two(p, len, dif <= 0 ? "" : pref);
 	if (p->flags.minus)
 		handle_case_four(p, len, dif < 0 ? pref : "");
 }
