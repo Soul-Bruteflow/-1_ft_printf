@@ -29,7 +29,7 @@ ssize_t walk_format(t_printf *p)
 			default_handler_format(p);
 			parse_core(p);
 		}
-		else
+		else if (p->i <= ft_strlen(p->format))
 		{
 			write(1, &p->format[p->i], 1);
 			p->count++;

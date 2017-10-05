@@ -35,8 +35,14 @@ void	handle_pointer(t_printf *p)
 	}
 	if (!is_pref_printed)
 		p->count += ft_print(prefix, false, 0);
-	if (!(nbr == 0 && p->precision == 0 && p->width == 0))
+	if (nbr > 0)
 		p->count += ft_print(n, false, 0);
+	else if (nbr == 0 && p->precision != 0 && p->got_precision)
+		p->count += ft_print("0", false, 0);
+	else if (nbr == 0 && !p->got_precision)
+		p->count += ft_print("0", false, 0);
+//	if (!(nbr == 0 && p->precision == 0 && p->width == 0))
+//		p->count += ft_print(n, false, 0);
 	if (p->got_width && p->flags.minus)
 		p->count += print_prefix_pad(len + 2, p->width, ' ');
 //	handle_bases(p, "0x", 16, false);

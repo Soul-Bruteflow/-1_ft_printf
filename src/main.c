@@ -54,11 +54,8 @@ int main()
 //	sys = printf("%.d, %.0d\n", 0, 0);
 //	own = ft_printf("%.d, %.0d\n", 0, 0);
 
-	sys = printf("%.d, %.0d\n", 0, 0);
-	own = ft_printf("%.d, %.0d\n", 0, 0);
-
-	printf("%zd%zd\n", 0, 42);
-	ft_printf("%zd%zd\n", 0, 42);
+	sys = printf("% Zoooo\n");
+	own = ft_printf("% Zoooo\n");
 
 	printf("sys - %d", sys);
 	printf("\nown - %d\n\n", own);
