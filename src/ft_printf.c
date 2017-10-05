@@ -22,8 +22,18 @@ void parse_core(t_printf *p)
 	{
 		if (p->format[p->i] != '\0')
 		{
-			write(1, &p->format[p->i], 1);
-			p->count++;
+			if (p->got_width && !p->flags.minus)
+				p->count += print_prefix_pad(1, p->width,
+				(char)(p->flags.zero ? '0' : ' '));
+			while (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
+			{
+				write(1, &p->format[p->i], 1);
+				p->i++;
+				p->count++;
+			}
+			if (p->got_width && p->flags.minus)
+				p->count += print_prefix_pad(1, p->width, ' ');
+
 		}
 	}
 }

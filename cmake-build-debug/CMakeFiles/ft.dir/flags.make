@@ -6,5 +6,5 @@ C_FLAGS = -I ./inc -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/nfs/2016/m/mvlad/c_projects/4_ft_printf/./libft -I/nfs/2016/m/mvlad/c_projects/4_ft_printf/./inc 
+C_INCLUDES = -I/Users/bruteflow/c_projects/4_ft_printf/./libft -I/Users/bruteflow/c_projects/4_ft_printf/./inc 
 
