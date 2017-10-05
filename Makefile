@@ -14,9 +14,8 @@ NAME 	= libftprintf.a
 SRC_DIR = ./src/
 OBJ_DIR = ./obj/
 INC_DIR = ./inc/
-LIB_DIR = ./libft/
-LIB_INC = $(LIB_DIR)
-LIB_LIB = $(LIB_DIR)libft.a
+HEADERS	= $(INC_DIR)
+ODIRS 	:= ./obj ./obj/ft ./obj/parse ./obj/print ./obj/handlers ./obj/handlers/types
 
 OBJ	=	init_printf.o \
 		ft_printf.o \
@@ -67,14 +66,9 @@ OBJ	=	init_printf.o \
 		ft/ft_strnew.o \
 		ft/ft_memset.o
 
-LIB = $(LIB_DIR)libft.a
-
-HEADERS	= $(INC_DIR)
-DIRS 	:= a/aa/ a/ab/ b/ba/
-
 CC		= gcc
 CFLAGS	= -Wall -Wextra -Werror
-INC_OPT = -I $(LIB_INC) -I $(INC_DIR)
+INC_OPT = -I $(INC_DIR)
 OUT_OPT = -o
 OBJ_OPT = $< -o $@
 LIB_OPT	= -c
@@ -86,24 +80,20 @@ RLIB	= ranlib
 RMF 	= rm -f
 
 $(OBJ_DIR)%.o : $(SRC_DIR)%.c
-	@mkdir -p $(DIRS)
+	@mkdir -p $(ODIRS)
 	$(CC) $(CFLAGS) $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
 
 all: $(NAME)
 
 $(NAME): $(addprefix $(OBJ_DIR), $(OBJ))
-	$(MAKE) -C ./libft/
 	$(AR) $(ARFLAGS) $(NAME) $^
 	$(RLIB) $(NAME)
-	# $(CC) $(CFLAGS) $(LIB_LIB) $^ $(OUT_OPT) $(NAME)
-
+	
 clean:
 	$(RMF) $(addprefix $(OBJ_DIR), $(OBJ))
-	cd $(LIB_DIR) && $(MAKE) clean
-
+	
 fclean: clean
 	$(RMF) $(NAME)
-	cd $(LIB_DIR) && $(MAKE) fclean
 
 re: fclean all
-	cd $(LIB_DIR) && $(MAKE) re
+	

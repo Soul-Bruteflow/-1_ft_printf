@@ -323,221 +323,151 @@
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/libft/ft_tolower.c">
 			<Option target="ft"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_basification.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/._ft_putnwstr.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_bzero.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_basification.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_capitalize.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_bzero.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_isconversion_char.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_capitalize.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_isdigit.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isconversion_char.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_isflag.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isdigit.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_islength.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isflag.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_itoa_positive.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_islength.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_memset.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_itoa_positive.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_print.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_memset.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_printf.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putchar.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putchar.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putchar_fd.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putchar_fd.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putnwstr.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putnwstr.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwchar.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwstr.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strcpy.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strlen.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strnew.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strnew.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strnlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strnlen.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strreverse.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strreverse.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_wstrlen.c">
-=======
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_basification.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_bzero.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_capitalize.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isconversion_char.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isdigit.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isflag.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_islength.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_itoa_positive.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_memset.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_print.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_wstrlen.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putchar.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_bases.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putchar_fd.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putnwstr.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwchar.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwchar_fd.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char_w.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwstr.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_big.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strcpy.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_small.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strlen.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strnew.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int_long.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strnlen.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_uint.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strreverse.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_wstrlen.c">
->>>>>>> 1528fbe4a16ef9e708871b554ad89f4ad7eb76cd
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_percent.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/get_number_by_len.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_pointer.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/get_number_by_len_unsigned.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_bases.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string_w.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_char.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_uint.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_char_w.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_hex_big.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_hex_small.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_int.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_int_long.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_numbers.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_numbers_sup.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_octal_uint.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_octal_ulong.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_percent.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_pointer.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_string.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_string_w.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_uint.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_ulong.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_ulong.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/init_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_flags.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_length.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_flags.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_precision.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_length.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_width.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_precision.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print_prefix_pad.c">
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_width.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_print.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/print_prefix_pad.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/CMakeLists.txt">
