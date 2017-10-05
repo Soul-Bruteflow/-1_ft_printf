@@ -1338,7 +1338,6 @@ ft_printf: CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o
 ft_printf: CMakeFiles/ft_printf.dir/build.make
-ft_printf: libft.a
 ft_printf: CMakeFiles/ft_printf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bruteflow/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C executable ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf.dir/link.txt --verbose=$(VERBOSE)

@@ -30,14 +30,6 @@ unistd.h
 stdlib.h
 -
 
-.././libft/libft.h
-string.h
--
-unistd.h
--
-stdlib.h
--
-
 /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_basification.c
 ft_printf.h
 /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_printf.h

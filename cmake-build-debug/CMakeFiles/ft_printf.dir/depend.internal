@@ -7,7 +7,7 @@ CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o
  .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_basification.c
 CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_bzero.c
 CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o
  .././inc/bool.h
@@ -20,7 +20,7 @@ CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.o
  .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_isconversion_char.c
 CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_isdigit.c
 CMakeFiles/ft_printf.dir/src/ft/ft_isflag.c.o
  .././inc/bool.h
@@ -33,16 +33,16 @@ CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.o
  .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_islength.c
 CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_itoa_positive.c
 CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_memset.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putchar.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putchar_fd.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o
  .././inc/bool.h
@@ -52,10 +52,10 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwchar.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o
  .././inc/bool.h
@@ -63,13 +63,13 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o
  .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_putwstr.c
 CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strcpy.c
 CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strlen.c
 CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/ft/ft_strnew.c
 CMakeFiles/ft_printf.dir/src/ft/ft_strnlen.c.o
  .././inc/bool.h
@@ -184,7 +184,7 @@ CMakeFiles/ft_printf.dir/src/init_printf.c.o
 CMakeFiles/ft_printf.dir/src/main.c.o
  .././inc/bool.h
  .././inc/ft_printf.h
- .././libft/libft.h
+ .././inc/libft.h
  /Users/bruteflow/c_projects/4_ft_printf/src/main.c
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o
  .././inc/bool.h

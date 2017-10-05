@@ -6,7 +6,7 @@ CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o: ../src/ft/ft_basification.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o: ../src/ft/ft_bzero.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o: .././inc/bool.h
@@ -19,7 +19,7 @@ CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_isconversion_char.c.o: ../src/ft/ft_isconversion_char.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_isdigit.c.o: ../src/ft/ft_isdigit.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_isflag.c.o: .././inc/bool.h
@@ -32,16 +32,16 @@ CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_islength.c.o: ../src/ft/ft_islength.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_itoa_positive.c.o: ../src/ft/ft_itoa_positive.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_memset.c.o: ../src/ft/ft_memset.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putchar.c.o: ../src/ft/ft_putchar.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putchar_fd.c.o: ../src/ft/ft_putchar_fd.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o: .././inc/bool.h
@@ -51,10 +51,10 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o: ../src/ft/ft_putnwstr.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: ../src/ft/ft_putwchar.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o: ../src/ft/ft_putwchar_fd.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/bool.h
@@ -62,13 +62,13 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: ../src/ft/ft_putwstr.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o: ../src/ft/ft_strcpy.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o: ../src/ft/ft_strlen.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o: ../src/ft/ft_strnew.c
 
 CMakeFiles/ft_printf.dir/src/ft/ft_strnlen.c.o: .././inc/bool.h
@@ -183,7 +183,7 @@ CMakeFiles/ft_printf.dir/src/init_printf.c.o: ../src/init_printf.c
 
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/main.c.o: .././libft/libft.h
+CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
 
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/bool.h
