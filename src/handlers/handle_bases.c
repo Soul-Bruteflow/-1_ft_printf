@@ -52,7 +52,7 @@ void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 	if (p->got_precision)
 		p->flags.zero = false;
 	handle_pad_base(p, dif, len, pref);
-	if (nbr == 0 && p->got_precision && p->precision == 0 && p->flags.hashtag)
+	if (nbr == 0 && p->got_precision && p->precision == 0 && p->flags.hashtag && base == 8)
 		p->count += ft_print(preft, false, 0);
 	if (nbr > 0)
 		p->count += ft_print(n, false, 0);
