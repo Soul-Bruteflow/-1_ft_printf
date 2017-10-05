@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/._ft_putnwstr.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/._ft_putnwstr.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_basification.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_bzero.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_capitalize.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o"
@@ -45,6 +44,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_uint.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_ulong.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/init_printf.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/init_printf.c.o"
+  "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_flags.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o"

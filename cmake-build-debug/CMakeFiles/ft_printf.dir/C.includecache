@@ -22,6 +22,14 @@ libft.h
 bool.h
 .././inc/bool.h
 
+.././inc/libft.h
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+
 .././libft/libft.h
 string.h
 -
@@ -30,177 +38,165 @@ unistd.h
 stdlib.h
 -
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_basification.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_basification.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_bzero.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_bzero.c
 libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_capitalize.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_capitalize.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isconversion_char.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isconversion_char.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isdigit.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isdigit.c
 libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_isflag.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_isflag.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_islength.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_islength.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_itoa_positive.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_itoa_positive.c
 libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_memset.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_memset.c
 libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_print.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putchar.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putchar_fd.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putnwstr.c
+wchar.h
+-
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strlen.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strnew.c
+libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strnlen.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strreverse.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_wstrlen.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.c
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putchar.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putchar_fd.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putnwstr.c
-wchar.h
--
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_bases.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwchar.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwchar_fd.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_putwstr.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strcpy.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strlen.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strnew.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strnlen.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_strreverse.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char_w.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_wstrlen.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_big.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/get_number_by_len.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_small.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/get_number_by_len_unsigned.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_bases.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int_long.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_char.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_uint.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_char_w.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_ulong.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_hex_big.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_percent.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_hex_small.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_pointer.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_int.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_int_long.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string_w.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_numbers.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_uint.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_numbers_sup.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_ulong.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_octal_uint.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_octal_ulong.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_percent.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_pointer.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_string.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_string_w.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_uint.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handle_ulong.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/init_printf.c
 ft_printf.h
@@ -218,23 +214,35 @@ locale.h
 limits.h
 -
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_flags.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_length.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_precision.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_flags.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse_width.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_length.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print_prefix_pad.c
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_precision.c
 ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_width.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_print.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/print_prefix_pad.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_printf.h
 

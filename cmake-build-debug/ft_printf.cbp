@@ -323,9 +323,6 @@
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/libft/ft_tolower.c">
 			<Option target="ft"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/._ft_putnwstr.c">
-			<Option target="ft_printf"/>
-		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_basification.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -444,6 +441,9 @@
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/init_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c">

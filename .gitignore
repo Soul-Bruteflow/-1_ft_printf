@@ -1,3 +1,7 @@
+# garbage
+._*.c
+._*
+
 # Prerequisites
 *.d
 
