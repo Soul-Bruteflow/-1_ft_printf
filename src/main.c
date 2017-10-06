@@ -51,49 +51,14 @@ int main()
 //	int *b = &a;
 
 
-//	sys = printf("%.d, %.0d\n", 0, 0);
-//	own = ft_printf("%.d, %.0d\n", 0, 0);
-
-//	sys = printf("{%#.5x}\n", 1);
-//	own = ft_printf("{%#.5x}\n", 1);
-//
-//	printf("%#.3o\n", 1);
-//	ft_printf("%#.3o\n", 1);
+	char tmp2 = (char)USHRT_MAX;
 
 
-//	printf("|%#-08x|\n", 42);
-//	ft_printf("|%#-08x|\n", 42);
-//
-//	printf("|%-#6o|\n", 2500);
-//	ft_printf("|%-#6o|\n", 2500);
-//
-//	printf("|%-10x|\n", 42);
-//	ft_printf("|%-10x|\n", 42);
-//
-//	ft_printf("|%-15x|\n", 542);
-//	printf("|%-15x|\n", 542);
-//////
-	printf("|@moulitest: %5.o %5.0o|\n", 0, 0);
-	ft_printf("|@moulitest: %5.o %5.0o|\n", 0, 0);
+	sys = printf("%ld\n", (long)tmp2);
+	own = ft_printf("%D\n", (long)tmp2);
 
-	printf("|@moulitest: %5.o|\n", 0);
-	ft_printf("|@moulitest: %5.o|\n", 0);
-
-	printf("|@moulitest: %5.0o|\n", 0);
-	ft_printf("|@moulitest: %5.0o|\n", 0);
-
-////
-//	ft_printf("|%-5o|\n", 2500);
-//	printf("|%-5o|\n", 2500);
-////
-//	ft_printf("|%-05o|\n", 2500);
-//	printf("|%-05o|\n", 2500);
-//
-//	printf("%hhD\n", USHRT_MAX);
-//	ft_printf("%hhD\n", USHRT_MAX);
-
-//	printf("%hD\n", USHRT_MAX);
-//	ft_printf("%hD\n", USHRT_MAX);
+	printf("%hD, %hD\n", 0, USHRT_MAX);
+	ft_printf("%hD, %hD\n", 0, USHRT_MAX);
 
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);

@@ -1,9 +1,43 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/06 12:40:07 by mvlad             #+#    #+#             */
+/*   Updated: 2017/10/06 15:31:30 by mvlad            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-void parse_core(t_printf *p)
+void	handle_escape(t_printf *p)
 {
-//	%sSpdDioOuUxXcC
-//	size_t count;
+	if (p->format[p->i] != '\0')
+	{
+		if (p->got_width && !p->flags.minus)
+			p->count += print_prefix_pad(1, p->width,
+			(char)(p->flags.zero ? '0' : ' '));
+		if (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
+		{
+			write(1, &p->format[p->i], 1);
+			p->i++;
+			p->count++;
+		}
+		if (p->got_width && p->flags.minus)
+			p->count += print_prefix_pad(1, p->width, ' ');
+		while (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
+		{
+			write(1, &p->format[p->i], 1);
+			p->i++;
+			p->count++;
+		}
+	}
+}
+
+void	parse_core(t_printf *p)
+{
 	p->i++;
 	if (ft_isflag(p->format, p->i))
 		parse_flags(p);
@@ -19,32 +53,10 @@ void parse_core(t_printf *p)
 		(p->handlers[p->conv_char])(p);
 	}
 	else
-	{
-		if (p->format[p->i] != '\0')
-		{
-			if (p->got_width && !p->flags.minus)
-				p->count += print_prefix_pad(1, p->width,
-				(char)(p->flags.zero ? '0' : ' '));
-			if (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
-			{
-				write(1, &p->format[p->i], 1);
-				p->i++;
-				p->count++;
-			}
-			if (p->got_width && p->flags.minus)
-				p->count += print_prefix_pad(1, p->width, ' ');
-			while (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
-			{
-				write(1, &p->format[p->i], 1);
-				p->i++;
-				p->count++;
-			}
-
-		}
-	}
+		handle_escape(p);
 }
 
-ssize_t walk_format(t_printf *p)
+ssize_t	walk_format(t_printf *p)
 {
 	while (p->format[p->i] && p->i <= ft_strlen(p->format))
 	{
@@ -63,7 +75,7 @@ ssize_t walk_format(t_printf *p)
 	return (p->count);
 }
 
-int ft_printf(const char *format, ...)
+int		ft_printf(const char *format, ...)
 {
 	t_printf	*p;
 
@@ -71,9 +83,9 @@ int ft_printf(const char *format, ...)
 		return (0);
 	if (format)
 	{
-		va_start (p->args, format);
+		va_start(p->args, format);
 		p->count = walk_format(p);
-		va_end (p->args);
+		va_end(p->args);
 	}
 	return ((int)p->count);
 }

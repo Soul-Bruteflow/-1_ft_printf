@@ -9,6 +9,7 @@
 # include "bool.h"
 
 # define MAXBASE 36
+# define MINBASE 2
 
 typedef enum		e_len
 {
@@ -79,6 +80,7 @@ void				handle_hex_small(t_printf *p);
 void				handle_hex_big(t_printf *p);
 void				handle_char(t_printf *p);
 void				handle_char_w(t_printf *p);
+void				handle_escape(t_printf *p);
 
 void				handle_numbers(t_printf *p);
 void				handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size);

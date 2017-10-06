@@ -1,14 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   init_printf.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/06 15:35:14 by mvlad             #+#    #+#             */
+/*   Updated: 2017/10/06 15:35:26 by mvlad            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 /*
 ** %sSpdDioOuUxXcC
 */
 
-t_bool init_conversion_handlers(t_printf *p)
+t_bool		init_conversion_handlers(t_printf *p)
 {
-//	p->handlers = malloc(256 * sizeof(*(p->handlers)));
-//	if (p->handlers == NULL)
-//		return (NULL);
 	p->handlers['%'] = handle_percent;
 	p->handlers['s'] = handle_string;
 	p->handlers['S'] = handle_string_w;
@@ -27,7 +36,7 @@ t_bool init_conversion_handlers(t_printf *p)
 	return (true);
 }
 
-void	default_handler_format(t_printf *p)
+void		default_handler_format(t_printf *p)
 {
 	p->width = 0;
 	p->precision = 0;
@@ -42,7 +51,7 @@ void	default_handler_format(t_printf *p)
 	p->base = 0;
 }
 
-t_printf *init_printf(const char *format)
+t_printf	*init_printf(const char *format)
 {
 	t_printf *p;
 

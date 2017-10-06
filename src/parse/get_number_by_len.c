@@ -6,7 +6,7 @@ intmax_t	get_number_by_len(t_printf *p)
 
 	nbr = va_arg(p->args, intmax_t);
 	if (p->len == hh)
-		nbr = (char)nbr;
+		nbr = (signed char)nbr;
 	else if (p->len  == h)
 		nbr = (short int)nbr;
 	else if (p->len  == l)
