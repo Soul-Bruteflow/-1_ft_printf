@@ -101,6 +101,11 @@ CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o: .././inc/ft_printf
 CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o: ../src/handlers/handle_numbers_sup.c
 
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: .././inc/libft.h
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: ../src/handlers/handle_numbers_sup2.c
+
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o: .././inc/libft.h

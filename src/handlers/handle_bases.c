@@ -16,8 +16,7 @@ static void	handle_minus_case(t_printf *p, char *pref, ssize_t dif, size_t len)
 {
 	if (p->flags.minus)
 	{
-		if (p->flags.hashtag)
-			pref = dif < 0 ? pref : "";
+		pref = handle_pref_less(p, pref, dif);
 		handle_case_four(p, len, pref);
 	}
 }

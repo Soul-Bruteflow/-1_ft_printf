@@ -126,6 +126,10 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/ft_printf.h
 
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup2.c
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/ft_printf.h
+
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char.c
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/ft_printf.h
