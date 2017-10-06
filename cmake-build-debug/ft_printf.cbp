@@ -156,6 +156,9 @@
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup2.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char.c">
 			<Option target="ft_printf"/>
 		</Unit>

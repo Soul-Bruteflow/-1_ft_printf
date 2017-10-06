@@ -771,6 +771,33 @@ src/handlers/handle_numbers_sup.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.s
 .PHONY : src/handlers/handle_numbers_sup.c.s
 
+src/handlers/handle_numbers_sup2.o: src/handlers/handle_numbers_sup2.c.o
+
+.PHONY : src/handlers/handle_numbers_sup2.o
+
+# target to build an object file
+src/handlers/handle_numbers_sup2.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o
+.PHONY : src/handlers/handle_numbers_sup2.c.o
+
+src/handlers/handle_numbers_sup2.i: src/handlers/handle_numbers_sup2.c.i
+
+.PHONY : src/handlers/handle_numbers_sup2.i
+
+# target to preprocess a source file
+src/handlers/handle_numbers_sup2.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.i
+.PHONY : src/handlers/handle_numbers_sup2.c.i
+
+src/handlers/handle_numbers_sup2.s: src/handlers/handle_numbers_sup2.c.s
+
+.PHONY : src/handlers/handle_numbers_sup2.s
+
+# target to generate assembly for a file
+src/handlers/handle_numbers_sup2.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.s
+.PHONY : src/handlers/handle_numbers_sup2.c.s
+
 src/handlers/types/handle_char.o: src/handlers/types/handle_char.c.o
 
 .PHONY : src/handlers/types/handle_char.o
@@ -1500,6 +1527,9 @@ help:
 	@echo "... src/handlers/handle_numbers_sup.o"
 	@echo "... src/handlers/handle_numbers_sup.i"
 	@echo "... src/handlers/handle_numbers_sup.s"
+	@echo "... src/handlers/handle_numbers_sup2.o"
+	@echo "... src/handlers/handle_numbers_sup2.i"
+	@echo "... src/handlers/handle_numbers_sup2.s"
 	@echo "... src/handlers/types/handle_char.o"
 	@echo "... src/handlers/types/handle_char.i"
 	@echo "... src/handlers/types/handle_char.s"

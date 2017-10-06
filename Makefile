@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bruteflow <bruteflow@student.42.fr>        +#+  +:+       +#+         #
+#    By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/04 23:06:34 by bruteflow        ###   ########.fr        #
+#    Updated: 2017/10/06 17:25:22 by mvlad            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,7 @@ OBJ	=	init_printf.o \
 		handlers/handle_bases.o \
 		handlers/handle_numbers.o \
 		handlers/handle_numbers_sup.o \
+		handlers/handle_numbers_sup2.o \
 		handlers/types/handle_char.o \
 		handlers/types/handle_char_w.o \
 		handlers/types/handle_hex_big.o \
@@ -53,7 +54,6 @@ OBJ	=	init_printf.o \
 		ft/ft_putnwstr.o \
 		ft/ft_putwchar.o \
 		ft/ft_putwchar_fd.o \
-		ft/ft_putwstr.o \
 		ft/ft_strnlen.o \
 		ft/ft_strreverse.o \
 		ft/ft_wstrlen.o \

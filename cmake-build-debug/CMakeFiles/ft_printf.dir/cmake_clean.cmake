@@ -25,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o"
+  "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o"
   "CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o"
   "CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o"
   "CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o"

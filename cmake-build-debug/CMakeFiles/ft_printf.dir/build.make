@@ -681,9 +681,33 @@ CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o.provides: CMakeFile
 CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o.provides.build: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o
 
 
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o: ../src/handlers/handle_numbers_sup2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup2.c
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup2.c > CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.i
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers_sup2.c -o CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.s
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.requires:
+
+.PHONY : CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.requires
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.provides: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.requires
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.provides.build
+.PHONY : CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.provides
+
+CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.provides.build: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o
+
+
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: ../src/parse/get_number_by_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c
 
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.i: cmake_force
@@ -707,7 +731,7 @@ CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o.provides.build: CMakeFi
 
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o: ../src/parse/get_number_by_len_unsigned.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c
 
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.i: cmake_force
@@ -731,7 +755,7 @@ CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o.provides.build
 
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o: ../src/parse/parse_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_flags.c
 
 CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.i: cmake_force
@@ -755,7 +779,7 @@ CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o.provides.build: CMakeFiles/ft
 
 CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o: ../src/parse/parse_length.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_length.c
 
 CMakeFiles/ft_printf.dir/src/parse/parse_length.c.i: cmake_force
@@ -779,7 +803,7 @@ CMakeFiles/ft_printf.dir/src/parse/parse_length.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o: ../src/parse/parse_precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_precision.c
 
 CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.i: cmake_force
@@ -803,7 +827,7 @@ CMakeFiles/ft_printf.dir/src/parse/parse_precision.c.o.provides.build: CMakeFile
 
 CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o: ../src/parse/parse_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_width.c
 
 CMakeFiles/ft_printf.dir/src/parse/parse_width.c.i: cmake_force
@@ -827,7 +851,7 @@ CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o.provides.build: CMakeFiles/ft
 
 CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/print/ft_print.c.o: ../src/print/ft_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/print/ft_print.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_print.c
 
 CMakeFiles/ft_printf.dir/src/print/ft_print.c.i: cmake_force
@@ -851,7 +875,7 @@ CMakeFiles/ft_printf.dir/src/print/ft_print.c.o.provides.build: CMakeFiles/ft_pr
 
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: ../src/print/print_prefix_pad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/print_prefix_pad.c
 
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.i: cmake_force
@@ -875,7 +899,7 @@ CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o.provides.build: CMakeFil
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o: ../src/handlers/types/handle_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.i: cmake_force
@@ -899,7 +923,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_char.c.o.provides.build: CMak
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o: ../src/handlers/types/handle_char_w.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_char_w.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.i: cmake_force
@@ -923,7 +947,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_char_w.c.o.provides.build: CM
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o: ../src/handlers/types/handle_hex_big.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_big.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.i: cmake_force
@@ -947,7 +971,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_big.c.o.provides.build: C
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o: ../src/handlers/types/handle_hex_small.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_hex_small.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.i: cmake_force
@@ -971,7 +995,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_hex_small.c.o.provides.build:
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o: ../src/handlers/types/handle_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.i: cmake_force
@@ -995,7 +1019,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_int.c.o.provides.build: CMake
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o: ../src/handlers/types/handle_int_long.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_int_long.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.i: cmake_force
@@ -1019,7 +1043,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_int_long.c.o.provides.build: 
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o: ../src/handlers/types/handle_octal_uint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_uint.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.i: cmake_force
@@ -1043,7 +1067,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_uint.c.o.provides.build
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o: ../src/handlers/types/handle_octal_ulong.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_octal_ulong.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.i: cmake_force
@@ -1067,7 +1091,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_octal_ulong.c.o.provides.buil
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o: ../src/handlers/types/handle_percent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_percent.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.i: cmake_force
@@ -1091,7 +1115,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_percent.c.o.provides.build: C
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o: ../src/handlers/types/handle_pointer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_pointer.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.i: cmake_force
@@ -1115,7 +1139,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_pointer.c.o.provides.build: C
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o: ../src/handlers/types/handle_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.i: cmake_force
@@ -1139,7 +1163,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_string.c.o.provides.build: CM
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o: ../src/handlers/types/handle_string_w.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_string_w.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.i: cmake_force
@@ -1163,7 +1187,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_string_w.c.o.provides.build: 
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o: ../src/handlers/types/handle_uint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_uint.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.i: cmake_force
@@ -1187,7 +1211,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o.provides.build: CMak
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o: ../src/handlers/types/handle_ulong.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_ulong.c
 
 CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.i: cmake_force
@@ -1237,6 +1261,7 @@ ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.o" \
 "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers.c.o" \
 "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o" \
+"CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o" \
 "CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o" \
 "CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o" \
 "CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o" \
@@ -1289,6 +1314,7 @@ ft_printf: CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o
+ft_printf: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o
@@ -1313,7 +1339,7 @@ ft_printf: CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o
 ft_printf: CMakeFiles/ft_printf.dir/build.make
 ft_printf: CMakeFiles/ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking C executable ft_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C executable ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1347,6 +1373,7 @@ CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o.requires
+CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o.requires

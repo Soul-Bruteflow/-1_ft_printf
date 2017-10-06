@@ -1,26 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   parse_width.c                                      :+:      :+:    :+:   */
+/*   handle_numbers_sup2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/10/05 11:23:20 by mvlad             #+#    #+#             */
-/*   Updated: 2017/10/06 16:24:54 by mvlad            ###   ########.fr       */
+/*   Created: 2017/10/06 17:31:52 by mvlad             #+#    #+#             */
+/*   Updated: 2017/10/06 17:34:39 by mvlad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	parse_width(t_printf *p)
+char	*handle_pref_less(t_printf *p, char *pref, ssize_t dif)
 {
-	if (ft_isdigit(p->format[p->i]))
+	if (p->flags.hashtag)
+		pref = dif < 0 ? pref : "";
+	else
+		pref = "";
+	return (pref);
+}
+
+char	*handle_pref_greater(t_printf *p, char *pref, ssize_t dif)
+{
+	if (p->flags.hashtag)
+		pref = dif > 0 ? pref : "";
+	else
+		pref = "";
+	return (pref);
+}
+
+void	number_zero(uintmax_t nbr, size_t *len, char **pref)
+{
+	if (nbr == 0)
 	{
-		p->got_width = true;
-		while (ft_isdigit(p->format[p->i]) && p->format[p->i] != '\0')
-		{
-			p->width = p->width * 10 + p->format[p->i] - '0';
-			p->i++;
-		}
+		*len = 0;
+		*pref = NULL;
 	}
 }

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_length.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/05 11:23:20 by mvlad             #+#    #+#             */
+/*   Updated: 2017/10/06 16:25:05 by mvlad            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 static void	oneltter_len(t_printf *p)
@@ -29,7 +41,7 @@ void		parse_length(t_printf *p)
 			continue;
 		}
 		else if (p->format[p->i] == 'h' || p->format[p->i] == 'l'
-				 || p->format[p->i] == 'j' || p->format[p->i] == 'z')
+		|| p->format[p->i] == 'j' || p->format[p->i] == 'z')
 		{
 			oneltter_len(p);
 			p->i++;

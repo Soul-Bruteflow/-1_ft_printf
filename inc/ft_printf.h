@@ -119,6 +119,14 @@ size_t 				ft_print(const char *print, t_bool is_len, size_t l);
 size_t				ft_putnwstr(const wchar_t *print, t_bool is_len, size_t l);
 size_t				print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar);
 
+/*
+** Support
+*/
+char				*handle_pref_less(t_printf *p, char *pref, ssize_t dif);
+char				*handle_pref_greater(t_printf *p, char *pref, ssize_t dif);
+void				number_zero(uintmax_t nbr, size_t *len, char **pref);
+
+
 int					ft_printf(const char *format, ...);
 void 				parse_core(t_printf *p);
 char				*ft_itoa_long(long n);

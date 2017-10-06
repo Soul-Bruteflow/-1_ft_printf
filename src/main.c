@@ -51,14 +51,14 @@ int main()
 //	int *b = &a;
 
 
-	char tmp2 = (char)USHRT_MAX;
+//	char tmp2 = (char)USHRT_MAX;
 
 
-	sys = printf("%ld\n", (long)tmp2);
-	own = ft_printf("%D\n", (long)tmp2);
+	sys = printf("%15.4o\n", 42);
+	own = ft_printf("%15.4o\n", 42);
 
-	printf("%hD, %hD\n", 0, USHRT_MAX);
-	ft_printf("%hD, %hD\n", 0, USHRT_MAX);
+//	printf("%hD, %hD\n", 0, USHRT_MAX);
+//	ft_printf("%hD, %hD\n", 0, USHRT_MAX);
 
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
