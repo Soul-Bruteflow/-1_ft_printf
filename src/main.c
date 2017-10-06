@@ -57,20 +57,11 @@ int main()
 //	sys = printf("%15.4o\n", 42);
 //	own = ft_printf("%15.4o\n", 42);
 
-	printf("|%-10x|\n", 42);
-	ft_printf("|%-10x|\n", 42);
+//	printf("%hhO\n", USHRT_MAX);
+//	ft_printf("%hD\n", USHRT_MAX);
 
-	printf("|%-15x|\n", 542);
-	ft_printf("|%-15x|\n", 542);
-
-	printf("|%-5o|\n", 2500);
-	ft_printf("|%-5o|\n", 2500);
-
-	printf("|%-05o|\n", 2500);
-	ft_printf("|%-05o|\n", 2500);
-
-//	printf("%hD, %hD\n", 0, USHRT_MAX);
-//	ft_printf("%hD, %hD\n", 0, USHRT_MAX);
+	printf("%hD\n", USHRT_MAX);
+	ft_printf("%hD\n", USHRT_MAX);
 
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
