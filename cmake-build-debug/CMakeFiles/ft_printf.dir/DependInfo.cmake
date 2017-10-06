@@ -18,7 +18,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putnwstr.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o"
-  "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strlen.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strnew.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o"

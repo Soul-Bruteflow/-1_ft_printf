@@ -501,33 +501,6 @@ src/ft/ft_putwchar_fd.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.s
 .PHONY : src/ft/ft_putwchar_fd.c.s
 
-src/ft/ft_putwstr.o: src/ft/ft_putwstr.c.o
-
-.PHONY : src/ft/ft_putwstr.o
-
-# target to build an object file
-src/ft/ft_putwstr.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o
-.PHONY : src/ft/ft_putwstr.c.o
-
-src/ft/ft_putwstr.i: src/ft/ft_putwstr.c.i
-
-.PHONY : src/ft/ft_putwstr.i
-
-# target to preprocess a source file
-src/ft/ft_putwstr.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.i
-.PHONY : src/ft/ft_putwstr.c.i
-
-src/ft/ft_putwstr.s: src/ft/ft_putwstr.c.s
-
-.PHONY : src/ft/ft_putwstr.s
-
-# target to generate assembly for a file
-src/ft/ft_putwstr.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.s
-.PHONY : src/ft/ft_putwstr.c.s
-
 src/ft/ft_strcpy.o: src/ft/ft_strcpy.c.o
 
 .PHONY : src/ft/ft_strcpy.o
@@ -1497,9 +1470,6 @@ help:
 	@echo "... src/ft/ft_putwchar_fd.o"
 	@echo "... src/ft/ft_putwchar_fd.i"
 	@echo "... src/ft/ft_putwchar_fd.s"
-	@echo "... src/ft/ft_putwstr.o"
-	@echo "... src/ft/ft_putwstr.i"
-	@echo "... src/ft/ft_putwstr.s"
 	@echo "... src/ft/ft_strcpy.o"
 	@echo "... src/ft/ft_strcpy.i"
 	@echo "... src/ft/ft_strcpy.s"

@@ -10,15 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <wchar.h>
 #include "ft_printf.h"
 
-size_t	ft_print_wstr(const wchar_t *print, t_bool is_len, size_t l)
+size_t	ft_putnwstr(const wchar_t *print, t_bool is_len, size_t l)
 {
-	size_t	i;
-	size_t len;
+	size_t		i;
+	size_t		len;
 
-	if(!print)
+	if (!print)
 		return (0);
 	if (is_len)
 		len = l;

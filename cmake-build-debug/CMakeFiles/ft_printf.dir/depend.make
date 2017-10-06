@@ -57,11 +57,6 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o: ../src/ft/ft_putwchar.c
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o: ../src/ft/ft_putwchar_fd.c
 
-CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/bool.h
-CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: .././inc/libft.h
-CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o: ../src/ft/ft_putwstr.c
-
 CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o: ../src/ft/ft_strcpy.c
 

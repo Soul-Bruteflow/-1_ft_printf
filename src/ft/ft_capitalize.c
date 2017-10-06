@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int ft_capitalize(char *s)
+int	ft_capitalize(char *s)
 {
 	int i;
 

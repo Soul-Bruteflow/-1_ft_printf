@@ -9,9 +9,10 @@
 /*   Updated: 2017/10/06 15:37:02 by mvlad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
-size_t ft_wstrlen(const wchar_t *str)
+size_t	ft_wstrlen(const wchar_t *str)
 {
 	size_t i;
 

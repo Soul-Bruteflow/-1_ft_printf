@@ -75,24 +75,16 @@ libft.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putnwstr.c
-wchar.h
--
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar.c
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c
 libft.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/libft.h
-
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_printf.h
 
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c
 libft.h

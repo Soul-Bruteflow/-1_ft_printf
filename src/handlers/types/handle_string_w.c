@@ -29,7 +29,7 @@ void	handle_string_w(t_printf *p)
 	if (p->got_width && !p->flags.minus)
 		p->count += print_prefix_pad(strlen, p->width,
 		p->flags.zero ? (char)'0' : (char)' ');
-	p->count += ft_print_wstr(str, true, strlen);
+	p->count += ft_putnwstr(str, true, strlen);
 	if (p->got_width && p->flags.minus)
 		p->count += print_prefix_pad(strlen, p->width, ' ');
 }

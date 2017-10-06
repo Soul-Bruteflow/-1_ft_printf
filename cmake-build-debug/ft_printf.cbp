@@ -126,9 +126,6 @@
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c">
-			<Option target="ft_printf"/>
-		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c">
 			<Option target="ft_printf"/>
 		</Unit>

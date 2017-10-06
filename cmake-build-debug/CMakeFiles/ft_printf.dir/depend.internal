@@ -57,11 +57,6 @@ CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o
 CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o
  .././inc/libft.h
  /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwchar_fd.c
-CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o
- .././inc/bool.h
- .././inc/ft_printf.h
- .././inc/libft.h
- /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_putwstr.c
 CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o
  .././inc/libft.h
  /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft/ft_strcpy.c

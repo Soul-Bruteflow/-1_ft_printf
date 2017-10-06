@@ -16,7 +16,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/ft/ft_putnwstr.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_putwchar.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_putwchar_fd.c.o"
-  "CMakeFiles/ft_printf.dir/src/ft/ft_putwstr.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_strcpy.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_strlen.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_strnew.c.o"

@@ -9,9 +9,10 @@
 /*   Updated: 2017/10/06 15:37:05 by mvlad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
-char *ft_strreverse(const char *s)
+char	*ft_strreverse(const char *s)
 {
 	size_t	len;
 	size_t	i;
