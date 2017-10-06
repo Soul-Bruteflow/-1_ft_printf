@@ -44,6 +44,7 @@ typedef struct		s_printf
 	unsigned int	precision;
 	t_len			len;
 	unsigned char 	conv_char;
+	unsigned short	base;
 	void			(*handlers[256])(struct s_printf *p);
 }					t_printf;
 

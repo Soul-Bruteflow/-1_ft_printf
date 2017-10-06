@@ -13,7 +13,9 @@ static void	handle_pad_base(t_printf *p, ssize_t dif, size_t len, char *pref)
 	}
 	else if (p->got_precision && !p->flags.minus && p->flags.hashtag)
 	{
-		handle_case_two(p, len, dif < 0 ? pref : "");
+		if (p->base == 8)
+			pref = dif < 0 ? pref : "";
+		handle_case_two(p, len, pref);
 	}
 	else if (p->got_width && p->flags.hashtag && !p->flags.minus)
 		handle_case_three(p, len, pref);
@@ -28,7 +30,11 @@ static void	handle_pad_base(t_printf *p, ssize_t dif, size_t len, char *pref)
 		handle_case_two(p, len - ft_strlen(preft), preft);
 	}
 	if (p->flags.minus)
-		handle_case_four(p, len, dif < 0 ? pref : "");
+	{
+		if (p->flags.hashtag)
+			preft = dif < 0 ? pref : "";
+		handle_case_four(p, len, preft);
+	}
 }
 
 void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
@@ -46,7 +52,7 @@ void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 	dif = p->precision - len;
 	if (nbr == 0)
 	{
-//		len = 0;
+		len = 0;
 		pref = NULL;
 	}
 	if (p->got_precision)
@@ -65,5 +71,11 @@ void	handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 //		p->count += ft_print(n, false, 0);
 
 	if (p->got_width && p->flags.minus)
-		handle_case_five(p, dif, len, dif < 0 ? pref : "");
+	{
+		if (p->flags.hashtag)
+			pref = dif < 0 ? pref : "";
+		else
+			pref = "";
+		handle_case_five(p, dif, len, pref);
+	}
 }
