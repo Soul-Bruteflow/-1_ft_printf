@@ -39,14 +39,17 @@ void	handle_escape(t_printf *p)
 void	parse_core(t_printf *p)
 {
 	p->i++;
-	if (ft_isflag(p->format, p->i))
-		parse_flags(p);
-	if (ft_isdigit(p->format[p->i]))
-		parse_width(p);
-	if (p->format[p->i] == '.')
-		parse_precision(p);
-	if (ft_islength(p->format, p->i))
-		parse_length(p);
+	while (!ft_isconversion_char(p->format, p->i))
+	{
+		if (ft_isflag(p->format, p->i))
+			parse_flags(p);
+		if (ft_isdigit(p->format[p->i]))
+			parse_width(p);
+		if (p->format[p->i] == '.')
+			parse_precision(p);
+		if (ft_islength(p->format, p->i))
+			parse_length(p);
+	}
 	if (ft_isconversion_char(p->format, p->i))
 	{
 		p->conv_char = (unsigned char)p->format[p->i];

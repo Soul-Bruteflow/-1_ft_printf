@@ -60,8 +60,8 @@ int main()
 //	printf("%hhO\n", USHRT_MAX);
 //	ft_printf("%hD\n", USHRT_MAX);
 
-	printf("%hD\n", USHRT_MAX);
-	ft_printf("%hD\n", USHRT_MAX);
+	printf("|%.10 -15d|\n", USHRT_MAX);
+	ft_printf("|%.10 -15d|\n", USHRT_MAX);
 
 //	printf("sys - %d", sys);
 //	printf("\nown - %d\n\n", own);
