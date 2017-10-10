@@ -69,13 +69,40 @@
     <splitter split-orientation="horizontal" split-proportion="0.5564159">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main.c">
+          <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="526">
-                  <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+                <state relative-caret-position="364">
+                  <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="printf_main.c" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/printf_main.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="482">
+                  <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
                   <folding>
-                    <element signature="e#0#22#0" expanded="true" />
+                    <element signature="e#4458#4828#0" expanded="true" />
+                    <element signature="e#5073#5333#0" expanded="true" />
+                    <element signature="e#5357#5617#0" expanded="true" />
+                    <element signature="e#5641#5901#0" expanded="true" />
+                    <element signature="e#5925#6185#0" expanded="true" />
+                    <element signature="e#7225#9079#0" expanded="true" />
+                    <element signature="e#9103#10951#0" expanded="true" />
+                    <element signature="e#10975#12821#0" expanded="true" />
+                    <element signature="e#12845#14699#0" expanded="true" />
+                    <element signature="e#15134#15716#0" expanded="true" />
+                    <element signature="e#15740#16324#0" expanded="true" />
+                    <element signature="e#16348#16932#0" expanded="true" />
+                    <element signature="e#16956#17540#0" expanded="true" />
+                    <element signature="e#18169#19113#0" expanded="true" />
+                    <element signature="e#19137#20081#0" expanded="true" />
+                    <element signature="e#20105#21041#0" expanded="true" />
+                    <element signature="e#21065#22001#0" expanded="true" />
+                    <element signature="e#31470#32385#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -84,8 +111,38 @@
           <file leaf-file-name="ft_printf.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ft_printf.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="718">
-                  <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+                <state relative-caret-position="624">
+                  <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="parse_precision.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/parse/parse_precision.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="parse_width.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/parse/parse_width.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="handle_numbers.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/handlers/handle_numbers.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="644">
+                  <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -98,8 +155,8 @@
           <file leaf-file-name="ft_printf.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inc/ft_printf.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1085">
-                  <caret line="124" column="28" lean-forward="false" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+                <state relative-caret-position="332">
+                  <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
                   <folding>
                     <element signature="e#44#64#0" expanded="true" />
                   </folding>
@@ -120,15 +177,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ft_basification.c" />
-        <option value="$PROJECT_DIR$/src/handle_numbers.c" />
         <option value="$PROJECT_DIR$/src/ft_itoa_positive.c" />
         <option value="$PROJECT_DIR$/src/handle_bases.c" />
         <option value="$PROJECT_DIR$/src/handle_numbers_sup.c" />
         <option value="$PROJECT_DIR$/src/handle_pointer.c" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/handlers/handle_numbers_sup.c" />
-        <option value="$PROJECT_DIR$/src/printf_main.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/init_printf.c" />
         <option value="$PROJECT_DIR$/src/ft/ft_basification.c" />
@@ -149,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/parse/get_number_by_len.c" />
         <option value="$PROJECT_DIR$/src/parse/get_number_by_len_unsigned.c" />
         <option value="$PROJECT_DIR$/src/parse/parse_flags.c" />
-        <option value="$PROJECT_DIR$/src/parse/parse_precision.c" />
         <option value="$PROJECT_DIR$/src/parse/parse_length.c" />
         <option value="$PROJECT_DIR$/src/handlers/handle_numbers.c" />
         <option value="$PROJECT_DIR$/src/handlers/handle_numbers_sup2.c" />
@@ -167,10 +219,15 @@
         <option value="$PROJECT_DIR$/src/handlers/types/handle_ulong.c" />
         <option value="$PROJECT_DIR$/src/handlers/types/handle_string.c" />
         <option value="$PROJECT_DIR$/src/handlers/types/handle_string_w.c" />
-        <option value="$PROJECT_DIR$/src/handlers/types/handle_pointer.c" />
         <option value="$PROJECT_DIR$/src/handlers/handle_bases.c" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/ft_printf.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/src/handlers/types/handle_pointer.c" />
+        <option value="$PROJECT_DIR$/src/parse/parse_width.c" />
+        <option value="$PROJECT_DIR$/src/parse/parse_precision.c" />
         <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/printf_main.c" />
       </list>
     </option>
   </component>
@@ -227,12 +284,6 @@
               <item name="handlers" type="462c0819:PsiDirectoryNode" />
               <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ft_printf" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="4_ft_printf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parse" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -246,8 +297,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,12 +545,12 @@
       <workItem from="1507289585045" duration="3524000" />
       <workItem from="1507294611647" duration="7914000" />
       <workItem from="1507374993453" duration="89000" />
-      <workItem from="1507636915492" duration="2271000" />
+      <workItem from="1507636915492" duration="5009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207750000" />
+    <option name="totallyTimeSpent" value="210488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="335" y="23" width="2308" height="1597" extended-state="0" />
@@ -549,33 +600,29 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/handlers/types/handle_pointer.c</url>
+          <line>40</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/ft_printf.c</url>
           <line>38</line>
-          <option name="timeStamp" value="86" />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/parse/parse_width.c</url>
+          <line>14</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="87" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ft/ft_basification.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ft/ft_bzero.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -710,32 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parse/parse_precision.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parse/parse_length.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parse/parse_width.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/handle_numbers.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,16 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/ft_printf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="124" column="28" lean-forward="false" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
-          <folding>
-            <element signature="e#44#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/handle_bases.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -875,14 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/types/handle_pointer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -911,20 +918,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ft_printf.c">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
+    <entry file="file://$PROJECT_DIR$/inc/ft_printf.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        <state relative-caret-position="332">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#44#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/types/handle_pointer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/handle_numbers.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parse/parse_width.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ft_printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parse/parse_precision.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printf_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="e#4458#4828#0" expanded="true" />
+            <element signature="e#5073#5333#0" expanded="true" />
+            <element signature="e#5357#5617#0" expanded="true" />
+            <element signature="e#5641#5901#0" expanded="true" />
+            <element signature="e#5925#6185#0" expanded="true" />
+            <element signature="e#7225#9079#0" expanded="true" />
+            <element signature="e#9103#10951#0" expanded="true" />
+            <element signature="e#10975#12821#0" expanded="true" />
+            <element signature="e#12845#14699#0" expanded="true" />
+            <element signature="e#15134#15716#0" expanded="true" />
+            <element signature="e#15740#16324#0" expanded="true" />
+            <element signature="e#16348#16932#0" expanded="true" />
+            <element signature="e#16956#17540#0" expanded="true" />
+            <element signature="e#18169#19113#0" expanded="true" />
+            <element signature="e#19137#20081#0" expanded="true" />
+            <element signature="e#20105#21041#0" expanded="true" />
+            <element signature="e#21065#22001#0" expanded="true" />
+            <element signature="e#31470#32385#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,6 +2,7 @@
 ._*.c
 ._*
 .idea/*
+.*
 cmake-build-debug/*
 
 # Prerequisites

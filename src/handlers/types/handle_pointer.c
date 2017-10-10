@@ -51,6 +51,8 @@ void			handle_pointer(t_printf *p)
 	nbr = va_arg(p->args, uintmax_t);
 	n = ft_basification(nbr, 16, false);
 	len = ft_strlen(n);
+	if (p->got_precision && p->precision == 0 && nbr == 0)
+		len = 0;
 	handle_pad_base(p, &is_pref_printed, len, prefix);
 	if (!is_pref_printed)
 		p->count += ft_print(prefix, false, 0);

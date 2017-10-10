@@ -14,6 +14,7 @@
 
 void	parse_precision(t_printf *p)
 {
+	p->precision = 0;
 	if (p->format[p->i] == '.')
 	{
 		p->got_precision = true;

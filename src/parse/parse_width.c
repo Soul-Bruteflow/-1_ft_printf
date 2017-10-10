@@ -14,6 +14,7 @@
 
 void	parse_width(t_printf *p)
 {
+	p->width = 0;
 	if (ft_isdigit(p->format[p->i]))
 	{
 		p->got_width = true;

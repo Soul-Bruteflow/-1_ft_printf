@@ -39,7 +39,7 @@ void	handle_escape(t_printf *p)
 void	parse_core(t_printf *p)
 {
 	p->i++;
-	while (!ft_isconversion_char(p->format, p->i))
+	while (!ft_isconversion_char(p->format, p->i) && p->i <= ft_strlen(p->format))
 	{
 		if (ft_isflag(p->format, p->i))
 			parse_flags(p);

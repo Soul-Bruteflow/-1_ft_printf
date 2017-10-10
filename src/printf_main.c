@@ -16,6 +16,8 @@
 #include <limits.h>
 #include <errno.h>
 
+#include "ft_printf.h"
+
 #define RED "\x1b[31m"
 #define NORM "\x1b[0m"
 
@@ -55,9 +57,9 @@
 // #define	CHAR		//aka chars
 // #define	PER			//aka percent(%)
  #define	NUM			//aka numbers
-//	 #define _I_
+	 #define _I_
 //	 #define _D_
-	 #define _U_
+//	 #define _U_
 //	 #define _O_
 //	 #define _X_
 // #define	PTR			//aka pointers

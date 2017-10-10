@@ -190,18 +190,6 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
 
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c
-ft_printf.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
-stdio.h
--
-libft.h
-/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/libft.h
-locale.h
--
-limits.h
--
-
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/ft_printf.h
@@ -233,4 +221,20 @@ ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/print_prefix_pad.c
 ft_printf.h
 /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_printf.h
+
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/printf_main.c
+stdio.h
+-
+stddef.h
+-
+locale.h
+-
+limits.h
+-
+errno.h
+-
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
+ft_printf.h
+/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/ft_printf.h
 
