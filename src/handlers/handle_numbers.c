@@ -72,6 +72,8 @@ void		handle_numbers(t_printf *p)
 		nbr = get_number_by_len_unsigned(p);
 	n = ft_itoa_positive(nbr);
 	len = ft_strlen(n);
+	if (p->got_precision && p->precision == 0 && nbr == 0)
+		len = 0;
 	dif = p->precision - len;
 	handle_pad_int(p, dif, len, prefix);
 	if (!p->got_width && !p->got_precision && !p->flags.minus)

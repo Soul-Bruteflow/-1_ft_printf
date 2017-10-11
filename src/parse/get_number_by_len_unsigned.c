@@ -17,6 +17,8 @@ uintmax_t	get_number_by_len_unsigned(t_printf *p)
 	uintmax_t	nbr;
 
 	nbr = va_arg(p->args, uintmax_t);
+	if (p->conv_char == 'U' || p->conv_char == 'D' || p->conv_char == 'O')
+		return (nbr);
 	if (p->len == hh)
 		nbr = (unsigned char)nbr;
 	else if (p->len == h)

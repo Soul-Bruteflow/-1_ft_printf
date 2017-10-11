@@ -61,6 +61,7 @@ t_bool 				init_conversion_handlers(t_printf *p);
 void				default_handler_format(t_printf *p);
 ssize_t 			walk_format(t_printf *p);
 t_bool 				ft_isconversion_char(const char *format, size_t i);
+t_bool				ft_isconv_char(const unsigned char c);
 /*
 ** Handlers
 */
@@ -124,7 +125,7 @@ size_t				print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar);
 */
 char				*handle_pref_less(t_printf *p, char *pref, ssize_t dif);
 char				*handle_pref_greater(t_printf *p, char *pref, ssize_t dif);
-void				number_zero(uintmax_t nbr, size_t *len, char **pref);
+void				number_zero(t_printf *p, uintmax_t nbr, size_t *len, char **pref);
 
 
 int					ft_printf(const char *format, ...);

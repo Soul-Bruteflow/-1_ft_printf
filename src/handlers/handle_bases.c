@@ -63,7 +63,7 @@ static void	handle_end_spaces(t_printf *p, ssize_t dif, size_t len, char *pref)
 	if (p->got_width && p->flags.minus)
 	{
 		if (p->flags.hashtag)
-			pref = dif < 0 ? pref : "";
+			pref = dif > 0 ? pref : "";
 		else
 			pref = "";
 		handle_case_five(p, dif, len, pref);
@@ -83,7 +83,7 @@ void		handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size)
 	n = ft_basification(nbr, base, size);
 	len = ft_strlen(n);
 	dif = p->precision - len;
-	number_zero(nbr, &len, &pref);
+	number_zero(p, nbr, &len, &pref);
 	if (p->got_precision)
 		p->flags.zero = false;
 	handle_pad_base(p, dif, len, pref);

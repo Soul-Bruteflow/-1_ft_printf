@@ -62,37 +62,74 @@ int main()
 
 ///////	-----------------------------
 
-	//// %i
-	printf("|%.i %.0i %0.i %0.0i|\t\t|%i %.2i %2.i %2.2i|\t\t\t\t",0,0,0,0,0,0,0,0);
-	ft_printf("|%.i %.0i %0.i %0.0i|\t\t|%i %.2i %2.i %2.2i|\t\t\t\t",0,0,0,0,0,0,0,0);
+//
+//	//// %o %O
+//
+//	sys = printf("|%12o|\n", 0);
+//	own = ft_printf("|%12o|\n", 0);
+//
+//	sys = printf("|%.o %.0o %0.o %0.0o|\t\t|%o %.2o %2.o %2.2o|\t\n",0,0,0,0,0,0,0,0);
+//	own = ft_printf("|%.O %.0O %0.O %0.0O|\t\t|%O %.2O %2.O %2.2O|\t\n",0,0,0,0,0,0,0,0);
+//
+//	sys = printf("|%#6.7o|\t|%#-12.7o|\t|%#.7o|\t|%#09.7o|\t|%#02.7o|\n", 8400,8400,0,8400,8400);
+//	own = ft_printf("|%#6.7o|\t|%#-12.7o|\t|%#.7o|\t|%#09.7o|\t|%#02.7o|\n", 8400,8400,0,8400,8400);
+//
+//	sys = printf("|%#6.2o|\t|%#-12.2o|\t|%#.3o|\t\t|%#09.2o|\t|%#02.2o|\n", 8400,8400,0,8400,8400);
+//	own = ft_printf("|%#6.2o|\t|%#-12.2o|\t|%#.3o|\t\t|%#09.2o|\t|%#02.2o|\n", 8400,8400,0,8400,8400);
 
-	//// %d
-	printf("|%.d %.0dddd %0.d %0.0d|\t\t|%d %.2d %2.d %2.2d|\t\t\t\t",0,0,0,0,0,0,0,0);
-	ft_printf("|%.d %.0dddd %0.d %0.0d|\t\t|%d %.2d %2.d %2.2d|\t\t\t\t",0,0,0,0,0,0,0,0);
+	//%U
 
-	//// %D
-	printf("|%.D %.0D %0.D %0.0D|\t\t|%D %.2D %2.D %2.2D|\t",0,0,0,0,0,0,0,0);
-	ft_printf("|%.D %.0D %0.D %0.0D|\t\t|%D %.2D %2.D %2.2D|\t",0,0,0,0,0,0,0,0);
+//	sys = printf("|%5hU|\t|%20hhU|\n", SHRT_MIN,LONG_MIN);
+//	own = ft_printf("|%5hU|\t|%20hhU|\n", SHRT_MIN,LONG_MIN);
 
-	///// %u
-	printf("|%.u %.0u %0.u %0.0u|\t\t|%u %.2u %2.u %2.2u|\t",0,0,0,0,0,0,0,0);
-	ft_printf("|%.u %.0u %0.u %0.0u|\t\t|%u %.2u %2.u %2.2u|\t",0,0,0,0,0,0,0,0);
+//	sys = printf("|%5hhU|\t|%5hU|\n", LONG_MAX,LONG_MAX);
+//	own = ft_printf("|%5hhU|\t|%5hU|\n", LONG_MAX,LONG_MAX);
 
-	//// %o %O
+//	sys = printf("|%5hhU|\t|%5hU|\t|%20lU|\t|%20llU|\t|%20jU|\t|%10zU|\t|%10U|\n", LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,-2,LONG_MIN);
 
-	printf("\t|%12o|\t|%12o|\t|%12o|", INT_MIN, INT_MAX,0);
-	ft_printf("\t|%12o|\t|%12o|\t|%12o|", INT_MIN, INT_MAX,0);
+	//%u
+//	sys = printf("|%5h hu|\t|%20l lu|\n", SHRT_MIN,LONG_MIN);
+//	own = printf("|%5h hu|\t|%20l lu|\n", SHRT_MIN,LONG_MIN);
+//
+//	// %i
+//	sys = printf("|%5hi|\t|%20li|\n", SHRT_MIN,LONG_MIN);
+//	own = ft_printf("|%5hi|\t|%20li|\n", SHRT_MIN,LONG_MIN);
 
-	printf("|%.o %.0o %0.o %0.0o|\t\t|%o %.2o %2.o %2.2o|\t",0,0,0,0,0,0,0,0);
-	ft_printf("|%.O %.0O %0.O %0.0O|\t\t|%O %.2O %2.O %2.2O|\t",0,0,0,0,0,0,0,0);
+//
+//	//% d
 
-	printf("|%#6.7o|\t|%#-12.7o|\t|%#.7o|\t|%#09.7o|\t|%#02.7o|", 8400,8400,0,8400,8400);
-	ft_printf("|%#6.7o|\t|%#-12.7o|\t|%#.7o|\t|%#09.7o|\t|%#02.7o|", 8400,8400,0,8400,8400);
+//	sys = printf("|%5h hd|\t|%20l ld|\n", SHRT_MIN,LONG_MIN);
+//	own = ft_printf("|%5h hd|\t|%20l ld|\n", SHRT_MIN,LONG_MIN);
+//
+//	//% D
+//	printf("|%5h hD|\t|%20l lD|\n", SHRT_MIN,LONG_MIN);
+//	ft_printf("|%5h hD|\t|%20l lD|\n", SHRT_MIN,LONG_MIN);
 
-	printf("|%#6.2o|\t|%#-12.2o|\t|%#.3o|\t\t|%#09.2o|\t|%#02.2o|", 8400,8400,0,8400,8400);
-	ft_printf("|%#6.2o|\t|%#-12.2o|\t|%#.3o|\t\t|%#09.2o|\t|%#02.2o|", 8400,8400,0,8400,8400);
+//	printf("|%5hhD|\t|%5hD|\t|%20lD|\t|%20llD|\t|%20jD|\t|%10zD|\t|%10D|\n", LONG_MAX,LONG_MAX,LONG_MAX,LONG_MAX,LONG_MAX,-2,LONG_MAX);
+//	ft_printf("|%5hhD|\t|%5hD|\t|%20lD|\t|%20llD|\t|%20jD|\t|%10zD|\t|%10D|\n", LONG_MAX,LONG_MAX,LONG_MAX,LONG_MAX,LONG_MAX,-2,LONG_MAX);
+
+//	printf("|%5hhD|\t|%5hD|\t|%20lD|\t|%20llD|\t|%20jD|\t|%10zD|\t|%10D|\n", LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,-2,LONG_MIN);
+//	ft_printf("|%5hhD|\t|%5hD|\t|%20lD|\t|%20llD|\t|%20jD|\t|%10zD|\t|%10D|\n", LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,LONG_MIN,-2,LONG_MIN);
+////
+////	//// %x %X
+////
+//	sys = printf("|%#x|\n", 0);
+//	own = ft_printf("|%#x|\n", 0);
 
 
+//	printf("|%#.7x|\t|%#09.7x|\t|%#02.7x|\n", 0,8400,8400);
+//	ft_printf("|%#.7x|\t|%#09.7x|\t|%#02.7x|\n", 0,8400,8400);
+
+//	printf("|%#6.2x|\t|%#-12.2x|\t|%#.3x|\t\t|%#09.2x|\t|%#02.2x|\n", 8400,8400,0,8400,8400);
+//	printf("|%ll.15.12d|\t|%.ll 15.12d|\t|%.015ll.12d|\t|%.ll#15.12d|\t|%.ll#15.12x|\n",-42,-42,-42,-42,-42);
+////
+//	// %O
+//	printf("|%5h hO|\t|%20l lO|\n", SHRT_MIN,LONG_MIN);
+//	sys = printf("|%#6O|\t|%#-12O|\t|%#O|\t\t|%#09O|\t|%#02O|\n", 8400,8400,0,8400,8400);
+//	own = ft_printf("|%#6O|\t|%#-12O|\t|%#O|\t\t|%#09O|\t|%#02O|\n", 8400,8400,0,8400,8400);
+
+	printf("sys - %d", sys);
+	printf("\nown - %d\n\n", own);
 
 
 ///////	-----------------------------

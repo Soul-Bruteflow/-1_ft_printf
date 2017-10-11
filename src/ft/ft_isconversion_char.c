@@ -23,3 +23,12 @@ t_bool	ft_isconversion_char(const char *format, size_t i)
 		return (true);
 	return (false);
 }
+
+t_bool	ft_isconv_char(const unsigned char c)
+{
+	if (c != '\0' && ((c == 's' || c == 'S' || c == 'p' || c == 'd'
+	|| c == 'i') || c == 'D' || c == 'o' || c == 'O' || c == 'u'
+	|| c == 'U' || c == 'x' || c == 'X' || c == 'c' || c == 'C' || c == '%'))
+		return (true);
+	return (false);
+}
