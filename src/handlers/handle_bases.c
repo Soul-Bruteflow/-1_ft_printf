@@ -63,7 +63,7 @@ static void	handle_end_spaces(t_printf *p, ssize_t dif, size_t len, char *pref)
 	if (p->got_width && p->flags.minus)
 	{
 		if (p->flags.hashtag)
-			pref = dif > 0 ? pref : "";
+			pref = dif < 0 ? pref : "";
 		else
 			pref = "";
 		handle_case_five(p, dif, len, pref);

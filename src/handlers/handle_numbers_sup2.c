@@ -15,7 +15,7 @@
 char	*handle_pref_less(t_printf *p, char *pref, ssize_t dif)
 {
 	if (p->flags.hashtag)
-		pref = dif > 0 ? pref : "";
+		pref = dif < 0 ? pref : "";
 	else
 		pref = "";
 	return (pref);
