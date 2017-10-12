@@ -105,28 +105,28 @@ CMakeFiles/ft_printf.dir/src/init_printf.c.o.provides: CMakeFiles/ft_printf.dir/
 CMakeFiles/ft_printf.dir/src/init_printf.c.o.provides.build: CMakeFiles/ft_printf.dir/src/init_printf.c.o
 
 
-CMakeFiles/ft_printf.dir/src/main.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/main.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: ../src/printf_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/src/printf_main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/src/printf_main.c.o   -c /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/printf_main.c
 
-CMakeFiles/ft_printf.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c > CMakeFiles/ft_printf.dir/src/main.c.i
+CMakeFiles/ft_printf.dir/src/printf_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/src/printf_main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/printf_main.c > CMakeFiles/ft_printf.dir/src/printf_main.c.i
 
-CMakeFiles/ft_printf.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c -o CMakeFiles/ft_printf.dir/src/main.c.s
+CMakeFiles/ft_printf.dir/src/printf_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/src/printf_main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mvlad/c_projects/4_ft_printf/src/printf_main.c -o CMakeFiles/ft_printf.dir/src/printf_main.c.s
 
-CMakeFiles/ft_printf.dir/src/main.c.o.requires:
+CMakeFiles/ft_printf.dir/src/printf_main.c.o.requires:
 
-.PHONY : CMakeFiles/ft_printf.dir/src/main.c.o.requires
+.PHONY : CMakeFiles/ft_printf.dir/src/printf_main.c.o.requires
 
-CMakeFiles/ft_printf.dir/src/main.c.o.provides: CMakeFiles/ft_printf.dir/src/main.c.o.requires
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.o.provides.build
-.PHONY : CMakeFiles/ft_printf.dir/src/main.c.o.provides
+CMakeFiles/ft_printf.dir/src/printf_main.c.o.provides: CMakeFiles/ft_printf.dir/src/printf_main.c.o.requires
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/printf_main.c.o.provides.build
+.PHONY : CMakeFiles/ft_printf.dir/src/printf_main.c.o.provides
 
-CMakeFiles/ft_printf.dir/src/main.c.o.provides.build: CMakeFiles/ft_printf.dir/src/main.c.o
+CMakeFiles/ft_printf.dir/src/printf_main.c.o.provides.build: CMakeFiles/ft_printf.dir/src/printf_main.c.o
 
 
 CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o: CMakeFiles/ft_printf.dir/flags.make
@@ -1237,7 +1237,7 @@ CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o.provides.build: CMa
 ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/src/ft_printf.c.o" \
 "CMakeFiles/ft_printf.dir/src/init_printf.c.o" \
-"CMakeFiles/ft_printf.dir/src/main.c.o" \
+"CMakeFiles/ft_printf.dir/src/printf_main.c.o" \
 "CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o" \
 "CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o" \
 "CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o" \
@@ -1290,7 +1290,7 @@ ft_printf_EXTERNAL_OBJECTS =
 
 ft_printf: CMakeFiles/ft_printf.dir/src/ft_printf.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/init_printf.c.o
-ft_printf: CMakeFiles/ft_printf.dir/src/main.c.o
+ft_printf: CMakeFiles/ft_printf.dir/src/printf_main.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o
 ft_printf: CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o
@@ -1349,7 +1349,7 @@ CMakeFiles/ft_printf.dir/build: ft_printf
 
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/ft_printf.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/init_printf.c.o.requires
-CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/main.c.o.requires
+CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/printf_main.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o.requires

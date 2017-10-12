@@ -181,11 +181,6 @@ CMakeFiles/ft_printf.dir/src/init_printf.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/init_printf.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/init_printf.c.o: ../src/init_printf.c
 
-CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/bool.h
-CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/ft_printf.h
-CMakeFiles/ft_printf.dir/src/main.c.o: .././inc/libft.h
-CMakeFiles/ft_printf.dir/src/main.c.o: ../src/main.c
-
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o: .././inc/libft.h
@@ -225,4 +220,9 @@ CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: .././inc/bool.h
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: .././inc/ft_printf.h
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: .././inc/libft.h
 CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o: ../src/print/print_prefix_pad.c
+
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: .././inc/bool.h
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: .././inc/ft_printf.h
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: .././inc/libft.h
+CMakeFiles/ft_printf.dir/src/printf_main.c.o: ../src/printf_main.c
 
