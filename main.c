@@ -66,8 +66,8 @@ int main()
 //	"|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|"
 
 	//%i d
-	printf("|%*d|\n", SHRT_MIN,42);
-	ft_printf("|%*d|\n", SHRT_MIN,42);
+	printf("|%*d|\n", 2,42);
+	ft_printf("|%*d|\n", 2,42);
 
 //
 //	//// %o %O

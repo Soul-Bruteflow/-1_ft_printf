@@ -41,7 +41,7 @@ void	parse_core(t_printf *p)
 	t_bool not_spec;
 
 	p->i++;
-	while (!ft_isconversion_char(p->format, p->i) && p->i <= ft_strlen(p->format))
+	while (!ft_isconversion_char(p->format, p->i) && p->i <= ft_strlen(p->format) && p->format[p->i] != '\0')
 	{
 		not_spec = false;
 		if (ft_isflag(p->format, p->i))
