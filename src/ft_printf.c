@@ -49,6 +49,8 @@ void	parse_core(t_printf *p)
 			parse_precision(p);
 		if (ft_islength(p->format, p->i))
 			parse_length(p);
+		if (!(ft_isflag(p->format, p->i) && !ft_isdigit(p->format[p->i]) && !p->format[p->i] == '.' && !ft_islength(p->format, p->i)))
+			p->i++;
 	}
 	if (ft_isconversion_char(p->format, p->i))
 	{

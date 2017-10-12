@@ -1203,6 +1203,33 @@ src/init_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/init_printf.c.s
 .PHONY : src/init_printf.c.s
 
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
+.PHONY : src/main.c.s
+
 src/parse/get_number_by_len.o: src/parse/get_number_by_len.c.o
 
 .PHONY : src/parse/get_number_by_len.o
@@ -1419,33 +1446,6 @@ src/print/print_prefix_pad.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.s
 .PHONY : src/print/print_prefix_pad.c.s
 
-src/printf_main.o: src/printf_main.c.o
-
-.PHONY : src/printf_main.o
-
-# target to build an object file
-src/printf_main.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/printf_main.c.o
-.PHONY : src/printf_main.c.o
-
-src/printf_main.i: src/printf_main.c.i
-
-.PHONY : src/printf_main.i
-
-# target to preprocess a source file
-src/printf_main.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/printf_main.c.i
-.PHONY : src/printf_main.c.i
-
-src/printf_main.s: src/printf_main.c.s
-
-.PHONY : src/printf_main.s
-
-# target to generate assembly for a file
-src/printf_main.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/printf_main.c.s
-.PHONY : src/printf_main.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1575,6 +1575,9 @@ help:
 	@echo "... src/init_printf.o"
 	@echo "... src/init_printf.i"
 	@echo "... src/init_printf.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/parse/get_number_by_len.o"
 	@echo "... src/parse/get_number_by_len.i"
 	@echo "... src/parse/get_number_by_len.s"
@@ -1599,9 +1602,6 @@ help:
 	@echo "... src/print/print_prefix_pad.o"
 	@echo "... src/print/print_prefix_pad.i"
 	@echo "... src/print/print_prefix_pad.s"
-	@echo "... src/printf_main.o"
-	@echo "... src/printf_main.i"
-	@echo "... src/printf_main.s"
 .PHONY : help
 
 

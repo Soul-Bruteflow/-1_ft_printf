@@ -44,6 +44,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_uint.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/types/handle_uint.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/types/handle_ulong.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/handlers/types/handle_ulong.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/init_printf.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/init_printf.c.o"
+  "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/main.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/get_number_by_len.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/get_number_by_len_unsigned.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/get_number_by_len_unsigned.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_flags.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/parse_flags.c.o"
@@ -52,7 +53,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/parse/parse_width.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/parse/parse_width.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/ft_print.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/print/ft_print.c.o"
   "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/print/print_prefix_pad.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/print/print_prefix_pad.c.o"
-  "/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/printf_main.c" "/nfs/2016/m/mvlad/c_projects/4_ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/printf_main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
