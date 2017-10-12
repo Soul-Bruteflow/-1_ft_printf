@@ -118,7 +118,7 @@ size_t				ft_strnlen(const char *str, size_t maxlen);
 
 size_t 				ft_print(const char *print, t_bool is_len, size_t l);
 size_t				ft_putnwstr(const wchar_t *print, t_bool is_len, size_t l);
-size_t				print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar);
+size_t				print_prefix_pad(size_t nbrstrlen, ssize_t width, char padchar);
 
 /*
 ** Support

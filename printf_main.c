@@ -54,14 +54,14 @@
 #include "ft_printf.h"
 
 //Test switchers - comment some of then to turn the tests off
-// #define	CHAR		//aka chars
+ #define	CHAR		//aka chars
 // #define	PER			//aka percent(%)
- #define	NUM			//aka numbers
+// #define	NUM			//aka numbers
 //	 #define _I_
 //	 #define _D_
 //	 #define _U_
 //	 #define _O_
-	 #define _X_
+//	 #define _X_
 // #define	PTR			//aka pointers
 // #define	STRANGE_D		//aka undefined tests
 // #define STR			//aka strings
@@ -80,9 +80,9 @@ int	main(void)
 	PRINTF("|%-2.3c|(%3d)\t|%-2.5c|(%3d)\t|%-2.0c|(%3d)", a, a, a+5,a+5,a+10,a+10);
 	PRINTF("|%+3c|(%3d)\t|%+3c|(%3d)\t|%+c|(%3d)", a, a, a+5, a+5, a+10, a+10);
 	PRINTF("|%3.4c|(%3d)\t|%+3.4c|(%3d)\t|%.4c|(%3d)", a, a, a+5, a+5, a+10, a+10);
-	PRINTF("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)");
+//	PRINTF("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)");
 	PRINTF("|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|");
-	PRINTF("|%-3c|\t|%3c|\t|%c|\t|%-03c|\t|%03c|\t|%.c|\t|%.5c|\t|%.C|\t|%.5C|", 0,0,0,0,0,0,0,0,0);
+//	PRINTF("|%-3c|\t|%3c|\t|%c|\t|%-03c|\t|%03c|\t|%.c|\t|%.5c|\t|%.C|\t|%.5C|", 0,0,0,0,0,0,0,0,0);
 	}
 #endif
 

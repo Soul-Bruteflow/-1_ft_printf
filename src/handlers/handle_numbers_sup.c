@@ -59,8 +59,7 @@ void	handle_case_four(t_printf *p, size_t len, char *pref)
 void	handle_case_five(t_printf *p, ssize_t dif, size_t len, char *pref)
 {
 	if (dif > 0)
-		p->count += print_prefix_pad(len,
-				(unsigned int)(p->width - dif - ft_strlen(pref)), ' ');
+		p->count += print_prefix_pad(len, (p->width - dif - ft_strlen(pref)), ' ');
 	else
 		p->count += print_prefix_pad(len,
 				(unsigned int)(p->width - ft_strlen(pref)), ' ');

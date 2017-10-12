@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-size_t	print_prefix_pad(size_t nbrstrlen, unsigned int width, char padchar)
+size_t	print_prefix_pad(size_t nbrstrlen, ssize_t width, char padchar)
 {
 	ssize_t dif;
 	ssize_t i;

@@ -34,8 +34,19 @@ void	number_zero(t_printf *p, uintmax_t nbr, size_t *len, char **pref)
 {
 	if (nbr == 0 && p->got_precision && p->precision == 0)
 	{
-		*len = 0;
-		*pref = NULL;
+		if (p->base == 16)
+		{
+			*len = 0;
+			*pref = NULL;
+		}
+		else if (p->base == 8)
+		{
+			if (p->got_width && p->width > 0 && !p->flags.hashtag)
+				*len = 0;
+			else
+				*len = 1;
+			*pref = NULL;
+		}
 	}
 	else if (nbr == 0 && p->flags.hashtag)
 	{
