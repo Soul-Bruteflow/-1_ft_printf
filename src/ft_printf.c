@@ -38,18 +38,33 @@ void	handle_escape(t_printf *p)
 
 void	parse_core(t_printf *p)
 {
+	t_bool not_spec;
+
 	p->i++;
 	while (!ft_isconversion_char(p->format, p->i) && p->i <= ft_strlen(p->format))
 	{
+		not_spec = false;
 		if (ft_isflag(p->format, p->i))
+		{
 			parse_flags(p);
+			not_spec = true;
+		}
 		if (ft_isdigit(p->format[p->i]))
+		{
 			parse_width(p);
+			not_spec = true;
+		}
 		if (p->format[p->i] == '.')
+		{
 			parse_precision(p);
+			not_spec = true;
+		}
 		if (ft_islength(p->format, p->i))
+		{
 			parse_length(p);
-		if (!(ft_isflag(p->format, p->i) && !ft_isdigit(p->format[p->i]) && !p->format[p->i] == '.' && !ft_islength(p->format, p->i)))
+			not_spec = true;
+		}
+		if (!not_spec)
 			p->i++;
 	}
 	if (ft_isconversion_char(p->format, p->i))
