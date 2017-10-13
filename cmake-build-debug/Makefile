@@ -1203,33 +1203,6 @@ src/init_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/init_printf.c.s
 .PHONY : src/init_printf.c.s
 
-src/main.o: src/main.c.o
-
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.o
-.PHONY : src/main.c.o
-
-src/main.i: src/main.c.i
-
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.i
-.PHONY : src/main.c.i
-
-src/main.s: src/main.c.s
-
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
-.PHONY : src/main.c.s
-
 src/parse/get_number_by_len.o: src/parse/get_number_by_len.c.o
 
 .PHONY : src/parse/get_number_by_len.o
@@ -1575,9 +1548,6 @@ help:
 	@echo "... src/init_printf.o"
 	@echo "... src/init_printf.i"
 	@echo "... src/init_printf.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 	@echo "... src/parse/get_number_by_len.o"
 	@echo "... src/parse/get_number_by_len.i"
 	@echo "... src/parse/get_number_by_len.s"

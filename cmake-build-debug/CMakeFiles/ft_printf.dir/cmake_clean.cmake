@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/ft_printf.c.o"
   "CMakeFiles/ft_printf.dir/src/init_printf.c.o"
-  "CMakeFiles/ft_printf.dir/src/main.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_basification.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_bzero.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_capitalize.c.o"
