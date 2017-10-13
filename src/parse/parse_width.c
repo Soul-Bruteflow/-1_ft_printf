@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void	parse_width(t_printf *p)
+t_bool	parse_width(t_printf *p)
 {
 	p->width = 0;
 	if (ft_isdigit(p->format[p->i]))
@@ -24,4 +24,5 @@ void	parse_width(t_printf *p)
 			p->i++;
 		}
 	}
+	return (true);
 }

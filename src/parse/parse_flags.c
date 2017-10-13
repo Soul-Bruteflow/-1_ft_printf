@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void	parse_flags(t_printf *p)
+t_bool	parse_flags(t_printf *p)
 {
 	while (ft_isflag(p->format, p->i) && p->format[p->i] != '\0')
 	{
@@ -30,4 +30,5 @@ void	parse_flags(t_printf *p)
 			p->flags.space = false;
 		p->i++;
 	}
+	return (true);
 }

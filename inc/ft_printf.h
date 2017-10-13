@@ -95,10 +95,10 @@ void				handle_case_five(t_printf *p, ssize_t dif, size_t len, char *pref);
 ** Parsing
 */
 
-void				parse_flags(t_printf *p);
-void				parse_width(t_printf *p);
-void				parse_precision(t_printf *p);
-void				parse_length(t_printf *p);
+t_bool				parse_flags(t_printf *p);
+t_bool				parse_width(t_printf *p);
+t_bool				parse_precision(t_printf *p);
+t_bool				parse_length(t_printf *p);
 intmax_t			get_number_by_len(t_printf *p);
 uintmax_t			get_number_by_len_unsigned(t_printf *p);
 

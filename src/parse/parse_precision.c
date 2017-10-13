@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void	parse_precision(t_printf *p)
+t_bool	parse_precision(t_printf *p)
 {
 	p->precision = 0;
 	if (p->format[p->i] == '.')
@@ -25,4 +25,5 @@ void	parse_precision(t_printf *p)
 			p->i++;
 		}
 	}
+	return (true);
 }

@@ -24,7 +24,7 @@ static void	oneltter_len(t_printf *p)
 		p->len = z;
 }
 
-void		parse_length(t_printf *p)
+t_bool		parse_length(t_printf *p)
 {
 	while (ft_islength(p->format, p->i) && p->format[p->i] != '\0')
 	{
@@ -47,4 +47,5 @@ void		parse_length(t_printf *p)
 			p->i++;
 		}
 	}
+	return (true);
 }

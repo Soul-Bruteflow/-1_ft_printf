@@ -41,34 +41,20 @@ void	parse_core(t_printf *p)
 	t_bool not_spec;
 
 	p->i++;
-	while (!ft_isconversion_char(p->format, p->i) && p->i <= ft_strlen(p->format) && p->format[p->i] != '\0')
+	while (!ft_isconversion_char(p->format, p->i)
+	&& p->i <= ft_strlen(p->format) && p->format[p->i])
 	{
 		not_spec = false;
 		if (ft_isflag(p->format, p->i))
-		{
-			parse_flags(p);
-			not_spec = true;
-		}
+			not_spec = parse_flags(p);
 		if (ft_isdigit(p->format[p->i]))
-		{
-			parse_width(p);
-			not_spec = true;
-		}
+			not_spec = parse_width(p);
 		if (p->format[p->i] == '.')
-		{
-			parse_precision(p);
-			not_spec = true;
-		}
+			not_spec = parse_precision(p);
 		if (ft_islength(p->format, p->i))
-		{
-			parse_length(p);
-			not_spec = true;
-		}
+			not_spec = parse_length(p);
 		if (!not_spec)
-		{
-			if (p->i <= ft_strlen(p->format) && p->format[p->i] != '\0')
 				break ;
-		}
 	}
 	if (ft_isconversion_char(p->format, p->i))
 	{
