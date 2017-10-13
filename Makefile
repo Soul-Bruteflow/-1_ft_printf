@@ -6,7 +6,7 @@
 #    By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/06 17:25:22 by mvlad            ###   ########.fr        #
+#    Updated: 2017/10/13 14:29:38 by mvlad            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,57 +15,57 @@ SRC_DIR = ./src/
 OBJ_DIR = ./obj/
 INC_DIR = ./inc/
 HEADERS	= $(INC_DIR)
-ODIRS 	:= ./obj ./obj/ft ./obj/parse ./obj/print ./obj/handlers ./obj/handlers/types
+# ODIRS 	:= ./obj ./obj/ft ./obj/parse ./obj/print ./obj/handlers ./obj/handlers/types
 
 OBJ	=	init_printf.o \
 		ft_printf.o \
-		print/print_prefix_pad.o \
-		print/ft_print.o \
-		handlers/handle_bases_sup.o \
-		handlers/handle_bases.o \
-		handlers/handle_numbers.o \
-		handlers/handle_numbers_sup.o \
-		handlers/handle_numbers_sup2.o \
-		handlers/types/handle_char.o \
-		handlers/types/handle_char_w.o \
-		handlers/types/handle_hex_big.o \
-		handlers/types/handle_hex_small.o \
-		handlers/types/handle_int.o \
-		handlers/types/handle_int_long.o \
-		handlers/types/handle_octal_uint.o \
-		handlers/types/handle_octal_ulong.o \
-		handlers/types/handle_percent.o \
-		handlers/types/handle_pointer.o \
-		handlers/types/handle_string.o \
-		handlers/types/handle_string_w.o \
-		handlers/types/handle_uint.o \
-		handlers/types/handle_ulong.o \
-		parse/get_number_by_len.o \
-		parse/get_number_by_len_unsigned.o \
-		parse/parse_flags.o \
-		parse/parse_length.o \
-		parse/parse_precision.o \
-		parse/parse_width.o \
-		ft/ft_basification.o \
-		ft/ft_capitalize.o \
-		ft/ft_isconversion_char.o \
-		ft/ft_isflag.o \
-		ft/ft_islength.o \
-		ft/ft_itoa_positive.o \
-		ft/ft_putnwstr.o \
-		ft/ft_putwchar.o \
-		ft/ft_putwchar_fd.o \
-		ft/ft_strnlen.o \
-		ft/ft_strreverse.o \
-		ft/ft_wstrlen.o \
-		ft/ft_isdigit.o \
-		ft/ft_putchar.o \
-		ft/ft_strlen.o \
-		ft/ft_putchar_fd.o \
-		ft/ft_bzero.o \
-		ft/ft_strcpy.o \
-		ft/ft_strnew.o \
-		ft/ft_memset.o
+		print_prefix_pad.o \
+		ft_print.o \
+		handle_bases_sup.o \
+		handle_bases.o \
+		handle_numbers.o \
+		handle_numbers_sup.o \
+		handle_numbers_sup2.o \
+		handle_char.o \
+		handle_char_w.o \
+		handle_hex_big.o \
+		handle_hex_small.o \
+		handle_int.o \
+		handle_int_long.o \
+		handle_octal_uint.o \
+		handle_octal_ulong.o \
+		handle_percent.o \
+		handle_pointer.o \
+		handle_string.o \
+		handle_string_w.o \
+		handle_uint.o \
+		handle_ulong.o \
+		get_number_by_len.o \
+		get_number_by_len_unsigned.o \
+		parse_flags.o \
+		parse_length.o \
+		parse_precision.o \
+		parse_width.o \
+		ft_basification.o \
+		ft_capitalize.o \
+		ft_isconversion_char.o \
+		ft_isflag.o \
+		ft_islength.o \
+		ft_itoa_positive.o \
+		ft_putnwstr.o \
+		ft_putwchar.o \
+		ft_putwchar_fd.o \
+		ft_strnlen.o \
+		ft_strreverse.o \
+		ft_wstrlen.o \
+		ft_isdigit.o \
+		ft_putchar.o \
+		ft_strlen.o \
+		ft_putchar_fd.o \
+		ft_bzero.o \
+		ft_strcpy.o \
+		ft_strnew.o \
+		ft_memset.o
 
 CC		= gcc
 CFLAGS	= -Wall -Wextra -Werror
@@ -81,7 +81,7 @@ RLIB	= ranlib
 RMF 	= rm -f
 
 $(OBJ_DIR)%.o : $(SRC_DIR)%.c
-	@mkdir -p $(ODIRS)
+	@mkdir -p $(OBJ_DIR)
 	$(CC) $(CFLAGS) $(LIB_OPT) $(OBJ_OPT) $(INC_OPT)
 
 all: $(NAME)
