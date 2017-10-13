@@ -67,7 +67,7 @@ void	parse_core(t_printf *p)
 		if (!not_spec)
 		{
 			if (p->i <= ft_strlen(p->format) && p->format[p->i] != '\0')
-				handle_escape(p);
+				break ;
 		}
 	}
 	if (ft_isconversion_char(p->format, p->i))
