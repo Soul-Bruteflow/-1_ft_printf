@@ -49,8 +49,5 @@ void	number_zero(t_printf *p, uintmax_t nbr, size_t *len, char **pref)
 		}
 	}
 	else if (nbr == 0 && p->flags.hashtag)
-	{
-//		*len = 0;
 		*pref = NULL;
-	}
 }

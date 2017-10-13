@@ -150,6 +150,9 @@
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_bases.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_bases_sup.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mvlad/c_projects/4_ft_printf/src/handlers/handle_numbers.c">
 			<Option target="ft_printf"/>
 		</Unit>

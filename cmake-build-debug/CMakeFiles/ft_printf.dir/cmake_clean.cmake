@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/ft/ft_strreverse.c.o"
   "CMakeFiles/ft_printf.dir/src/ft/ft_wstrlen.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.o"
+  "CMakeFiles/ft_printf.dir/src/handlers/handle_bases_sup.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup.c.o"
   "CMakeFiles/ft_printf.dir/src/handlers/handle_numbers_sup2.c.o"

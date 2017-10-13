@@ -27,13 +27,7 @@ static void	handle_minus_case(t_printf *p, char *pref, ssize_t dif, size_t len)
 static void	handle_pad_base(t_printf *p, ssize_t dif, size_t len, char *pref)
 {
 	if (p->got_width && p->got_precision && !p->flags.minus)
-	{
-		if (p->base == 16)
-			pref = p->flags.hashtag ? pref : "";
-		else if (p->base == 8)
-			pref = handle_pref_less(p, pref, dif);
-		handle_case_one(p, dif, len, pref);
-	}
+		width_precision(p, dif, len, pref);
 	else if (p->got_precision && !p->flags.minus && p->flags.hashtag)
 	{
 		if (p->base == 8)

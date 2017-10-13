@@ -54,7 +54,7 @@ void	parse_core(t_printf *p)
 		if (ft_islength(p->format, p->i))
 			not_spec = parse_length(p);
 		if (!not_spec)
-				break ;
+			break ;
 	}
 	if (ft_isconversion_char(p->format, p->i))
 	{

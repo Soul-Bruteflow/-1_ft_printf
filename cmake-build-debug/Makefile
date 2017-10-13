@@ -717,6 +717,33 @@ src/handlers/handle_bases.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_bases.c.s
 .PHONY : src/handlers/handle_bases.c.s
 
+src/handlers/handle_bases_sup.o: src/handlers/handle_bases_sup.c.o
+
+.PHONY : src/handlers/handle_bases_sup.o
+
+# target to build an object file
+src/handlers/handle_bases_sup.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_bases_sup.c.o
+.PHONY : src/handlers/handle_bases_sup.c.o
+
+src/handlers/handle_bases_sup.i: src/handlers/handle_bases_sup.c.i
+
+.PHONY : src/handlers/handle_bases_sup.i
+
+# target to preprocess a source file
+src/handlers/handle_bases_sup.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_bases_sup.c.i
+.PHONY : src/handlers/handle_bases_sup.c.i
+
+src/handlers/handle_bases_sup.s: src/handlers/handle_bases_sup.c.s
+
+.PHONY : src/handlers/handle_bases_sup.s
+
+# target to generate assembly for a file
+src/handlers/handle_bases_sup.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/handlers/handle_bases_sup.c.s
+.PHONY : src/handlers/handle_bases_sup.c.s
+
 src/handlers/handle_numbers.o: src/handlers/handle_numbers.c.o
 
 .PHONY : src/handlers/handle_numbers.o
@@ -1494,6 +1521,9 @@ help:
 	@echo "... src/handlers/handle_bases.o"
 	@echo "... src/handlers/handle_bases.i"
 	@echo "... src/handlers/handle_bases.s"
+	@echo "... src/handlers/handle_bases_sup.o"
+	@echo "... src/handlers/handle_bases_sup.i"
+	@echo "... src/handlers/handle_bases_sup.s"
 	@echo "... src/handlers/handle_numbers.o"
 	@echo "... src/handlers/handle_numbers.i"
 	@echo "... src/handlers/handle_numbers.s"

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/13 12:50:56 by mvlad             #+#    #+#             */
+/*   Updated: 2017/10/13 12:55:41 by mvlad            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef _FT_PRINTF_H
 # define _FT_PRINTF_H
 
@@ -13,13 +25,7 @@
 
 typedef enum		e_len
 {
-					none,
-					hh,
-					h,
-					l,
-					ll,
-					j,
-					z
+	none, hh, h, l, ll, j, z
 }					t_len;
 
 typedef	struct		s_flags
@@ -35,7 +41,7 @@ typedef struct		s_printf
 {
 	char			*format;
 	size_t			i;
-	ssize_t 		count;
+	ssize_t			count;
 	va_list			args;
 	t_flags			flags;
 	t_bool			got_width;
@@ -44,23 +50,20 @@ typedef struct		s_printf
 	unsigned int	width;
 	unsigned int	precision;
 	t_len			len;
-	unsigned char 	conv_char;
+	unsigned char	conv_char;
 	unsigned short	base;
 	void			(*handlers[256])(struct s_printf *p);
 }					t_printf;
-
-//void	(*handlers[256])(struct s_printf *p);
-//int		(*p[4]) (int x, int y);
 
 /*
 ** General
 */
 
-t_printf 			*init_printf(const char *format);
-t_bool 				init_conversion_handlers(t_printf *p);
+t_printf			*init_printf(const char *format);
+t_bool				init_conversion_handlers(t_printf *p);
 void				default_handler_format(t_printf *p);
-ssize_t 			walk_format(t_printf *p);
-t_bool 				ft_isconversion_char(const char *format, size_t i);
+ssize_t				walk_format(t_printf *p);
+t_bool				ft_isconversion_char(const char *format, size_t i);
 t_bool				ft_isconv_char(const unsigned char c);
 /*
 ** Handlers
@@ -84,12 +87,15 @@ void				handle_char_w(t_printf *p);
 void				handle_escape(t_printf *p);
 
 void				handle_numbers(t_printf *p);
-void				handle_bases(t_printf *p, char *pref, uint8_t base, t_bool size);
-void				handle_case_one(t_printf *p, ssize_t dif, size_t len, char *pref);
+void				handle_bases(t_printf *p, char *pref,
+					uint8_t base, t_bool size);
+void				handle_case_one(t_printf *p, ssize_t dif, size_t len,
+					char *pref);
 void				handle_case_two(t_printf *p, size_t len, char *pref);
 void				handle_case_three(t_printf *p, size_t len, char *pref);
 void				handle_case_four(t_printf *p, size_t len, char *pref);
-void				handle_case_five(t_printf *p, ssize_t dif, size_t len, char *pref);
+void				handle_case_five(t_printf *p, ssize_t dif, size_t len,
+					char *pref);
 
 /*
 ** Parsing
@@ -108,28 +114,30 @@ char				*ft_itoa_positive(uintmax_t n);
 ** Parsing support
 */
 
-t_bool 				ft_isflag(const char *s, size_t i);
-t_bool 				ft_islength(const char *format, size_t i);
+t_bool				ft_isflag(const char *s, size_t i);
+t_bool				ft_islength(const char *format, size_t i);
 size_t				ft_strnlen(const char *str, size_t maxlen);
 
 /*
 ** Printing
 */
 
-size_t 				ft_print(const char *print, t_bool is_len, size_t l);
+size_t				ft_print(const char *print, t_bool is_len, size_t l);
 size_t				ft_putnwstr(const wchar_t *print, t_bool is_len, size_t l);
-size_t				print_prefix_pad(size_t nbrstrlen, ssize_t width, char padchar);
+size_t				print_prefix_pad(size_t nbrstrlen, ssize_t width,
+					char padchar);
 
 /*
 ** Support
 */
 char				*handle_pref_less(t_printf *p, char *pref, ssize_t dif);
 char				*handle_pref_greater(t_printf *p, char *pref, ssize_t dif);
-void				number_zero(t_printf *p, uintmax_t nbr, size_t *len, char **pref);
-
-
+void				number_zero(t_printf *p, uintmax_t nbr, size_t *len,
+					char **pref);
+void				width_precision(t_printf *p, ssize_t dif, size_t len,
+					char *pref);
 int					ft_printf(const char *format, ...);
-void 				parse_core(t_printf *p);
+void				parse_core(t_printf *p);
 char				*ft_itoa_long(long n);
 char				*ft_itoa_uint(unsigned int n);
 char				*ft_itoa_ulong(unsigned long n);
@@ -138,11 +146,8 @@ size_t				ft_putwchar(wchar_t chr);
 size_t				ft_wstrlen(const wchar_t *s);
 char				*uitoh(uintmax_t nbr, t_bool is_prefix, t_bool size);
 int					ft_capitalize(char *s);
-char 				*ft_strreverse(const char *s);
-char 				*ft_basification(uintmax_t num, uint8_t base, t_bool size);
-
-
-
-void 				handle_flags(const char *format, va_list *args, size_t *i);
+char				*ft_strreverse(const char *s);
+char				*ft_basification(uintmax_t num, uint8_t base, t_bool size);
+void				handle_flags(const char *format, va_list *args, size_t *i);
 
 #endif
