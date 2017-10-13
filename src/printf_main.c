@@ -66,7 +66,7 @@
 // #define	STRANGE_D		//aka undefined tests
 // #define STR			//aka strings
 // #define WSTR		//aka wide strings
- #define	LENGTH		//aka hh, h, l ,ll , z, j
+// #define	LENGTH		//aka hh, h, l ,ll , z, j
 
 int	main(void)
 {
