@@ -21,6 +21,7 @@ OBJ	=	init_printf.o \
 		ft_printf.o \
 		print/print_prefix_pad.o \
 		print/ft_print.o \
+		handlers/handle_bases_sup.o \
 		handlers/handle_bases.o \
 		handlers/handle_numbers.o \
 		handlers/handle_numbers_sup.o \
