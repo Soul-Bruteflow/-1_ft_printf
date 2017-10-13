@@ -6,7 +6,7 @@
 #    By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/08 14:24:38 by mvlad             #+#    #+#              #
-#    Updated: 2017/10/13 14:29:38 by mvlad            ###   ########.fr        #
+#    Updated: 2017/10/13 14:51:01 by mvlad            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ SRC_DIR = ./src/
 OBJ_DIR = ./obj/
 INC_DIR = ./inc/
 HEADERS	= $(INC_DIR)
-# ODIRS 	:= ./obj ./obj/ft ./obj/parse ./obj/print ./obj/handlers ./obj/handlers/types
 
 OBJ	=	init_printf.o \
 		ft_printf.o \
