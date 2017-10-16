@@ -20,6 +20,6 @@ void	handle_percent(t_printf *p)
 	p->count += ft_print("%", false, 0);
 	if (p->got_width && p->flags.minus)
 		p->count += print_prefix_pad(1, p->width, ' ');
-	p->i++;
-	p->count++;
+//	p->i++;
+//	p->count++;
 }
