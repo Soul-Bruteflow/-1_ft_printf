@@ -82,11 +82,11 @@ int main()
 //	sys = printf("% Z%s\n", "test");
 //	own = ft_printf("% Z%s\n", "test");
 //
-//	sys = printf("%zhd\n", 4294967296);
-//	own = ft_printf("%zhd\n", 4294967296);
+	sys = printf("%hjd\n", 4294967296);
+	own = ft_printf("%hjd\n", 4294967296);
 
-	sys = printf("%jhd\n", 9223372036854775807);
-	own = ft_printf("%jhd\n", 9223372036854775807);
+//	sys = printf("%jhd\n", 9223372036854775807);
+//	own = ft_printf("%jhd\n", 9223372036854775807);
 
 //
 //	//// %o %O

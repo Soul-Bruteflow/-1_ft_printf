@@ -12,29 +12,44 @@
 
 #include "ft_printf.h"
 
+void		handle_len(t_printf *p, t_len *tmp_len)
+{
+	if (p->len >= *tmp_len)
+		return;
+	else
+		p->len = *tmp_len;
+}
+
 t_bool		parse_length(t_printf *p)
 {
+	t_len tmp_len;
+
+	tmp_len = none;
 	while (ft_islength(p->format, p->i) && p->format[p->i] != '\0')
 	{
 		if (p->format[p->i] == 'h')
 		{
 			if (p->len == h || p->len == hh)
-				p->len = p->len == h ? hh : h;
+				tmp_len = p->len == h ? hh : h;
 			else
-				p->len = h;
+				tmp_len = h;
 		}
 		else if (p->format[p->i] == 'l')
 		{
 			if (p->len == l || p->len == ll)
-				p->len = p->len == l ? ll : l;
+				tmp_len = p->len == l ? ll : l;
 			else
-				p->len = l;
+				tmp_len = l;
 		}
 		else if (p->format[p->i] == 'j')
-			p->len = j;
+			tmp_len = j;
 		else if (p->format[p->i] == 'z')
-			p->len = z;
+			tmp_len = z;
 		p->i++;
 	}
+	if (p->len == none)
+		p->len = tmp_len;
+	else
+		handle_len(p, &tmp_len);
 	return (true);
 }
