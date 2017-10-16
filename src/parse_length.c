@@ -14,7 +14,10 @@
 
 static void		handle_len(t_printf *p)
 {
-	if (p->len >= p->tmp_len)
+	if ((p->len == h && p->tmp_len == hh) || (p->len == l && p->tmp_len == ll) ||
+		(p->len == hh && p->tmp_len == h) || (p->len == ll && p->tmp_len == l))
+		p->len = p->tmp_len;
+	else if (p->len >= p->tmp_len)
 		return;
 	else
 		p->len = p->tmp_len;
