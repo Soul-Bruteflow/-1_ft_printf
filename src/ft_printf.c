@@ -35,6 +35,8 @@ void	handle_escape(t_printf *p)
 				p->count++;
 				break ;
 			}
+			if (p->format[p->i] == '%')
+				break ;
 			write(1, &p->format[p->i], 1);
 			p->i++;
 			p->count++;
@@ -85,7 +87,8 @@ ssize_t	walk_format(t_printf *p)
 			write(1, &p->format[p->i], 1);
 			p->count++;
 		}
-		p->i++;
+		if (p->format[p->i] != '%')
+			p->i++;
 	}
 	return (p->count);
 }
