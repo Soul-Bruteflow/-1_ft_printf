@@ -27,8 +27,14 @@ void	handle_escape(t_printf *p)
 		}
 		if (p->got_width && p->flags.minus)
 			p->count += print_prefix_pad(1, p->width, ' ');
-		while (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
+		while (p->format[p->i] && p->i <= ft_strlen(p->format))
 		{
+			if (p->format[p->i + 1] == '%')
+			{
+				write(1, &p->format[p->i], 1);
+				p->count++;
+				break ;
+			}
 			write(1, &p->format[p->i], 1);
 			p->i++;
 			p->count++;

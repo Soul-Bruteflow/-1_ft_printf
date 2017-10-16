@@ -69,24 +69,24 @@ int main()
 //	printf("|%*d|\n", 2,42);
 //	ft_printf("|%*d|\n", 2,42);
 
-	sys = printf("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)\n");
-	own = ft_printf("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)\n");
+//	sys = printf("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)\n");
+//	own = ft_printf("|%-3w|(%3w)\t|%3Z|(%3Z)\t|%Q|(%3Q)\n");
 
-	sys = printf("|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|");
-	own = ft_printf("|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|");
+//	sys = printf("|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|\n");
+//	own = ft_printf("|%3h|\t|%3l|\t|%3hhll|\t|%3llhhllQ|\t|%3z|\t|%3j|\t|%3J|\n");
 
 
-	sys = printf("% hZ%");
-	own = ft_printf("% hZ%");
-
-	sys = printf("% Z%s", "test");
-	own = ft_printf("% Z%s", "test");
-
-	sys = printf("%zhd", 4294967296);
-	own = ft_printf("%zhd", 4294967296);
-
-	sys = printf("%jhd", 9223372036854775807);
-	own = ft_printf("%jhd", 9223372036854775807);
+	sys = printf("% hZ%\n");
+	own = ft_printf("% hZ%\n");
+//
+//	sys = printf("% Z%s\n", "test");
+//	own = ft_printf("% Z%s\n", "test");
+//
+//	sys = printf("%zhd", 4294967296);
+//	own = ft_printf("%zhd", 4294967296);
+//
+//	sys = printf("%jhd", 9223372036854775807);
+//	own = ft_printf("%jhd", 9223372036854775807);
 
 //
 //	//// %o %O
