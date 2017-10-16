@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   printf_test_main.c                                 :+:      :+:    :+:   */
+/*   printf_main.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dkovalch, okosiako                         +#+  +:+       +#+        */
+/*   By: mvlad <mvlad@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/20 12:24:07 by dkovalch          #+#    #+#             */
-/*   Updated: 2017/03/08 15:44:12 by dkovalch         ###   ########.fr       */
+/*   Updated: 2017/10/16 16:09:55 by mvlad            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,17 +54,17 @@
 #include "ft_printf.h"
 
 //Test switchers - comment some of then to turn the tests off
-// #define	CHAR		//aka chars
-// #define	PER			//aka percent(%)
+#define	CHAR		//aka chars
+#define	PER			//aka percent(%)
  #define	NUM			//aka numbers
-//	 #define _I_
-//	 #define _D_
-//	 #define _U_
-//	 #define _O_
-//	 #define _X_
-// #define	PTR			//aka pointers
-// #define	STRANGE_D		//aka undefined tests
-// #define STR			//aka strings
+	 #define _I_
+	 #define _D_
+	 #define _U_
+	 #define _O_
+	 #define _X_
+#define	PTR			//aka pointers
+#define	STRANGE_D		//aka undefined tests
+#define STR			//aka strings
 // #define WSTR		//aka wide strings
  #define	LENGTH		//aka hh, h, l ,ll , z, j
 
