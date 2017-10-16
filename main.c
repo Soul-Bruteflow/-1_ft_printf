@@ -101,8 +101,8 @@ int main()
 //	sys = printf("%jhd\n", 9223372036854775807);
 //	own = ft_printf("%jhd\n", 9223372036854775807);
 
-	sys = printf("% Z%s\n", "test");;
-	own = ft_printf("% Z%s\n", "test");;
+	sys = printf("|%S|\t|%S|\t|%C|\t|%S|\n",L"Wide sample string..",L"米",L'米',L"");;
+	own = ft_printf("|%S|\t|%S|\t|%C|\t|%S|\n",L"Wide sample string..",L"米",L'米',L"");;
 
 //	sys = printf("%%   %\n", "test");
 //	own = ft_printf("%%   %\n", "test");

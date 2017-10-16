@@ -12,7 +12,28 @@
 
 #include "ft_printf.h"
 
-void	handle_escape(t_printf *p)
+static void	loop_remaining(t_printf *p)
+{
+	while (p->format[p->i] && p->i <= ft_strlen(p->format))
+	{
+		if (p->format[p->i] == '%')
+		{
+			p->i--;
+			break ;
+		}
+		if (p->format[p->i + 1] == '%')
+		{
+			write(1, &p->format[p->i], 1);
+			p->count++;
+			break ;
+		}
+		write(1, &p->format[p->i], 1);
+		p->i++;
+		p->count++;
+	}
+}
+
+void		handle_escape(t_printf *p)
 {
 	if (p->format[p->i] != '\0')
 	{
@@ -27,27 +48,11 @@ void	handle_escape(t_printf *p)
 		}
 		if (p->got_width && p->flags.minus)
 			p->count += print_prefix_pad(1, p->width, ' ');
-		while (p->format[p->i] && p->i <= ft_strlen(p->format))
-		{
-			if (p->format[p->i] == '%')
-			{
-				p->i--;
-				break ;
-			}
-			if (p->format[p->i + 1] == '%')
-			{
-				write(1, &p->format[p->i], 1);
-				p->count++;
-				break ;
-			}
-			write(1, &p->format[p->i], 1);
-			p->i++;
-			p->count++;
-		}
+		loop_remaining(p);
 	}
 }
 
-void	parse_core(t_printf *p)
+void		parse_core(t_printf *p)
 {
 	t_bool not_spec;
 
@@ -76,7 +81,7 @@ void	parse_core(t_printf *p)
 		handle_escape(p);
 }
 
-ssize_t	walk_format(t_printf *p)
+ssize_t		walk_format(t_printf *p)
 {
 	while (p->format[p->i] && p->i <= ft_strlen(p->format))
 	{
@@ -90,13 +95,12 @@ ssize_t	walk_format(t_printf *p)
 			write(1, &p->format[p->i], 1);
 			p->count++;
 		}
-//		if (p->format[p->i] != '%')
-			p->i++;
+		p->i++;
 	}
 	return (p->count);
 }
 
-int		ft_printf(const char *format, ...)
+int			ft_printf(const char *format, ...)
 {
 	t_printf	*p;
 

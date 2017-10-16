@@ -54,8 +54,8 @@
 #include "ft_printf.h"
 
 //Test switchers - comment some of then to turn the tests off
-// #define	CHAR		//aka chars
-// #define	PER			//aka percent(%)
+ #define	CHAR		//aka chars
+ #define	PER			//aka percent(%)
  #define	NUM			//aka numbers
 	 #define _I_
 //	 #define _D_
