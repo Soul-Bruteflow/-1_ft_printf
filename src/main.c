@@ -82,8 +82,19 @@ int main()
 //	sys = printf("% Z%s\n", "test");
 //	own = ft_printf("% Z%s\n", "test");
 //
-	sys = printf("%hjd\n", 4294967296);
-	own = ft_printf("%hjd\n", 4294967296);
+//	sys = printf("%hjd\n", 4294967296);
+//	own = ft_printf("%hjd\n", 4294967296);
+
+//	|i|:|o|:
+	sys = printf("|%20hhi|\t|%20hi|\n", "4294967296","4294967296");
+	own = ft_printf("|%20hhi|\t|%20hi|\n","4294967296","4294967296");
+
+	sys =  printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
+	own =  ft_printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
+
+//	|o|:
+//	"|%20l"CNV"|\t|%20ll"CNV"|\t|%20hh"CNV"|\t|%20h"CNV"|", -42,-42,-42,-42
+
 
 //	sys = printf("%jhd\n", 9223372036854775807);
 //	own = ft_printf("%jhd\n", 9223372036854775807);

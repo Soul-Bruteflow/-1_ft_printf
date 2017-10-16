@@ -12,44 +12,42 @@
 
 #include "ft_printf.h"
 
-void		handle_len(t_printf *p, t_len *tmp_len)
+static void		handle_len(t_printf *p)
 {
-	if (p->len >= *tmp_len)
+	if (p->len <= p->tmp_len)
 		return;
 	else
-		p->len = *tmp_len;
+		p->len = p->tmp_len;
 }
 
-t_bool		parse_length(t_printf *p)
+t_bool			parse_length(t_printf *p)
 {
-	t_len tmp_len;
 
-	tmp_len = none;
 	while (ft_islength(p->format, p->i) && p->format[p->i] != '\0')
 	{
 		if (p->format[p->i] == 'h')
 		{
-			if (p->len == h || p->len == hh)
-				tmp_len = p->len == h ? hh : h;
+			if (p->tmp_len == h ||p->tmp_len == hh)
+				p->tmp_len = p->tmp_len == h ? hh : h;
 			else
-				tmp_len = h;
+				p->tmp_len = h;
 		}
 		else if (p->format[p->i] == 'l')
 		{
-			if (p->len == l || p->len == ll)
-				tmp_len = p->len == l ? ll : l;
+			if (p->tmp_len == l || p->tmp_len == ll)
+				p->tmp_len = p->tmp_len == l ? ll : l;
 			else
-				tmp_len = l;
+				p->tmp_len = l;
 		}
 		else if (p->format[p->i] == 'j')
-			tmp_len = j;
+			p->tmp_len = j;
 		else if (p->format[p->i] == 'z')
-			tmp_len = z;
+			p->tmp_len = z;
 		p->i++;
 	}
 	if (p->len == none)
-		p->len = tmp_len;
+		p->len = p->tmp_len;
 	else
-		handle_len(p, &tmp_len);
+		handle_len(p);
 	return (true);
 }

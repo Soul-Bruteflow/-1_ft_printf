@@ -40,6 +40,7 @@ typedef	struct		s_flags
 typedef struct		s_printf
 {
 	char			*format;
+	t_len			tmp_len;
 	size_t			i;
 	ssize_t			count;
 	va_list			args;

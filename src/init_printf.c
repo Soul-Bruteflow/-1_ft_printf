@@ -48,6 +48,7 @@ void		default_handler_format(t_printf *p)
 	p->got_width = false;
 	p->got_precision = false;
 	p->len = none;
+	p->tmp_len = none;
 	p->base = 0;
 }
 
