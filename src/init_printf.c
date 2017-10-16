@@ -32,7 +32,7 @@ t_bool		init_conversion_handlers(t_printf *p)
 	p->handlers['x'] = handle_hex_small;
 	p->handlers['X'] = handle_hex_big;
 	p->handlers['c'] = handle_char;
-	p->handlers['C'] = handle_char;
+	p->handlers['C'] = handle_char_w;
 	return (true);
 }
 

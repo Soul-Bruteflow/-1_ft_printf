@@ -86,11 +86,17 @@ int main()
 //	own = ft_printf("%hjd\n", 4294967296);
 
 //	|i|:|o|:
-	sys = printf("|%20hhi|\t|%20hi|\n", "4294967296","4294967296");
-	own = ft_printf("|%20hhi|\t|%20hi|\n","4294967296","4294967296");
+//	sys = printf("|%20hhi|\t|%20hi|\n", "4294967296","4294967296");
+//	own = ft_printf("|%20hhi|\t|%20hi|\n","4294967296","4294967296");
 
-	sys =  printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
-	own =  ft_printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
+//	sys = printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000002147483647-21474836482147483647-2147483648%d\n", 0000042);
+//	own = ft_printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000002147483647-21474836482147483647-2147483648%d\n", 0000042);
+//
+	sys = printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000\n002147483647-21474836482147483647-2147483648%d 0000042\n", -2147483648);
+	own = ft_printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000\n002147483647-21474836482147483647-2147483648%d 0000042\n", -2147483648);
+
+//	sys =  printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
+//	own =  ft_printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
 
 //	|o|:
 //	"|%20l"CNV"|\t|%20ll"CNV"|\t|%20hh"CNV"|\t|%20h"CNV"|", -42,-42,-42,-42
