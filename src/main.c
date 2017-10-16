@@ -95,8 +95,17 @@ int main()
 //	sys = printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000\n002147483647-21474836482147483647-2147483648%d 0000042\n", -2147483648);
 //	own = ft_printf("42Kashim a 1001 histoires à raconterIl fait au moins -8000\n002147483647-21474836482147483647-2147483648%d 0000042\n", -2147483648);
 
-	sys = printf("%d\n", 9);
-	own = ft_printf("%d\n", 9);
+//	sys = printf("%zhd\n", 4294967296);
+//	own = ft_printf("%zhd\n", 4294967296);
+
+//	sys = printf("%jhd\n", 9223372036854775807);
+//	own = ft_printf("%jhd\n", 9223372036854775807);
+
+	sys = printf("%%%\n", "test");
+	own = ft_printf("%%%\n", "test");
+
+	sys = printf("%%   %\n", "test");
+	own = ft_printf("%%   %\n", "test");
 
 //	sys =  printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
 //	own =  ft_printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);

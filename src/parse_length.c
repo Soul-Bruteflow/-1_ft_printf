@@ -14,7 +14,7 @@
 
 static void		handle_len(t_printf *p)
 {
-	if (p->len <= p->tmp_len)
+	if (p->len >= p->tmp_len)
 		return;
 	else
 		p->len = p->tmp_len;
@@ -43,11 +43,11 @@ t_bool			parse_length(t_printf *p)
 			p->tmp_len = j;
 		else if (p->format[p->i] == 'z')
 			p->tmp_len = z;
+		if (p->len == none)
+			p->len = p->tmp_len;
+		else
+			handle_len(p);
 		p->i++;
 	}
-	if (p->len == none)
-		p->len = p->tmp_len;
-	else
-		handle_len(p);
 	return (true);
 }
