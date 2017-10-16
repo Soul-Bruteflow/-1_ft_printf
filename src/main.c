@@ -101,8 +101,8 @@ int main()
 //	sys = printf("%jhd\n", 9223372036854775807);
 //	own = ft_printf("%jhd\n", 9223372036854775807);
 
-	sys = printf("%hhd\n", 128);
-	own = ft_printf("%hhd\n", 128);
+	sys = printf("% Z%s\n", "test");;
+	own = ft_printf("% Z%s\n", "test");;
 
 //	sys = printf("%%   %\n", "test");
 //	own = ft_printf("%%   %\n", "test");

@@ -19,7 +19,7 @@ void	handle_escape(t_printf *p)
 		if (p->got_width && !p->flags.minus)
 			p->count += print_prefix_pad(1, p->width,
 			(char)(p->flags.zero ? '0' : ' '));
-		if (p->format[p->i] && p->i <= ft_strlen(p->format) && p->i != '\0')
+		if (p->format[p->i] && p->i <= ft_strlen(p->format))
 		{
 			write(1, &p->format[p->i], 1);
 			p->i++;
@@ -29,14 +29,17 @@ void	handle_escape(t_printf *p)
 			p->count += print_prefix_pad(1, p->width, ' ');
 		while (p->format[p->i] && p->i <= ft_strlen(p->format))
 		{
+			if (p->format[p->i] == '%')
+			{
+				p->i--;
+				break ;
+			}
 			if (p->format[p->i + 1] == '%')
 			{
 				write(1, &p->format[p->i], 1);
 				p->count++;
 				break ;
 			}
-			if (p->format[p->i] == '%')
-				break ;
 			write(1, &p->format[p->i], 1);
 			p->i++;
 			p->count++;
