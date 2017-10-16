@@ -82,13 +82,13 @@ ssize_t	walk_format(t_printf *p)
 			default_handler_format(p);
 			parse_core(p);
 		}
-		else if (p->i <= ft_strlen(p->format))
+		if (p->i <= ft_strlen(p->format) && p->format[p->i] != '%')
 		{
 			write(1, &p->format[p->i], 1);
-			p->count++;
-		}
-		if (p->format[p->i] != '%')
 			p->i++;
+//			p->count++;
+		}
+//		if (p->format[p->i] != '%')
 	}
 	return (p->count);
 }

@@ -101,11 +101,11 @@ int main()
 //	sys = printf("%jhd\n", 9223372036854775807);
 //	own = ft_printf("%jhd\n", 9223372036854775807);
 
-	sys = printf("%%%\n", "test");
-	own = ft_printf("%%%\n", "test");
+	sys = printf("%%\n");
+	own = ft_printf("%%\n");
 
-	sys = printf("%%   %\n", "test");
-	own = ft_printf("%%   %\n", "test");
+//	sys = printf("%%   %\n", "test");
+//	own = ft_printf("%%   %\n", "test");
 
 //	sys =  printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
 //	own =  ft_printf("|%5h hi|\t|%20l li|\n", SHRT_MIN,LONG_MIN);
